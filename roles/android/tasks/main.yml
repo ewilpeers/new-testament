@@ -1,0 +1,44 @@
+---
+- name: Install OpenJDK 17
+  apk:
+    name: openjdk17-jdk
+    state: present
+
+- name: Install Android SDK cmdline-tools
+  shell: |
+    mkdir -p /opt/android-sdk/cmdline-tools
+    wget -q https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip \
+      -O /tmp/cmdtools.zip
+    unzip -q /tmp/cmdtools.zip -d /opt/android-sdk/cmdline-tools
+    mv /opt/android-sdk/cmdline-tools/cmdline-tools \
+       /opt/android-sdk/cmdline-tools/latest
+    rm /tmp/cmdtools.zip
+  args:
+    creates: /opt/android-sdk/cmdline-tools/latest
+
+- name: Set Android environment variables
+  lineinfile:
+    path: /etc/profile.d/android.sh
+    create: yes
+    line: "{{ item }}"
+  loop:
+    - 'export ANDROID_HOME=/opt/android-sdk'
+    - 'export JAVA_HOME=/usr/lib/jvm/java-17-openjdk'
+    - 'export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin'
+    - 'export PATH=$PATH:$ANDROID_HOME/platform-tools'
+
+- name: Accept Android licenses
+  shell: yes | sdkmanager --licenses
+  environment:
+    ANDROID_HOME: /opt/android-sdk
+    JAVA_HOME: /usr/lib/jvm/java-17-openjdk
+
+- name: Install Android platform and build tools
+  shell: |
+    sdkmanager \
+      "platform-tools" \
+      "platforms;android-34" \
+      "build-tools;34.0.0"
+  environment:
+    ANDROID_HOME: /opt/android-sdk
+    JAVA_HOME: /usr/lib/jvm/java-17-openjdk

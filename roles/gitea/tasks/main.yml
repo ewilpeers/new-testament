@@ -1,0 +1,167 @@
+---
+- name: Create git user for Gitea
+  user:
+    name: git
+    system: yes
+    home: /home/git
+    shell: /bin/bash
+
+- name: Create Gitea directories
+  file:
+    path: "{{ item }}"
+    state: directory
+    owner: git
+    group: git
+    mode: '0750'
+  loop:
+    - /opt/gitea
+    - /var/lib/gitea
+    - /var/lib/gitea/data
+    - /var/lib/gitea/log
+    - /etc/gitea
+
+- name: Download Gitea binary
+  get_url:
+    url: https://dl.gitea.com/gitea/1.22.3/gitea-1.22.3-linux-amd64
+    dest: /opt/gitea/gitea
+    mode: '0755'
+    checksum: sha256:https://dl.gitea.com/gitea/1.22.3/gitea-1.22.3-linux-amd64.sha256
+
+- name: Create Gitea OpenRC service
+  copy:
+    dest: /etc/init.d/gitea
+    mode: '0755'
+    content: |
+      #!/sbin/openrc-run
+      name="gitea"
+      description="Gitea self-hosted git service"
+      command="/opt/gitea/gitea"
+      command_args="web --config /etc/gitea/app.ini"
+      command_user="git"
+      pidfile="/run/gitea.pid"
+      command_background=true
+      depend() {
+        need net
+      }
+
+- name: Create Gitea config
+  copy:
+    dest: /etc/gitea/app.ini
+    owner: git
+    group: git
+    mode: '0640'
+    content: |
+      [DEFAULT]
+      RUN_USER = git
+
+      [server]
+      HTTP_PORT     = 3000
+      SSH_PORT      = 2222
+      DOMAIN        = localhost
+      ROOT_URL      = http://localhost:3000/
+
+      [database]
+      DB_TYPE = sqlite3
+      PATH    = /var/lib/gitea/data/gitea.db
+
+      [repository]
+      ROOT = /var/lib/gitea/repos
+
+      [log]
+      ROOT_PATH = /var/lib/gitea/log
+      MODE      = file
+      LEVEL     = warn       # keep it quiet, change to info if debugging
+
+      [security]
+      INSTALL_LOCK = false   # set true after first web setup
+
+- name: Enable and start Gitea
+  service:
+    name: gitea
+    enabled: yes
+    state: started
+
+- name: Wait for Gitea to be ready
+  wait_for:
+    port: 3000
+    delay: 5
+    timeout: 120
+
+- name: Run Gitea initial setup via curl
+  shell: |
+    curl -s -X POST http://localhost:3000 \
+      -d "db_type=sqlite3" \
+      -d "db_path=/var/lib/gitea/data/gitea.db" \
+      -d "app_name=Gitea" \
+      -d "repo_root_path=/var/lib/gitea/repos" \
+      -d "run_user=git" \
+      -d "domain=localhost" \
+      -d "ssh_port=2222" \
+      -d "http_port=3000" \
+      -d "app_url=http://localhost:3000/" \
+      -d "log_root_path=/var/lib/gitea/log" \
+      -d "admin_name=admin" \
+      -d "admin_passwd=Cap$" \
+      -d "admin_confirm_passwd=Cap$" \
+      -d "admin_email=admin@localhost"
+  args:
+    creates: /var/lib/gitea/data/gitea.db
+
+- name: Lock installation
+  lineinfile:
+    path: /etc/gitea/app.ini
+    regexp: '^INSTALL_LOCK'
+    line: 'INSTALL_LOCK = true'
+
+- name: Restart Gitea after lock
+  service:
+    name: gitea
+    state: restarted
+
+- name: Wait for Gitea restart
+  wait_for:
+    port: 3000
+    delay: 5
+    timeout: 120
+
+- name: Get runner registration token
+  shell: |
+    curl -s -X GET \
+      http://localhost:3000/api/v1/admin/runners/registration-token \
+      -H "Authorization: basic $(echo -n 'admin:p' | base64)" \
+      | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])"
+  register: runner_token_result
+  changed_when: false
+
+- name: Register act_runner
+  shell: |
+    /opt/gitea/act_runner register \
+      --no-interactive \
+      --instance http://localhost:3000 \
+      --token {{ runner_token_result.stdout }} \
+      --name alpine-runner \
+      --labels ubuntu-latest:host
+  args:
+    creates: /opt/gitea/.runner
+
+- name: Create act_runner OpenRC service
+  copy:
+    dest: /etc/init.d/act_runner
+    mode: '0755'
+    content: |
+      #!/sbin/openrc-run
+      name="act_runner"
+      command="/opt/gitea/act_runner"
+      command_args="daemon"
+      command_user="git"
+      command_background=true
+      pidfile="/run/act_runner.pid"
+      depend() {
+        need gitea
+      }
+
+- name: Enable and start act_runner
+  service:
+    name: act_runner
+    enabled: yes
+    state: started

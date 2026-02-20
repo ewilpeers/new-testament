@@ -1,0 +1,18 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/alpine321"
+  config.vm.hostname = "agent"
+
+  config.vm.network "forwarded_port", guest: 3000, host: 3000  # Gitea web
+  config.vm.network "forwarded_port", guest: 2222, host: 2222  # Gitea SSH
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 4072
+    vb.cpus = 4
+    vb.name = "calculus-agent"
+  end
+
+  config.vm.provision "ansible_local" do |ansible|
+    ansible.playbook = "playbook.yml"
+    ansible.install_mode = "pip"
+  end
+end

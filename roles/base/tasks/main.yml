@@ -1,0 +1,28 @@
+---
+- name: Update apk cache
+  apk:
+    update_cache: yes
+    upgrade: yes          # get latest CVE patches within branch
+
+- name: Install base + network tools
+  apk:
+    name:
+      - nodejs
+      - npm
+      - git
+      - python3
+      - py3-pip
+      - alpine-sdk
+      - bash
+      - curl
+      - wget
+      - unzip
+      # network diagnostics
+      - net-tools          # netstat, ifconfig
+      - bind-tools         # dig, nslookup, host
+      - iputils            # ping with more options
+      - nmap               # port scanning
+      - tcpdump            # packet inspection
+      - iproute2           # ss (modern netstat), ip route
+      - openssl            # cert inspection
+    state: present
