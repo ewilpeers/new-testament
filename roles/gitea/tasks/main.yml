@@ -1,10 +1,17 @@
 ---
+- name: Create git group
+  group:
+    name: git
+    system: yes
+
 - name: Create git user for Gitea
   user:
     name: git
+    group: git
     system: yes
     home: /home/git
     shell: /bin/bash
+    create_home: yes
 
 - name: Create Gitea directories
   file:
@@ -100,7 +107,7 @@
       -d "http_port=3000" \
       -d "app_url=http://localhost:3000/" \
       -d "log_root_path=/var/lib/gitea/log" \
-      -d "admin_name=admin" \
+      -d "admin_name=gitadmin" \
       -d "admin_passwd=Cap$" \
       -d "admin_confirm_passwd=Cap$" \
       -d "admin_email=admin@localhost"
@@ -128,21 +135,25 @@
   shell: |
     curl -s -X GET \
       http://localhost:3000/api/v1/admin/runners/registration-token \
-      -H "Authorization: basic $(echo -n 'admin:p' | base64)" \
+      -H "Authorization: basic $(echo -n 'gitadmin:Cap$' | base64)" \
       | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])"
   register: runner_token_result
   changed_when: false
 
+#Alpine doesn't support ACLs which Ansible's become_user relies on when switching to unprivileged users
 - name: Register act_runner
   shell: |
-    /opt/gitea/act_runner register \
+    cd /home/git && sudo -u git /opt/gitea/act_runner register \
       --no-interactive \
       --instance http://localhost:3000 \
       --token {{ runner_token_result.stdout }} \
       --name alpine-runner \
       --labels ubuntu-latest:host
+#  become: yes
+#  become_user: git
   args:
-    creates: /opt/gitea/.runner
+    chdir: /home/git
+    creates: /home/git/.runner
 
 - name: Create act_runner OpenRC service
   copy:
@@ -156,6 +167,7 @@
       command_user="git"
       command_background=true
       pidfile="/run/act_runner.pid"
+      directory="/home/git"
       depend() {
         need gitea
       }
