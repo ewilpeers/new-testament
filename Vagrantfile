@@ -16,8 +16,15 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apk add --no-cache ansible
+  SHELL
+
   config.vm.provision "ansible_local" do |ansible|
     ansible.playbook = "playbook.yml"
-    ansible.install_mode = "pip"
+#    ansible.install_mode = "pip"
+    ansible.install = false
+    ansible.config_file = "ansible.cfg"
   end
 end
