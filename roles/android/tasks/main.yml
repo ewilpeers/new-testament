@@ -28,17 +28,23 @@
     - 'export PATH=$PATH:$ANDROID_HOME/platform-tools'
 
 - name: Accept Android licenses
-  shell: yes | sdkmanager --licenses
+  shell: |
+    yes 2>/dev/null | /opt/android-sdk/cmdline-tools/latest/bin/sdkmanager --licenses
   environment:
     ANDROID_HOME: /opt/android-sdk
     JAVA_HOME: /usr/lib/jvm/java-17-openjdk
+    PATH: "/opt/android-sdk/cmdline-tools/latest/bin:/usr/lib/jvm/java-17-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ignore_errors: yes  # sdkmanager exits non-zero even on success sometimes
 
 - name: Install Android platform and build tools
   shell: |
-    sdkmanager \
+    /opt/android-sdk/cmdline-tools/latest/bin/sdkmanager \
       "platform-tools" \
       "platforms;android-34" \
-      "build-tools;34.0.0"
+      "platforms;android-35" \
+      "build-tools;34.0.0" \
+      "build-tools;35.0.0"
   environment:
     ANDROID_HOME: /opt/android-sdk
     JAVA_HOME: /usr/lib/jvm/java-17-openjdk
+    PATH: "/opt/android-sdk/cmdline-tools/latest/bin:/usr/lib/jvm/java-17-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
