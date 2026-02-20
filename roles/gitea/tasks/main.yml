@@ -140,6 +140,28 @@
   register: runner_token_result
   changed_when: false
 
+- name: Remove potentially broken act_runner binary
+  file:
+    path: /opt/gitea/act_runner
+    state: absent
+
+- name: Download act_runner
+  get_url:
+    url: https://dl.gitea.com/act_runner/0.2.11/act_runner-0.2.11-linux-amd64
+    dest: /opt/gitea/act_runner
+    mode: '0755'
+    owner: git
+    group: git
+
+- name: Verify act_runner binary works
+  shell: /opt/gitea/act_runner --version
+  register: runner_check
+  changed_when: false
+
+- name: Show act_runner version
+  debug:
+    var: runner_check.stdout
+
 #Alpine doesn't support ACLs which Ansible's become_user relies on when switching to unprivileged users
 - name: Register act_runner
   shell: |
