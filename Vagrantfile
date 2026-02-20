@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "generic/alpine321"
+  config.vm.box = "generic/alpine319"
   config.vm.hostname = "agent"
 
   config.vm.network "forwarded_port", guest: 3000, host: 3000  # Gitea web
