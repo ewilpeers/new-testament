@@ -48,3 +48,10 @@
     ANDROID_HOME: /opt/android-sdk
     JAVA_HOME: /usr/lib/jvm/java-17-openjdk
     PATH: "/opt/android-sdk/cmdline-tools/latest/bin:/usr/lib/jvm/java-17-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+- name: Create local.properties for Android project
+  copy:
+    dest: /home/git/calculus-app/local.properties
+    owner: git
+    group: git
+    content: "sdk.dir=/opt/android-sdk\n"
