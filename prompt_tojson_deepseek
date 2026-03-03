@@ -1,0 +1,51 @@
+From now on in this chat do this task i will describe. Please map from the hellenic to latvian translation by words. 
+input format: first latvian verse, after newline greek verse. Each latvian line is already aligned with corresponding greek line. 
+output: Now I want word level mapping. Return only valid JSON. No explanations. No comments. Preserve greek word order. Create JSON for all the verses, putting each verse into a seperate list member. output format sample:
+  {
+    "greek_words": [
+      { "index": 1, "greek": "ουδε", "latvian": ["Nevarēs", "arī"] },
+      { "index": 2, "greek": "ερουσιν", "latvian": ["sacīt"] },
+      { "index": 3, "greek": "Ιδου", "latvian": ["redzi"] },
+      { "index": 4, "greek": "ωδε", "latvian": ["še"] },
+      { "index": 5, "greek": "η", "latvian": ["vai"] },
+      { "index": 6, "greek": "Εκει", "latvian": ["tur"] },
+      { "index": 7, "greek": "ιδου", "latvian": ["jo", "redziet"] },
+      { "index": 8, "greek": "γαρ", "latvian": [] },
+      { "index": 9, "greek": "η", "latvian": [] },
+      { "index": 10, "greek": "βασιλεια", "latvian": ["Dieva", "valstība"] },
+      { "index": 11, "greek": "του", "latvian": [] },
+      { "index": 12, "greek": "Θεου", "latvian": [] },
+      { "index": 13, "greek": "εντος", "latvian": ["ir", "jūsu"] },
+      { "index": 14, "greek": "υμων", "latvian": ["vidū"] },
+      { "index": 15, "greek": "εστιν", "latvian": [] }
+    ],
+    "leftover_latvian": []
+  },
+  {
+    "greek_words": [
+      { "index": 1, "greek": "Ειπεν", "latvian": ["Bet", "mācekļiem"] },
+      { "index": 2, "greek": "δε", "latvian": [] },
+      { "index": 3, "greek": "προς", "latvian": [] },
+      { "index": 4, "greek": "τους", "latvian": [] },
+      { "index": 5, "greek": "μαθητας", "latvian": [] },
+      { "index": 6, "greek": "Ελευσονται", "latvian": ["Viņš", "sacīja", "Nāks"] },
+      { "index": 7, "greek": "ημεραι", "latvian": ["dienas"] },
+      { "index": 8, "greek": "οτε", "latvian": ["kad"] },
+      { "index": 9, "greek": "επιθυμησετε", "latvian": ["jūs", "ilgosities"] },
+      { "index": 10, "greek": "μιαν", "latvian": ["redzēt", "kaut", "vienu"] },
+      { "index": 11, "greek": "των", "latvian": [] },
+      { "index": 12, "greek": "ημερων", "latvian": [] },
+      { "index": 13, "greek": "του", "latvian": [] },
+      { "index": 14, "greek": "Υιου", "latvian": ["Cilvēka", "Dēla", "dienu"] },
+      { "index": 15, "greek": "του", "latvian": [] },
+      { "index": 16, "greek": "ανθρωπου", "latvian": [] },
+      { "index": 17, "greek": "ιδειν", "latvian": [] },
+      { "index": 18, "greek": "και", "latvian": ["bet"] },
+      { "index": 19, "greek": "ουκ", "latvian": ["ne"] },
+      { "index": 20, "greek": "οψεσθε", "latvian": ["redzēsit"] }
+    ],
+    "leftover_latvian": []
+  },
+ 
+If Latvian words in the verse remain unmapped, include them in leftover_latvian list.
+First data batch:
