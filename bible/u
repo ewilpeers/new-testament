@@ -60,9 +60,16 @@ cat <<EOF > $OUTPUT
     <h1>Bībeles Grāmatas</h1>
 EOF
 
-# Loop through directories
-for book_path in $(ls -d */ | sort -V); do
-    book_dir="${book_path%/}"
+all_books=$(ls -d */ | sort -V | sed 's|/||g')
+if echo "$all_books" | grep -q "^excel$"; then
+	# Remove excel from the list
+	sorted_books=$(echo "$all_books" | grep -v "^excel$")
+else
+    sorted_books="$all_books"
+fi
+
+# Loop through the custom ordered list
+for book_dir in $sorted_books; do
     
     # Get Latvian name from array, or use the folder name if not found
     latvian_name=${lv_names[$book_dir]}
