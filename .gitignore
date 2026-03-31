@@ -4,3 +4,14 @@ blb_silence_analysis_gk.csv
 music_g
 strongs_g
 strongs_p_g
+*.zip
+# Ignore split verse .txt files in subfolders (e.g. genesis/1/genesis_1_1.txt)
+bible/*/*/*.txt
+bible/*/*/*.json
+
+# Ignore loose .txt and .html in book folders (e.g. genesis/*.txt, genesis/*.html)
+bible/*/*.txt
+bible/*/*.html
+
+# BUT keep the root index
+!bible/index.html
