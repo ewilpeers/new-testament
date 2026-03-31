@@ -25,5 +25,5 @@ mapping the NT Greek to 1965 Latvian
   ✅ philemon: 1 chapters, 25 verses (0.07s) <br>
   ✅ philippians: 4 chapters, 104 verses (0.37s) <br>
   ✅ revelation: 22 chapters, 404 verses (3.24s) <br>
-  ✅ romans: 16 chapters, 433 verses (1.39s)
+  ✅ romans: 16 chapters, 433 verses (1.39s) <br>
   ✅ titus: 3 chapters, 46 verses (0.15s)
