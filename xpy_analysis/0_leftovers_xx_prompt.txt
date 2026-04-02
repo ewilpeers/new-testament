@@ -1,0 +1,7 @@
+now i have bible mappings in folder bible/(book name)/
+each chapter is named (chapter number).json
+so i want to get some visualisation of data, for example where are places that have many leftover_greek, leftover_latvian and also both. besides, i would like to see graphicially how mapped is chapters in total (pie chart) and per each book
+pls create the jupyter python notebook
+
+==================================================================
+hey could you convert this to new testament mapping, where main is greek and mapped one is latvian, so there is 1 layer mapping not 2? please also keep the config cell with the file naming possibility and current setting.

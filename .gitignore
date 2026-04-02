@@ -15,3 +15,6 @@ bible/*/*.html
 
 # BUT keep the root index
 !bible/index.html
+excel/
+latvian_full65.csv
+strongs.csv
