@@ -174,8 +174,8 @@
       { "greek": "ευρεθω", "latvian": ["atrastos"] },
       { "greek": "εν", "latvian": ["Viņā"] },
       { "greek": "αυτω", "latvian": [] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "εχων", "latvian": ["gūdams"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "εχων", "latvian": [] },
       { "greek": "εμην", "latvian": ["savu"] },
       { "greek": "δικαιοσυνην", "latvian": ["taisnību"] },
       { "greek": "την", "latvian": [] },
@@ -194,7 +194,7 @@
       { "greek": "τη", "latvian": [] },
       { "greek": "πιστει", "latvian": ["ticības", "pamata"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["negūdams"]
   },
   {
     "greek_words": [

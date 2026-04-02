@@ -26,7 +26,7 @@
   },
   {
     "greek_words": [
-      { "greek": "λεγοντες", "latvian": ["sacīja"] },
+      { "greek": "λεγοντες", "latvian": [] },
       { "greek": "Που", "latvian": ["Kur"] },
       { "greek": "εστιν", "latvian": ["ir"] },
       { "greek": "ο", "latvian": [] },
@@ -114,7 +114,7 @@
       { "greek": "Ιουδα", "latvian": ["Jūdas"] },
       { "greek": "ουδαμως", "latvian": ["nebūt", "neesi"] },
       { "greek": "ελαχιστη", "latvian": ["mazākā"] },
-      { "greek": "ει", "latvian": ["esi", "(implied)"] },
+      { "greek": "ει", "latvian": [] },
       { "greek": "εν", "latvian": ["starp"] },
       { "greek": "τοις", "latvian": [] },
       { "greek": "ηγεμοσιν", "latvian": ["kungiem"] },
@@ -178,7 +178,7 @@
       { "greek": "προσκυνησω", "latvian": ["pielūdzu"] },
       { "greek": "αυτω", "latvian": ["Viņu"] }
     ],
-    "leftover_latvian": ["jūs", "un", "viņš", "un", "un", "to", "Viņu", "tad"]
+    "leftover_latvian": ["jūs", "un", "viņš", "un", "un", "to", "Viņu", "tad", "Un"]
   },
   {
     "greek_words": [
@@ -186,7 +186,7 @@
       { "greek": "δε", "latvian": [] },
       { "greek": "ακουσαντες", "latvian": ["dzirdējuši"] },
       { "greek": "του", "latvian": ["no", "ķēniņa", "(To…)"] },
-      { "greek": "βασιλεως", "latvian": ["ķēniņa"] },
+      { "greek": "βασιλεως", "latvian": [] },
       { "greek": "επορευθησαν", "latvian": ["aizgāja"] },
       { "greek": "και", "latvian": ["Un"] },
       { "greek": "ιδου", "latvian": ["redzi"] },
@@ -208,7 +208,7 @@
       { "greek": "το", "latvian": [] },
       { "greek": "παιδιον", "latvian": ["bērns"] }
     ],
-    "leftover_latvian": ["namu", "tie"]
+    "leftover_latvian": ["namu", "tie", "Un"]
   },
   {
     "greek_words": [
@@ -263,9 +263,9 @@
       { "greek": "Και", "latvian": ["Un"] },
       { "greek": "χρηματισθεντες", "latvian": ["saņēmuši", "norādījumu"] },
       { "greek": "κατ", "latvian": ["sapnī"] },
-      { "greek": "οναρ", "latvian": ["sapnī"] },
-      { "greek": "μη", "latvian": ["ne-", "(neatgriezties)"] },
-      { "greek": "ανακαμψαι", "latvian": ["atgriezties"] },
+      { "greek": "οναρ", "latvian": [] },
+      { "greek": "μη", "latvian": ["(neatgriezties)"] },
+      { "greek": "ανακαμψαι", "latvian": [] },
       { "greek": "προς", "latvian": ["pie"] },
       { "greek": "Ηρωδην", "latvian": ["Hēroda"] },
       { "greek": "δι", "latvian": ["pa"] },

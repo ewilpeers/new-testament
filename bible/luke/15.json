@@ -64,8 +64,8 @@
       { "greek": "εξ", "latvian": [] },
       { "greek": "αυτων", "latvian": [] },
       { "greek": "εν", "latvian": [] },
-      { "greek": "ου", "latvian": ["ne"] },
-      { "greek": "καταλειπει", "latvian": ["atstāj"] },
+      { "greek": "ου", "latvian": [] },
+      { "greek": "καταλειπει", "latvian": [] },
       { "greek": "τα", "latvian": [] },
       { "greek": "ενενηκοντα", "latvian": ["visas", "deviņdesmit"] },
       { "greek": "εννεα", "latvian": ["deviņas"] },
@@ -81,7 +81,7 @@
       { "greek": "ευρη", "latvian": ["tas", "to"] },
       { "greek": "αυτο", "latvian": ["atradīs"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neatstāj"]
   },
   {
     "greek_words": [
@@ -127,7 +127,7 @@
     "greek_words": [
       { "greek": "λεγω", "latvian": ["Es", "jums", "saku"] },
       { "greek": "υμιν", "latvian": [] },
-      { "greek": "οτι", "latvian": ["ka"] },
+      { "greek": "οτι", "latvian": [] },
       { "greek": "ουτως", "latvian": ["tāpat"] },
       { "greek": "χαρα", "latvian": ["prieks"] },
       { "greek": "εν", "latvian": [] },
@@ -163,14 +163,14 @@
       { "greek": "απολεση", "latvian": ["ir", "pazaudējusi"] },
       { "greek": "δραχμην", "latvian": ["no", "tiem"] },
       { "greek": "μιαν", "latvian": ["vienu"] },
-      { "greek": "ουχι", "latvian": ["vai", "ne-"] },
+      { "greek": "ουχι", "latvian": ["ne-"] },
       { "greek": "απτει", "latvian": ["- aizdedzina"] },
       { "greek": "λυχνον", "latvian": ["sveci"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "σαροι", "latvian": ["- izmēž"] },
       { "greek": "την", "latvian": [] },
       { "greek": "οικιαν", "latvian": ["māju"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "ζητει", "latvian": ["meklēdama"] },
       { "greek": "επιμελως", "latvian": ["rūpīgi"] },
       { "greek": "εως", "latvian": ["līdz", "kamēr"] },
@@ -237,7 +237,7 @@
       { "greek": "ειπεν", "latvian": ["jaunākais"] },
       { "greek": "ο", "latvian": [] },
       { "greek": "νεωτερος", "latvian": [] },
-      { "greek": "αυτων", "latvian": ["no", "tiem"] },
+      { "greek": "αυτων", "latvian": ["tiem"] },
       { "greek": "τω", "latvian": [] },
       { "greek": "πατρι", "latvian": ["tēvam", "sacīja"] },
       { "greek": "Πατερ", "latvian": ["tēvs"] },
@@ -251,7 +251,7 @@
       { "greek": "ο", "latvian": ["Tad"] },
       { "greek": "δε", "latvian": [] },
       { "greek": "διειλεν", "latvian": ["viņš"] },
-      { "greek": "αυτοις", "latvian": ["starp", "tiem"] },
+      { "greek": "αυτοις", "latvian": ["starp"] },
       { "greek": "τον", "latvian": [] },
       { "greek": "βιον", "latvian": ["sadalīja", "mantu"] }
     ],
@@ -342,7 +342,7 @@
       { "greek": "ησθιον", "latvian": ["cūkas", "ēda"] },
       { "greek": "οι", "latvian": [] },
       { "greek": "χοιροι", "latvian": [] },
-      { "greek": "και", "latvian": ["lai", "ar", "tām"] },
+      { "greek": "και", "latvian": ["lai"] },
       { "greek": "ουδεις", "latvian": ["pildītu", "bet", "neviens"] },
       { "greek": "εδιδου", "latvian": ["viņam", "tās"] },
       { "greek": "αυτω", "latvian": ["nedeva"] }
@@ -357,7 +357,7 @@
       { "greek": "ελθων", "latvian": ["atziņas", "nācis"] },
       { "greek": "εφη", "latvian": ["sacīja"] },
       { "greek": "Ποσοι", "latvian": ["cik"] },
-      { "greek": "μισθιοι", "latvian": ["algāžu"] },
+      { "greek": "μισθιοι", "latvian": [] },
       { "greek": "του", "latvian": [] },
       { "greek": "πατρος", "latvian": ["nav", "manam"] },
       { "greek": "μου", "latvian": [] },
@@ -381,7 +381,7 @@
       { "greek": "μου", "latvian": [] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "ερω", "latvian": ["sacīšu"] },
-      { "greek": "αυτω", "latvian": ["viņam"] },
+      { "greek": "αυτω", "latvian": [] },
       { "greek": "Πατερ", "latvian": ["tēvs"] },
       { "greek": "ημαρτον", "latvian": ["es", "esmu", "grēkojis"] },
       { "greek": "εις", "latvian": ["pret"] },
@@ -406,7 +406,7 @@
       { "greek": "ως", "latvian": ["par"] },
       { "greek": "ενα", "latvian": ["vienu"] },
       { "greek": "των", "latvian": ["no"] },
-      { "greek": "μισθιων", "latvian": ["saviem", "algāžiem"] },
+      { "greek": "μισθιων", "latvian": ["saviem"] },
       { "greek": "σου", "latvian": [] }
     ],
     "leftover_latvian": ["algādžiem"]
@@ -466,12 +466,12 @@
       { "greek": "κληθηναι", "latvian": ["ka", "mani", "sauc"] },
       { "greek": "υιος", "latvian": ["par", "tavu", "dēlu"] },
       { "greek": "σου", "latvian": [] },
-      { "greek": "ποιησον", "latvian": ["pieņem", "mani"] },
+      { "greek": "ποιησον", "latvian": [] },
       { "greek": "με", "latvian": [] },
-      { "greek": "ως", "latvian": ["par"] },
-      { "greek": "ενα", "latvian": ["vienu"] },
-      { "greek": "των", "latvian": ["no"] },
-      { "greek": "μισθιων", "latvian": ["saviem", "algāžiem"] },
+      { "greek": "ως", "latvian": [] },
+      { "greek": "ενα", "latvian": [] },
+      { "greek": "των", "latvian": [] },
+      { "greek": "μισθιων", "latvian": [] },
       { "greek": "σου", "latvian": [] }
     ],
     "leftover_latvian": []
@@ -501,7 +501,7 @@
       { "greek": "την", "latvian": [] },
       { "greek": "χειρα", "latvian": [] },
       { "greek": "αυτου", "latvian": [] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "υποδηματα", "latvian": ["kurpes"] },
       { "greek": "εις", "latvian": [] },
       { "greek": "τους", "latvian": [] },
@@ -551,7 +551,7 @@
       { "greek": "δε", "latvian": [] },
       { "greek": "ο", "latvian": [] },
       { "greek": "υιος", "latvian": ["vecākais", "dēls"] },
-      { "greek": "αυτου", "latvian": ["viņa"] },
+      { "greek": "αυτου", "latvian": [] },
       { "greek": "ο", "latvian": [] },
       { "greek": "πρεσβυτερος", "latvian": [] },
       { "greek": "εν", "latvian": ["bija", "uz"] },
@@ -564,7 +564,7 @@
       { "greek": "οικια", "latvian": ["mājām"] },
       { "greek": "ηκουσεν", "latvian": ["viņš", "izdzirda"] },
       { "greek": "συμφωνιας", "latvian": ["mūzikas", "skaņas"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "χορων", "latvian": ["dejas", "troksni"] }
     ],
     "leftover_latvian": ["nu"]
@@ -594,7 +594,7 @@
       { "greek": "Ο", "latvian": [] },
       { "greek": "αδελφος", "latvian": ["tavs", "brālis"] },
       { "greek": "σου", "latvian": [] },
-      { "greek": "ηκει", "latvian": ["ir", "pār nācis"] },
+      { "greek": "ηκει", "latvian": ["ir"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "εθυσεν", "latvian": ["tavs", "tēvs", "ir", "licis"] },
       { "greek": "ο", "latvian": [] },
@@ -617,17 +617,17 @@
       { "greek": "δε", "latvian": [] },
       { "greek": "και", "latvian": [] },
       { "greek": "ουκ", "latvian": ["apskaitās"] },
-      { "greek": "ηθελεν", "latvian": ["un", "ne"] },
-      { "greek": "εισελθειν", "latvian": ["gribēja", "iet", "iekšā"] },
+      { "greek": "ηθελεν", "latvian": ["un"] },
+      { "greek": "εισελθειν", "latvian": ["iet", "iekšā"] },
       { "greek": "ο", "latvian": ["bet"] },
       { "greek": "δε", "latvian": [] },
-      { "greek": "πατηρ", "latvian": ["viņa", "tēvs"] },
+      { "greek": "πατηρ", "latvian": ["tēvs"] },
       { "greek": "αυτου", "latvian": [] },
       { "greek": "εξελθων", "latvian": ["iznāca"] },
       { "greek": "παρεκαλει", "latvian": ["un", "aicināja"] },
       { "greek": "αυτον", "latvian": ["viņu", "iekšā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["negribēja"]
   },
   {
     "greek_words": [
@@ -671,7 +671,7 @@
       { "greek": "σου", "latvian": [] },
       { "greek": "ουτος", "latvian": [] },
       { "greek": "ο", "latvian": ["ir"] },
-      { "greek": "καταφαγων", "latvian": ["pār nācis"] },
+      { "greek": "καταφαγων", "latvian": [] },
       { "greek": "σου", "latvian": [] },
       { "greek": "τον", "latvian": [] },
       { "greek": "βιον", "latvian": ["kas", "savu", "mantu"] },
@@ -711,10 +711,10 @@
     "greek_words": [
       { "greek": "ευφρανθηναι", "latvian": ["bet", "bija"] },
       { "greek": "δε", "latvian": [] },
-      { "greek": "και", "latvian": ["jā"] },
-      { "greek": "χαρηναι", "latvian": ["līksmojas"] },
-      { "greek": "εδει", "latvian": ["un", "jā"] },
-      { "greek": "οτι", "latvian": ["priecājas", "jo"] },
+      { "greek": "και", "latvian": [] },
+      { "greek": "χαρηναι", "latvian": [] },
+      { "greek": "εδει", "latvian": ["un"] },
+      { "greek": "οτι", "latvian": ["jo"] },
       { "greek": "ο", "latvian": [] },
       { "greek": "αδελφος", "latvian": ["šis", "tavs", "brālis"] },
       { "greek": "σου", "latvian": [] },
@@ -725,7 +725,7 @@
       { "greek": "εζησεν", "latvian": ["atkal", "ir", "dzīvs"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "απολωλως", "latvian": ["viņš", "bija"] },
-      { "greek": "και", "latvian": ["pazudis", "un"] },
+      { "greek": "και", "latvian": ["pazudis"] },
       { "greek": "ευρεθη", "latvian": ["ir", "atkal", "atrasts"] }
     ],
     "leftover_latvian": ["jālīksmojas", "jāpriecājas"]

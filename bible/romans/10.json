@@ -52,7 +52,7 @@
       { "greek": "ζητουντες", "latvian": ["viņi", "centušies", "celt"] },
       { "greek": "στησαι", "latvian": [] },
       { "greek": "τη", "latvian": [] },
-      { "greek": "δικαιοσυνη", "latvian": ["un", "Dieva"] },
+      { "greek": "δικαιοσυνη", "latvian": ["Dieva"] },
       { "greek": "του", "latvian": [] },
       { "greek": "Θεου", "latvian": [] },
       { "greek": "ουχ", "latvian": ["taisnībai", "nav"] },
@@ -229,9 +229,9 @@
       { "greek": "επ", "latvian": [] },
       { "greek": "αυτω", "latvian": [] },
       { "greek": "ου", "latvian": ["paļaujas"] },
-      { "greek": "καταισχυνθησεται", "latvian": ["ne", "paliks", "kaunā"] }
+      { "greek": "καταισχυνθησεται", "latvian": ["kaunā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nepaliks"]
   },
   {
     "greek_words": [
@@ -403,7 +403,7 @@
       { "greek": "εθνει", "latvian": ["nesapratīgu"] },
       { "greek": "ασυνετω", "latvian": [] },
       { "greek": "παροργιω", "latvian": ["tautu", "dusmīgus"] },
-      { "greek": "υμας", "latvian": ["jūs"] }
+      { "greek": "υμας", "latvian": [] }
     ],
     "leftover_latvian": []
   },
@@ -418,16 +418,16 @@
       { "greek": "εν", "latvian": ["pazīstams"] },
       { "greek": "τοις", "latvian": ["tādiem"] },
       { "greek": "εμε", "latvian": ["kas"] },
-      { "greek": "μη", "latvian": ["Mani", "ne"] },
-      { "greek": "ζητουσιν", "latvian": ["meklēja"] },
+      { "greek": "μη", "latvian": ["Mani"] },
+      { "greek": "ζητουσιν", "latvian": [] },
       { "greek": "εμφανης", "latvian": ["un", "atklāju"] },
       { "greek": "εγενομην", "latvian": ["Sevi"] },
       { "greek": "τοις", "latvian": ["tādiem"] },
       { "greek": "εμε", "latvian": ["kas"] },
       { "greek": "μη", "latvian": ["pēc", "Manis"] },
-      { "greek": "επερωτωσιν", "latvian": ["ne", "vaicāja"] }
+      { "greek": "επερωτωσιν", "latvian": [] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nemeklēja", "nevaicāja"]
   },
   {
     "greek_words": [

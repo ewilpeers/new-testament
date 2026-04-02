@@ -249,7 +249,7 @@
       { "greek": "συ", "latvian": ["bet", "Tu"] },
       { "greek": "δε", "latvian": [] },
       { "greek": "διαμενεις", "latvian": ["paliec"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "παντες", "latvian": ["tās", "visas"] },
       { "greek": "ως", "latvian": ["kā"] },
       { "greek": "ιματιον", "latvian": ["drēbes"] },
@@ -277,10 +277,10 @@
       { "greek": "τα", "latvian": [] },
       { "greek": "ετη", "latvian": ["Tavi", "gadi"] },
       { "greek": "σου", "latvian": [] },
-      { "greek": "ουκ", "latvian": ["ne"] },
-      { "greek": "εκλειψουσιν", "latvian": ["beigsies"] }
+      { "greek": "ουκ", "latvian": [] },
+      { "greek": "εκλειψουσιν", "latvian": [] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nebeigsies"]
   },
   {
     "greek_words": [
@@ -320,8 +320,8 @@
       { "greek": "αποστελλομενα", "latvian": [] },
       { "greek": "δια", "latvian": ["to", "labā"] },
       { "greek": "τους", "latvian": ["kam"] },
-      { "greek": "μελλοντας", "latvian": ["jā"] },
-      { "greek": "κληρονομειν", "latvian": ["manto"] },
+      { "greek": "μελλοντας", "latvian": [] },
+      { "greek": "κληρονομειν", "latvian": [] },
       { "greek": "σωτηριαν", "latvian": ["pestīšana"] }
     ],
     "leftover_latvian": ["jāmanto"]

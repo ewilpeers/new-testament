@@ -351,8 +351,8 @@
       { "greek": "εγω", "latvian": ["es"] },
       { "greek": "αποτισω", "latvian": ["atlīdzināšu"] },
       { "greek": "ινα", "latvian": ["lai"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "λεγω", "latvian": ["teiktu"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "λεγω", "latvian": [] },
       { "greek": "σοι", "latvian": ["tev"] },
       { "greek": "οτι", "latvian": ["ka"] },
       { "greek": "και", "latvian": ["tu", "man", "arī"] },
@@ -360,7 +360,7 @@
       { "greek": "μοι", "latvian": [] },
       { "greek": "προσοφειλεις", "latvian": ["esi", "parādā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neteiktu"]
   },
   {
     "greek_words": [
@@ -456,7 +456,7 @@
       { "greek": "του", "latvian": [] },
       { "greek": "πνευματος", "latvian": ["jūsu", "garu"] },
       { "greek": "υμων", "latvian": [] },
-      { "greek": "Αμην", "latvian": ["Āmen"] }
+      { "greek": "Αμην", "latvian": [] }
     ],
     "leftover_latvian": []
   }

@@ -13,8 +13,8 @@
       { "greek": "την", "latvian": [] },
       { "greek": "τελειοτητα", "latvian": ["pilnībai"] },
       { "greek": "φερωμεθα", "latvian": [] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "παλιν", "latvian": ["likdami", "atkal"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "παλιν", "latvian": ["atkal"] },
       { "greek": "θεμελιον", "latvian": ["pamatu"] },
       { "greek": "καταβαλλομενοι", "latvian": [] },
       { "greek": "μετανοιας", "latvian": ["ar", "atgriešanos"] },
@@ -23,10 +23,10 @@
       { "greek": "εργων", "latvian": ["darbiem"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "πιστεως", "latvian": ["ticību"] },
-      { "greek": "επι", "latvian": ["uz"] },
+      { "greek": "επι", "latvian": [] },
       { "greek": "Θεον", "latvian": ["Dievam"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nelikdami"]
   },
   {
     "greek_words": [
@@ -167,13 +167,13 @@
       { "greek": "αγαπητοι", "latvian": ["mīļie"] },
       { "greek": "τα", "latvian": ["mums", "ir", "pārliecība"] },
       { "greek": "κρεισσονα", "latvian": ["par", "kaut", "ko", "labāku"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "εχομενα", "latvian": ["par", "jūsu", "pestīšanu"] },
       { "greek": "σωτηριας", "latvian": [] },
       { "greek": "ει", "latvian": ["kaut", "arī"] },
       { "greek": "και", "latvian": [] },
       { "greek": "ουτως", "latvian": ["tā"] },
-      { "greek": "λαλουμεν", "latvian": ["mēs", "runājam"] }
+      { "greek": "λαλουμεν", "latvian": ["runājam"] }
     ],
     "leftover_latvian": []
   },
@@ -228,8 +228,8 @@
   {
     "greek_words": [
       { "greek": "ινα", "latvian": ["ka"] },
-      { "greek": "μη", "latvian": ["jūs", "ne"] },
-      { "greek": "νωθροι", "latvian": ["topat", "kūtri"] },
+      { "greek": "μη", "latvian": ["jūs"] },
+      { "greek": "νωθροι", "latvian": ["kūtri"] },
       { "greek": "γενησθε", "latvian": [] },
       { "greek": "μιμηται", "latvian": ["bet", "sekojat"] },
       { "greek": "δε", "latvian": [] },
@@ -242,7 +242,7 @@
       { "greek": "τας", "latvian": [] },
       { "greek": "επαγγελιας", "latvian": ["apsolījumus"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["netopat"]
   },
   {
     "greek_words": [

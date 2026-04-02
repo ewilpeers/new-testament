@@ -203,9 +203,9 @@
   {
     "greek_words": [
       { "greek": "Μηδεις", "latvian": ["Neviens"] },
-      { "greek": "σου", "latvian": ["lai", "ne"] },
+      { "greek": "σου", "latvian": ["lai"] },
       { "greek": "της", "latvian": [] },
-      { "greek": "νεοτητος", "latvian": ["nicina", "tavu"] },
+      { "greek": "νεοτητος", "latvian": ["tavu"] },
       { "greek": "καταφρονειτω", "latvian": ["jaunumu"] },
       { "greek": "αλλα", "latvian": ["bet"] },
       { "greek": "τυπος", "latvian": ["topi", "tu", "par", "paraugu"] },
@@ -223,7 +223,7 @@
       { "greek": "εν", "latvian": [] },
       { "greek": "αγνεια", "latvian": ["šķīstībā"] }
     ],
-    "leftover_latvian": ["un", "un"]
+    "leftover_latvian": ["un", "un", "nenicina"]
   },
   {
     "greek_words": [
@@ -241,8 +241,8 @@
   },
   {
     "greek_words": [
-      { "greek": "Μη", "latvian": ["Ne"] },
-      { "greek": "αμελει", "latvian": ["nicini"] },
+      { "greek": "Μη", "latvian": [] },
+      { "greek": "αμελει", "latvian": [] },
       { "greek": "του", "latvian": [] },
       { "greek": "εν", "latvian": [] },
       { "greek": "σοι", "latvian": ["dāvanu", "kas", "ir", "tevī"] },
@@ -259,7 +259,7 @@
       { "greek": "του", "latvian": [] },
       { "greek": "πρεσβυτεριου", "latvian": ["rokas"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["Nenicini"]
   },
   {
     "greek_words": [

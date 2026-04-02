@@ -220,13 +220,13 @@
       { "greek": "ανατρεπουσιν", "latvian": [] },
       { "greek": "διδασκοντες", "latvian": ["mācīdami"] },
       { "greek": "α", "latvian": ["to"] },
-      { "greek": "μη", "latvian": ["kas", "ne"] },
-      { "greek": "δει", "latvian": ["klājas"] },
+      { "greek": "μη", "latvian": ["kas"] },
+      { "greek": "δει", "latvian": [] },
       { "greek": "αισχρου", "latvian": ["negodīgas"] },
       { "greek": "κερδους", "latvian": ["peļņas", "dēļ"] },
       { "greek": "χαριν", "latvian": [] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neklājas"]
   },
   {
     "greek_words": [

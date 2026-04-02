@@ -136,7 +136,7 @@
       { "greek": "Λυστραν", "latvian": ["Listru"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "Δερβην", "latvian": ["Derbi"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "την", "latvian": [] },
       { "greek": "περιχωρον", "latvian": ["to", "apkārtni"] }
     ],
@@ -393,17 +393,17 @@
     "greek_words": [
       { "greek": "Και", "latvian": [] },
       { "greek": "ταυτα", "latvian": ["To"] },
-      { "greek": "λεγοντες", "latvian": ["runaādami"] },
+      { "greek": "λεγοντες", "latvian": [] },
       { "greek": "μολις", "latvian": ["ar", "pūlēm"] },
       { "greek": "κατεπαυσαν", "latvian": ["savaldīja"] },
       { "greek": "τους", "latvian": [] },
       { "greek": "οχλους", "latvian": ["ļaudis"] },
       { "greek": "του", "latvian": ["ka", "tie"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "θυειν", "latvian": ["upurēja"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "θυειν", "latvian": [] },
       { "greek": "αυτοις", "latvian": ["viņiem"] }
     ],
-    "leftover_latvian": ["runādami", "viņi"]
+    "leftover_latvian": ["runādami", "viņi", "neupurēja"]
   },
   {
     "greek_words": [
@@ -471,10 +471,10 @@
       { "greek": "την", "latvian": [] },
       { "greek": "Λυστραν", "latvian": ["Listru"] },
       { "greek": "και", "latvian": ["un"] },
-      { "greek": "εις", "latvian": ["uz"] },
+      { "greek": "εις", "latvian": [] },
       { "greek": "Ικονιον", "latvian": ["Ikoniju"] },
-      { "greek": "και", "latvian": ["un"] },
-      { "greek": "εις", "latvian": ["uz"] },
+      { "greek": "και", "latvian": [] },
+      { "greek": "εις", "latvian": [] },
       { "greek": "Αντιοχειαν", "latvian": ["Antiohiju"] }
     ],
     "leftover_latvian": ["mācekļu", "viņi"]
@@ -495,9 +495,9 @@
       { "greek": "Δια", "latvian": ["caur"] },
       { "greek": "πολλων", "latvian": ["daudz"] },
       { "greek": "θλιψεων", "latvian": ["bēdām"] },
-      { "greek": "δει", "latvian": ["mums", "jā"] },
+      { "greek": "δει", "latvian": ["mums"] },
       { "greek": "ημας", "latvian": [] },
-      { "greek": "εισελθειν", "latvian": ["ieiet"] },
+      { "greek": "εισελθειν", "latvian": [] },
       { "greek": "εις", "latvian": [] },
       { "greek": "την", "latvian": [] },
       { "greek": "βασιλειαν", "latvian": ["valstībā"] },

@@ -113,7 +113,7 @@
       { "greek": "αληθειαν", "latvian": ["es", "saku"] },
       { "greek": "λεγω", "latvian": [] },
       { "greek": "ου", "latvian": ["patiesību"] },
-      { "greek": "ψευδομαι", "latvian": ["ne", "meloju"] },
+      { "greek": "ψευδομαι", "latvian": [] },
       { "greek": "διδασκαλος", "latvian": ["par", "mācītāju"] },
       { "greek": "εθνων", "latvian": ["pagāniem"] },
       { "greek": "εν", "latvian": [] },
@@ -121,7 +121,7 @@
       { "greek": "και", "latvian": ["un"] },
       { "greek": "αληθεια", "latvian": ["patiesībā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nemeloju"]
   },
   {
     "greek_words": [
@@ -201,8 +201,8 @@
       { "greek": "διδασκειν", "latvian": ["taču", "mācīt"] },
       { "greek": "δε", "latvian": [] },
       { "greek": "γυναικι", "latvian": ["es", "sievai"] },
-      { "greek": "ουκ", "latvian": ["ne"] },
-      { "greek": "επιτρεπω", "latvian": ["pieļauju"] },
+      { "greek": "ουκ", "latvian": [] },
+      { "greek": "επιτρεπω", "latvian": [] },
       { "greek": "ουδε", "latvian": ["nedz"] },
       { "greek": "αυθεντειν", "latvian": ["valdīt"] },
       { "greek": "ανδρος", "latvian": ["pār", "vīru"] },
@@ -211,7 +211,7 @@
       { "greek": "εν", "latvian": ["jāturas"] },
       { "greek": "ησυχια", "latvian": ["klusībā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nepieļauju"]
   },
   {
     "greek_words": [

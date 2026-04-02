@@ -137,8 +137,8 @@
   {
     "greek_words": [
       { "greek": "αλλ", "latvian": ["Bet"] },
-      { "greek": "ου", "latvian": ["viņi", "ne"] },
-      { "greek": "προκοψουσιν", "latvian": ["tiks", "tālāk"] },
+      { "greek": "ου", "latvian": ["viņi"] },
+      { "greek": "προκοψουσιν", "latvian": ["tālāk"] },
       { "greek": "επι", "latvian": ["uz"] },
       { "greek": "πλειον", "latvian": ["priekšu"] },
       { "greek": "η", "latvian": ["jo"] },
@@ -154,7 +154,7 @@
       { "greek": "εκεινων", "latvian": ["ar", "pirmajiem"] },
       { "greek": "εγενετο", "latvian": ["notika"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["netiks"]
   },
   {
     "greek_words": [

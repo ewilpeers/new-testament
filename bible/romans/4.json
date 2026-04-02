@@ -118,7 +118,7 @@
       { "greek": "αι", "latvian": [] },
       { "greek": "ανομιαι", "latvian": ["piedoti"] },
       { "greek": "και", "latvian": ["un"] },
-      { "greek": "ων", "latvian": ["kam"] },
+      { "greek": "ων", "latvian": [] },
       { "greek": "επεκαλυφθησαν", "latvian": ["grēki"] },
       { "greek": "αι", "latvian": [] },
       { "greek": "αμαρτιαι", "latvian": ["apklāti"] }
@@ -402,8 +402,8 @@
   {
     "greek_words": [
       { "greek": "και", "latvian": ["Viņš", "arī"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "ασθενησας", "latvian": ["zaudēja"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "ασθενησας", "latvian": [] },
       { "greek": "τη", "latvian": [] },
       { "greek": "πιστει", "latvian": ["ticību"] },
       { "greek": "κατενοησεν", "latvian": ["vērodams"] },
@@ -422,7 +422,7 @@
       { "greek": "μητρας", "latvian": ["Sāras", "mātes"] },
       { "greek": "Σαρρας", "latvian": ["klēpis"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nezaudēja"]
   },
   {
     "greek_words": [
@@ -432,8 +432,8 @@
       { "greek": "επαγγελιαν", "latvian": ["apsolījumu"] },
       { "greek": "του", "latvian": [] },
       { "greek": "Θεου", "latvian": [] },
-      { "greek": "ου", "latvian": ["viņš", "ne"] },
-      { "greek": "διεκριθη", "latvian": ["uzņēma", "ar", "šaubām", "un"] },
+      { "greek": "ου", "latvian": ["viņš"] },
+      { "greek": "διεκριθη", "latvian": ["ar", "šaubām", "un"] },
       { "greek": "τη", "latvian": [] },
       { "greek": "απιστια", "latvian": ["neuzticību"] },
       { "greek": "αλλα", "latvian": ["bet"] },
@@ -445,7 +445,7 @@
       { "greek": "τω", "latvian": [] },
       { "greek": "Θεω", "latvian": ["ticībā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neuzņēma"]
   },
   {
     "greek_words": [

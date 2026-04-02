@@ -67,7 +67,7 @@
       { "greek": "μετ", "latvian": ["ar"] },
       { "greek": "αυτου", "latvian": ["Viņu"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["Un"]
   },
   {
     "greek_words": [
@@ -200,7 +200,7 @@
       { "greek": "ειπητε", "latvian": ["nestāstiet"] },
       { "greek": "το", "latvian": [] },
       { "greek": "οραμα", "latvian": ["parādību"] },
-      { "greek": "εως", "latvian": ["iekāms"] },
+      { "greek": "εως", "latvian": [] },
       { "greek": "ου", "latvian": [] },
       { "greek": "ο", "latvian": [] },
       { "greek": "Υιος", "latvian": ["Dēls"] },
@@ -210,7 +210,7 @@
       { "greek": "νεκρων", "latvian": ["miroņiem"] },
       { "greek": "εγερθη", "latvian": ["nebūs", "uzcēlies"] }
     ],
-    "leftover_latvian": ["Par", "šo", "tiekāms"]
+    "leftover_latvian": ["Par", "šo", "tiekāms", "Un"]
   },
   {
     "greek_words": [
@@ -543,7 +543,7 @@
       { "greek": "ου", "latvian": ["vai", "ne-"] },
       { "greek": "τελει", "latvian": ["maksā"] },
       { "greek": "τα", "latvian": [] },
-      { "greek": "διδραχμα", "latvian": ["nodokli"] }
+      { "greek": "διδραχμα", "latvian": [] }
     ],
     "leftover_latvian": ["nodokļu"]
   },
@@ -584,7 +584,7 @@
       { "greek": "των", "latvian": [] },
       { "greek": "αλλοτριων", "latvian": ["svešiniekiem"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["vai"]
   },
   {
     "greek_words": [

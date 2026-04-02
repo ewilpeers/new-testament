@@ -54,9 +54,9 @@
       { "greek": "ουτως", "latvian": ["tā"] },
       { "greek": "και", "latvian": ["arī"] },
       { "greek": "περι", "latvian": ["par"] },
-      { "greek": "αυτου", "latvian": ["sevi"] },
+      { "greek": "αυτου", "latvian": [] },
       { "greek": "προσφερειν", "latvian": ["upurēt"] },
-      { "greek": "περι", "latvian": ["par"] },
+      { "greek": "περι", "latvian": [] },
       { "greek": "αμαρτιων", "latvian": ["grēkiem"] }
     ],
     "leftover_latvian": ["sevis"]
@@ -67,7 +67,7 @@
       { "greek": "ουχ", "latvian": ["neviens", "sev", "pats"] },
       { "greek": "εαυτω", "latvian": [] },
       { "greek": "τις", "latvian": [] },
-      { "greek": "λαμβανει", "latvian": ["ņem"] },
+      { "greek": "λαμβανει", "latvian": [] },
       { "greek": "την", "latvian": [] },
       { "greek": "τιμην", "latvian": ["šo", "godu"] },
       { "greek": "αλλα", "latvian": ["bet"] },
@@ -79,7 +79,7 @@
       { "greek": "και", "latvian": [] },
       { "greek": "Ααρων", "latvian": ["Ārons"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neņem"]
   },
   {
     "greek_words": [
@@ -239,7 +239,7 @@
       { "greek": "του", "latvian": ["kāds", "kas", "jums"] },
       { "greek": "διδασκειν", "latvian": ["māca"] },
       { "greek": "υμας", "latvian": [] },
-      { "greek": "τινα", "latvian": ["Dieva", "vārda"] },
+      { "greek": "τινα", "latvian": ["Dieva"] },
       { "greek": "τα", "latvian": [] },
       { "greek": "στοιχεια", "latvian": ["pirmsākumus"] },
       { "greek": "της", "latvian": [] },

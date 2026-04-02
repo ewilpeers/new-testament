@@ -286,7 +286,7 @@
       { "greek": "αυτου", "latvian": [] },
       { "greek": "και", "latvian": ["māsu"] },
       { "greek": "Ολυμπαν", "latvian": ["Olimpu"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "τους", "latvian": ["visus"] },
       { "greek": "συν", "latvian": ["svētos", "kas", "pie"] },
       { "greek": "αυτοις", "latvian": ["viņiem"] },
@@ -341,7 +341,7 @@
   },
   {
     "greek_words": [
-      { "greek": "οι", "latvian": ["ne"] },
+      { "greek": "οι", "latvian": [] },
       { "greek": "γαρ", "latvian": [] },
       { "greek": "τοιουτοι", "latvian": ["Tādi", "cilvēki"] },
       { "greek": "τω", "latvian": [] },
@@ -349,7 +349,7 @@
       { "greek": "ημων", "latvian": ["mūsu"] },
       { "greek": "Χριστω", "latvian": ["Kristum"] },
       { "greek": "ου", "latvian": [] },
-      { "greek": "δουλευουσιν", "latvian": ["kalpo"] },
+      { "greek": "δουλευουσιν", "latvian": [] },
       { "greek": "αλλα", "latvian": ["bet"] },
       { "greek": "τη", "latvian": [] },
       { "greek": "εαυτων", "latvian": ["savam"] },
@@ -366,7 +366,7 @@
       { "greek": "των", "latvian": [] },
       { "greek": "ακακων", "latvian": ["vientiesīgo"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nekalpo"]
   },
   {
     "greek_words": [
@@ -415,7 +415,7 @@
       { "greek": "εν", "latvian": ["kājām"] },
       { "greek": "ταχει", "latvian": [] },
       { "greek": "Η", "latvian": [] },
-      { "greek": "χαρις", "latvian": ["Mūsu", "Kunga", "Jēzus", "Kristus"] },
+      { "greek": "χαρις", "latvian": ["Mūsu", "Kunga", "Jēzus"] },
       { "greek": "του", "latvian": [] },
       { "greek": "Κυριου", "latvian": [] },
       { "greek": "ημων", "latvian": [] },
@@ -438,7 +438,7 @@
       { "greek": "Λουκιος", "latvian": ["Lukijs"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "Ιασων", "latvian": ["Jazons"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "Σωσιπατρος", "latvian": ["Sozipatrs"] },
       { "greek": "οι", "latvian": ["mani"] },
       { "greek": "συγγενεις", "latvian": ["ciltsbrāļi"] },
@@ -499,7 +499,7 @@
       { "greek": "μετα", "latvian": ["žēlastība", "lai", "ir", "ar"] },
       { "greek": "παντων", "latvian": ["jums"] },
       { "greek": "υμων", "latvian": ["visiem"] },
-      { "greek": "Αμην", "latvian": ["Āmen"] }
+      { "greek": "Αμην", "latvian": [] }
     ],
     "leftover_latvian": []
   },
@@ -540,7 +540,7 @@
       { "greek": "κατ", "latvian": ["rakstiem"] },
       { "greek": "επιταγην", "latvian": ["uz"] },
       { "greek": "του", "latvian": [] },
-      { "greek": "αιωνιου", "latvian": ["mūžīgā"] },
+      { "greek": "αιωνιου", "latvian": [] },
       { "greek": "Θεου", "latvian": ["Dieva"] },
       { "greek": "εις", "latvian": ["pavēli"] },
       { "greek": "υπακοην", "latvian": ["sludināts"] },

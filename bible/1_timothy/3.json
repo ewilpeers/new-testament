@@ -12,7 +12,7 @@
       { "greek": "εργου", "latvian": ["darbu"] },
       { "greek": "επιθυμει", "latvian": ["iekāro"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["Tas"]
   },
   {
     "greek_words": [
@@ -42,7 +42,7 @@
       { "greek": "αλλα", "latvian": ["bet"] },
       { "greek": "επιεικη", "latvian": ["lēnīgam"] },
       { "greek": "αμαχον", "latvian": ["ne", "ķildīgam"] },
-      { "greek": "αφιλαργυρον", "latvian": ["ne", "mantaikārīgam"] }
+      { "greek": "αφιλαργυρον", "latvian": ["ne"] }
     ],
     "leftover_latvian": ["mantkārīgam"]
   },
@@ -86,15 +86,15 @@
       { "greek": "μη", "latvian": ["ne"] },
       { "greek": "νεοφυτον", "latvian": ["jaunatgrieztam"] },
       { "greek": "ινα", "latvian": ["lai"] },
-      { "greek": "μη", "latvian": ["viņš", "ne"] },
-      { "greek": "τυφωθεις", "latvian": ["uzpūstos"] },
-      { "greek": "εις", "latvian": ["un", "ne"] },
-      { "greek": "κριμα", "latvian": ["iekristu"] },
+      { "greek": "μη", "latvian": ["viņš"] },
+      { "greek": "τυφωθεις", "latvian": [] },
+      { "greek": "εις", "latvian": ["un"] },
+      { "greek": "κριμα", "latvian": [] },
       { "greek": "εμπεση", "latvian": [] },
       { "greek": "του", "latvian": ["velna"] },
       { "greek": "διαβολου", "latvian": ["tiesā"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neuzpūstos", "neiekristu"]
   },
   {
     "greek_words": [
@@ -108,8 +108,8 @@
       { "greek": "των", "latvian": ["kas", "ir"] },
       { "greek": "εξωθεν", "latvian": ["ārpuse"] },
       { "greek": "ινα", "latvian": ["lai"] },
-      { "greek": "μη", "latvian": ["viņš", "ne"] },
-      { "greek": "εις", "latvian": ["iekristu"] },
+      { "greek": "μη", "latvian": ["viņš"] },
+      { "greek": "εις", "latvian": [] },
       { "greek": "ονειδισμον", "latvian": ["neslavā"] },
       { "greek": "εμπεση", "latvian": [] },
       { "greek": "και", "latvian": ["un"] },
@@ -117,7 +117,7 @@
       { "greek": "του", "latvian": ["valgā"] },
       { "greek": "διαβολου", "latvian": [] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neiekristu"]
   },
   {
     "greek_words": [
@@ -131,7 +131,7 @@
       { "greek": "πολλω", "latvian": [] },
       { "greek": "προσεχοντας", "latvian": ["vīna", "baudītājiem"] },
       { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "αισχροκερδεις", "latvian": ["negodīgas", "peļņas", "kārīgiem"] }
+      { "greek": "αισχροκερδεις", "latvian": ["negodīgas", "peļņas"] }
     ],
     "leftover_latvian": ["kāriem"]
   },

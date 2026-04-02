@@ -176,10 +176,10 @@
       { "greek": "την", "latvian": [] },
       { "greek": "ευδοκιαν", "latvian": ["Sava", "labā", "nodoma"] },
       { "greek": "αυτου", "latvian": [] },
-      { "greek": "ην", "latvian": ["kuru"] },
-      { "greek": "προεθετο", "latvian": ["Tas"] },
+      { "greek": "ην", "latvian": [] },
+      { "greek": "προεθετο", "latvian": [] },
       { "greek": "εν", "latvian": [] },
-      { "greek": "αυτω", "latvian": ["Viņā"] }
+      { "greek": "αυτω", "latvian": [] }
     ],
     "leftover_latvian": []
   },
@@ -305,7 +305,7 @@
     "greek_words": [
       { "greek": "Δια", "latvian": ["Tāpēc"] },
       { "greek": "τουτο", "latvian": [] },
-      { "greek": "καγω", "latvian": ["es", "arī"] },
+      { "greek": "καγω", "latvian": [] },
       { "greek": "ακουσας", "latvian": ["dzirdēdams"] },
       { "greek": "την", "latvian": [] },
       { "greek": "καθ", "latvian": ["par", "jūsu"] },
@@ -328,8 +328,8 @@
   },
   {
     "greek_words": [
-      { "greek": "ου", "latvian": ["es", "ne"] },
-      { "greek": "παυομαι", "latvian": ["beidzu"] },
+      { "greek": "ου", "latvian": ["es"] },
+      { "greek": "παυομαι", "latvian": [] },
       { "greek": "ευχαριστων", "latvian": ["pateikties"] },
       { "greek": "υπερ", "latvian": ["Dievam", "par"] },
       { "greek": "υμων", "latvian": ["jums"] },
@@ -340,7 +340,7 @@
       { "greek": "προσευχων", "latvian": ["jūs", "savās", "lūgšanās"] },
       { "greek": "μου", "latvian": [] }
     ],
-    "leftover_latvian": ["arī"]
+    "leftover_latvian": ["arī", "nebeidzu"]
   },
   {
     "greek_words": [
@@ -370,7 +370,7 @@
   },
   {
     "greek_words": [
-      { "greek": "πεφωτισμενους", "latvian": ["apgaismotas"] },
+      { "greek": "πεφωτισμενους", "latvian": [] },
       { "greek": "τους", "latvian": [] },
       { "greek": "οφθαλμους", "latvian": ["gara", "acis"] },
       { "greek": "της", "latvian": [] },
@@ -421,7 +421,7 @@
       { "greek": "του", "latvian": [] },
       { "greek": "κρατους", "latvian": ["tādā", "pašā"] },
       { "greek": "της", "latvian": [] },
-      { "greek": "ισχυος", "latvian": ["visvarenības", "varenībā"] },
+      { "greek": "ισχυος", "latvian": ["varenībā"] },
       { "greek": "αυτου", "latvian": [] }
     ],
     "leftover_latvian": ["visspēcības"]

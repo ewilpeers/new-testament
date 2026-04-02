@@ -217,7 +217,7 @@
       { "greek": "βρωμασιν", "latvian": ["ēdieniem"] },
       { "greek": "και", "latvian": ["un"] },
       { "greek": "πομασιν", "latvian": ["dzērieniem"] },
-      { "greek": "και", "latvian": ["un"] },
+      { "greek": "και", "latvian": [] },
       { "greek": "διαφοροις", "latvian": ["dažādām"] },
       { "greek": "βαπτισμοις", "latvian": ["mazgāšanām"] },
       { "greek": "δικαιωματα", "latvian": ["uzlikti"] },
@@ -329,7 +329,7 @@
       { "greek": "εργων", "latvian": ["darbiem"] },
       { "greek": "εις", "latvian": [] },
       { "greek": "το", "latvian": [] },
-      { "greek": "λατρευειν", "latvian": ["upurējis", "kalpošanai"] },
+      { "greek": "λατρευειν", "latvian": ["kalpošanai"] },
       { "greek": "Θεω", "latvian": ["dzīvajam"] },
       { "greek": "ζωντι", "latvian": ["Dievam"] }
     ],
@@ -452,7 +452,7 @@
   },
   {
     "greek_words": [
-      { "greek": "λεγων", "latvian": ["sacīdams"] },
+      { "greek": "λεγων", "latvian": [] },
       { "greek": "Τουτο", "latvian": ["šīs"] },
       { "greek": "το", "latvian": [] },
       { "greek": "αιμα", "latvian": ["ir", "tās"] },
@@ -634,7 +634,7 @@
       { "greek": "Χριστος", "latvian": ["Kristus"] },
       { "greek": "απαξ", "latvian": ["vienreiz"] },
       { "greek": "προσενεχθεις", "latvian": ["upurēts"] },
-      { "greek": "εις", "latvian": ["lai"] },
+      { "greek": "εις", "latvian": [] },
       { "greek": "το", "latvian": [] },
       { "greek": "πολλων", "latvian": ["daudzu", "cilvēku"] },
       { "greek": "ανενεγκειν", "latvian": ["grēkus", "atņemt"] },

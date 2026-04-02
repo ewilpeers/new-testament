@@ -19,7 +19,7 @@
   {
     "greek_words": [
       { "greek": "μηδενα", "latvian": ["nevienu"] },
-      { "greek": "βλασφημειν", "latvian": ["ne", "pulgo"] },
+      { "greek": "βλασφημειν", "latvian": [] },
       { "greek": "αμαχους", "latvian": ["tur", "mieru"] },
       { "greek": "ειναι", "latvian": ["izturas"] },
       { "greek": "επιεικεις", "latvian": ["laipni"] },
@@ -30,7 +30,7 @@
       { "greek": "παντας", "latvian": [] },
       { "greek": "ανθρωπους", "latvian": [] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nepulgo"]
   },
   {
     "greek_words": [
@@ -265,11 +265,11 @@
       { "greek": "αναγκαιας", "latvian": ["vajadzība"] },
       { "greek": "χρειας", "latvian": ["spiež"] },
       { "greek": "ινα", "latvian": ["lai"] },
-      { "greek": "μη", "latvian": ["tie", "ne"] },
-      { "greek": "ωσιν", "latvian": ["būtu"] },
+      { "greek": "μη", "latvian": ["tie"] },
+      { "greek": "ωσιν", "latvian": [] },
       { "greek": "ακαρποι", "latvian": ["neauglīgi"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["nebūtu"]
   },
   {
     "greek_words": [
@@ -290,7 +290,7 @@
       { "greek": "μετα", "latvian": ["lai", "ir", "ar"] },
       { "greek": "παντων", "latvian": ["jums", "visiem"] },
       { "greek": "υμων", "latvian": [] },
-      { "greek": "Αμην", "latvian": ["Āmen"] }
+      { "greek": "Αμην", "latvian": [] }
     ],
     "leftover_latvian": []
   }

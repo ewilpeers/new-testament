@@ -167,9 +167,9 @@
   },
   {
     "greek_words": [
-      { "greek": "Οτι", "latvian": ["Jeb"] },
+      { "greek": "Οτι", "latvian": [] },
       { "greek": "ει", "latvian": [] },
-      { "greek": "και", "latvian": ["šu", "es"] },
+      { "greek": "και", "latvian": ["es"] },
       { "greek": "ελυπησα", "latvian": ["jūs", "ar", "savu", "vēstuli", "esmu", "skumdinājis"] },
       { "greek": "υμας", "latvian": [] },
       { "greek": "εν", "latvian": [] },
@@ -295,7 +295,7 @@
       { "greek": "ενεκεν", "latvian": [] },
       { "greek": "του", "latvian": [] },
       { "greek": "αδικηθεντος", "latvian": [] },
-      { "greek": "αλλ", "latvian": ["bet", "tāpēc"] },
+      { "greek": "αλλ", "latvian": ["bet"] },
       { "greek": "ενεκεν", "latvian": ["lai"] },
       { "greek": "του", "latvian": [] },
       { "greek": "φανερωθηναι", "latvian": ["jūsu", "rūpība", "par", "mums"] },
@@ -315,7 +315,7 @@
   },
   {
     "greek_words": [
-      { "greek": "δια", "latvian": ["Tāpēc"] },
+      { "greek": "δια", "latvian": [] },
       { "greek": "τουτο", "latvian": [] },
       { "greek": "παρακεκλημεθα", "latvian": ["mēs", "esam", "iepriecināti"] },
       { "greek": "Επι", "latvian": ["Mūsu", "ieprieca"] },

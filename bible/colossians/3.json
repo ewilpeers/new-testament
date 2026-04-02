@@ -151,8 +151,8 @@
   },
   {
     "greek_words": [
-      { "greek": "Μη", "latvian": ["Ne"] },
-      { "greek": "ψευδεσθε", "latvian": ["meloji et"] },
+      { "greek": "Μη", "latvian": [] },
+      { "greek": "ψευδεσθε", "latvian": [] },
       { "greek": "εις", "latvian": ["cits", "citam"] },
       { "greek": "αλληλους", "latvian": [] },
       { "greek": "απεκδυσαμενοι", "latvian": ["novelciet"] },
@@ -161,7 +161,7 @@
       { "greek": "ανθρωπον", "latvian": ["cilvēku"] },
       { "greek": "συν", "latvian": ["un", "viņa"] },
       { "greek": "ταις", "latvian": [] },
-      { "greek": "πραξεσιν", "latvian": ["darbiem"] },
+      { "greek": "πραξεσιν", "latvian": [] },
       { "greek": "αυτου", "latvian": [] }
     ],
     "leftover_latvian": ["Nemelojiet", "darbus"]
@@ -248,7 +248,7 @@
       { "greek": "Κυριος", "latvian": ["mūsu", "Kungs"] },
       { "greek": "εχαρισατο", "latvian": ["jums", "piedevis"] },
       { "greek": "υμιν", "latvian": [] },
-      { "greek": "ουτως", "latvian": ["tā"] },
+      { "greek": "ουτως", "latvian": [] },
       { "greek": "και", "latvian": ["piedodiet", "arī"] },
       { "greek": "υμεις", "latvian": ["jūs"] }
     ],
@@ -310,7 +310,7 @@
       { "greek": "σοφια", "latvian": ["gudrībā"] },
       { "greek": "διδασκοντες", "latvian": ["pamācait"] },
       { "greek": "και", "latvian": ["un"] },
-      { "greek": "νουθετουντες", "latvian": ["paskubiniet"] },
+      { "greek": "νουθετουντες", "latvian": [] },
       { "greek": "εαυτους", "latvian": ["cits", "citu"] },
       { "greek": "ψαλμοις", "latvian": ["ar", "psalmiem"] },
       { "greek": "υμνοις", "latvian": ["himnām"] },
@@ -378,12 +378,12 @@
       { "greek": "τας", "latvian": [] },
       { "greek": "γυναικας", "latvian": ["savas", "sievas"] },
       { "greek": "και", "latvian": ["un"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "πικραινεσθε", "latvian": ["esiet", "skarbi"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "πικραινεσθε", "latvian": ["skarbi"] },
       { "greek": "προς", "latvian": ["pret"] },
       { "greek": "αυτας", "latvian": ["viņām"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neesiet"]
   },
   {
     "greek_words": [
@@ -407,16 +407,16 @@
     "greek_words": [
       { "greek": "Οι", "latvian": [] },
       { "greek": "πατερες", "latvian": ["Tēvi"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "ερεθιζετε", "latvian": ["kaitiniet"] },
+      { "greek": "μη", "latvian": [] },
+      { "greek": "ερεθιζετε", "latvian": [] },
       { "greek": "τα", "latvian": [] },
       { "greek": "τεκνα", "latvian": ["savus", "bērnus"] },
       { "greek": "υμων", "latvian": [] },
       { "greek": "ινα", "latvian": ["lai", "tie"] },
-      { "greek": "μη", "latvian": ["ne"] },
-      { "greek": "αθυμωσιν", "latvian": ["top", "bailīgi"] }
+      { "greek": "μη", "latvian": [] },
+      { "greek": "αθυμωσιν", "latvian": ["bailīgi"] }
     ],
-    "leftover_latvian": ["nekaitinait"]
+    "leftover_latvian": ["nekaitinait", "netop"]
   },
   {
     "greek_words": [
@@ -451,7 +451,7 @@
       { "greek": "ποιητε", "latvian": ["ko", "darāt"] },
       { "greek": "εκ", "latvian": [] },
       { "greek": "ψυχης", "latvian": ["no", "sirds"] },
-      { "greek": "εργαζεσθε", "latvian": ["dariet"] },
+      { "greek": "εργαζεσθε", "latvian": [] },
       { "greek": "ως", "latvian": ["it", "kā"] },
       { "greek": "τω", "latvian": [] },
       { "greek": "Κυριω", "latvian": ["savam", "Kungam"] },
@@ -487,11 +487,11 @@
       { "greek": "κομισεται", "latvian": ["dabūs"] },
       { "greek": "ο", "latvian": ["pelnīto"] },
       { "greek": "ηδικησεν", "latvian": ["atmaksu"] },
-      { "greek": "και", "latvian": ["un"] },
-      { "greek": "ουκ", "latvian": ["tur", "ne"] },
-      { "greek": "εστιν", "latvian": ["uzlūko"] },
+      { "greek": "και", "latvian": [] },
+      { "greek": "ουκ", "latvian": ["tur"] },
+      { "greek": "εστιν", "latvian": [] },
       { "greek": "προσωπολημψια", "latvian": ["cilvēka", "vaigu"] }
     ],
-    "leftover_latvian": []
+    "leftover_latvian": ["neuzlūko"]
   }
 ]

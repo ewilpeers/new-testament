@@ -33,7 +33,7 @@
       { "greek": "το", "latvian": [] },
       { "greek": "στηριξαι", "latvian": ["viņš", "jūs"] },
       { "greek": "υμας", "latvian": [] },
-      { "greek": "και", "latvian": ["stiprinātu", "un"] },
+      { "greek": "και", "latvian": ["stiprinātu"] },
       { "greek": "παρακαλεσαι", "latvian": ["jūs", "drosinātu"] },
       { "greek": "υπερ", "latvian": [] },
       { "greek": "της", "latvian": [] },
@@ -57,7 +57,7 @@
       { "greek": "οτι", "latvian": ["ka"] },
       { "greek": "εις", "latvian": ["tādi", "mums"] },
       { "greek": "τουτο", "latvian": [] },
-      { "greek": "κειμεθα", "latvian": ["nolemit"] }
+      { "greek": "κειμεθα", "latvian": [] }
     ],
     "leftover_latvian": ["nolemti"]
   },
@@ -105,7 +105,7 @@
       { "greek": "και", "latvian": ["kārdinājis", "un", "vai"] },
       { "greek": "εις", "latvian": [] },
       { "greek": "κενον", "latvian": ["mūsu", "darbs"] },
-      { "greek": "γενηται", "latvian": ["nesāktu", "irt"] },
+      { "greek": "γενηται", "latvian": ["irt"] },
       { "greek": "ο", "latvian": [] },
       { "greek": "κοπος", "latvian": [] },
       { "greek": "ημων", "latvian": [] }
@@ -138,7 +138,7 @@
       { "greek": "ημων", "latvian": [] },
       { "greek": "αγαθην", "latvian": ["pieminat"] },
       { "greek": "παντοτε", "latvian": [] },
-      { "greek": "επιποθουντες", "latvian": ["un", "ilgojaties", "mūs"] },
+      { "greek": "επιποθουντες", "latvian": ["ilgojaties", "mūs"] },
       { "greek": "ημας", "latvian": [] },
       { "greek": "ιδειν", "latvian": ["redzēt"] },
       { "greek": "καθαπερ", "latvian": ["tāpat", "kā"] },
@@ -201,7 +201,7 @@
       { "greek": "η", "latvian": ["ko"] },
       { "greek": "χαιρομεν", "latvian": ["izjūtam"] },
       { "greek": "δι", "latvian": ["mūsu", "Dieva", "priekšā"] },
-      { "greek": "υμας", "latvian": ["par", "jums"] },
+      { "greek": "υμας", "latvian": [] },
       { "greek": "εμπροσθεν", "latvian": [] },
       { "greek": "του", "latvian": [] },
       { "greek": "Θεου", "latvian": [] },
