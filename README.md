@@ -1,4 +1,8 @@
-mapping the NT Greek to 1965 Latvian
+# mapping the NT Greek to 1965 Latvian
+
+[Rendered site](https://t.noit.pro/g/)
+
+---
 
  ✅ 1_corinthians: 16 chapters, 437 verses (1.71s) <br>
   ✅ 1_john: 5 chapters, 105 verses (0.40s) <br>
