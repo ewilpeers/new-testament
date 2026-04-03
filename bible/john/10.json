@@ -153,7 +153,7 @@
       { "greek": "τῶν", "latvian": ["pie"] },
       { "greek": "προβάτων", "latvian": ["avīm"] }
     ],
-    "leftover_latvian": ["ved", "Es"]
+    "leftover_latvian": ["ved", "ES"]
   },
   {
     "greek_words": [
@@ -186,7 +186,7 @@
       { "greek": "ἐάν", "latvian": ["Ja"] },
       { "greek": "τις", "latvian": ["kāds"] },
       { "greek": "εἰσέλθῃ", "latvian": ["ieiet"] },
-      { "greek": "σωθήσεται", "latvian": ["tiks", "izglābts;"] },
+      { "greek": "σωθήσεται", "latvian": ["tiks", "izglābts"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "εἰσελεύσεται", "latvian": ["ieies"] },
       { "greek": "καὶ", "latvian": ["un"] },
@@ -311,16 +311,16 @@
       { "greek": "τὰ", "latvian": [] },
       { "greek": "ἐμά", "latvian": ["Manas"] }
     ],
-    "leftover_latvian": ["avis", "avis", "ES"]
+    "leftover_latvian": ["avis", "avis", "Es"]
   },
   {
     "greek_words": [
       { "greek": "καθὼς", "latvian": ["kā"] },
       { "greek": "γινώσκει", "latvian": ["pazīst"] },
-      { "greek": "με", "latvian": ["mani"] },
+      { "greek": "με", "latvian": ["Mani"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Πατὴρ", "latvian": ["Tēvs"] },
-      { "greek": "κἀγὼ", "latvian": ["un", "es"] },
+      { "greek": "κἀγὼ", "latvian": ["un", "Es"] },
       { "greek": "γινώσκω", "latvian": ["pazīstu"] },
       { "greek": "τὸν", "latvian": [] },
       { "greek": "Πατέρα", "latvian": ["Tēvu"] },
@@ -754,7 +754,7 @@
       { "greek": "ἐγένετο", "latvian": ["attiecas"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "οὐ", "latvian": ["ne-"] },
-      { "greek": "δύναται", "latvian": ["- var"] },
+      { "greek": "δύναται", "latvian": ["var"] },
       { "greek": "λυθῆναι", "latvian": ["tikt", "atcelti"] },
       { "greek": "ἡ", "latvian": [] },
       { "greek": "γραφή", "latvian": ["raksti"] }

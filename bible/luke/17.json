@@ -25,7 +25,7 @@
   {
     "greek_words": [
       { "greek": "λυσιτελεῖ", "latvian": ["būtu", "labāk"] },
-      { "greek": "αὐτῷ", "latvian": ["Tam"] },
+      { "greek": "αὐτῷ", "latvian": ["tam"] },
       { "greek": "εἰ", "latvian": ["ja"] },
       { "greek": "λίθος", "latvian": [] },
       { "greek": "μυλικὸς", "latvian": ["dzirnakmeni"] },
@@ -132,7 +132,7 @@
       { "greek": "ἂν", "latvian": [] },
       { "greek": "ὑμῖν", "latvian": ["jūs"] }
     ],
-    "leftover_latvian": ["ar", "savām", "saknēm", "un", "uz", "koku", "Viņš"]
+    "leftover_latvian": ["ar", "savām", "saknēm", "un", "uz", "koku", "viņš"]
   },
   {
     "greek_words": [
@@ -506,7 +506,7 @@
   },
   {
     "greek_words": [
-      { "greek": "πρῶτον", "latvian": ["Bet", "paprīekš"] },
+      { "greek": "πρῶτον", "latvian": ["Bet", "papriekš"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "δεῖ", "latvian": [] },
       { "greek": "αὐτὸν", "latvian": ["Viņam"] },
@@ -710,7 +710,7 @@
   },
   {
     "greek_words": [
-      { "greek": "ἔσονται", "latvian": ["Divas", "kopa"] },
+      { "greek": "ἔσονται", "latvian": ["Divas", "kopā"] },
       { "greek": "δύο", "latvian": [] },
       { "greek": "ἀλήθουσαι", "latvian": ["mals"] },
       { "greek": "ἐπὶ", "latvian": [] },

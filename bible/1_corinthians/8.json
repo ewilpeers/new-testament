@@ -179,7 +179,7 @@
       { "greek": "φάγωμεν", "latvian": ["ēzdami"] },
       { "greek": "περισσεύομεν", "latvian": ["labāki"] }
     ],
-    "leftover_latvian": ["netuvinās", "neēzdami"]
+    "leftover_latvian": ["netuvinās", "neēzdami", "ne"]
   },
   {
     "greek_words": [
@@ -200,7 +200,7 @@
   },
   {
     "greek_words": [
-      { "greek": "ἐὰν", "latvian": ["Ja"] },
+      { "greek": "ἐὰν", "latvian": ["ja"] },
       { "greek": "γάρ", "latvian": ["Jo"] },
       { "greek": "τις", "latvian": ["kas"] },
       { "greek": "ἴδῃ", "latvian": ["redzēs"] },

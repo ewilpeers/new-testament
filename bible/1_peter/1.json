@@ -10,7 +10,7 @@
       { "greek": "Διασπορᾶς", "latvian": ["kas", "izkaisīti"] },
       { "greek": "Πόντου", "latvian": ["Pontā"] },
       { "greek": "Γαλατίας", "latvian": ["Galatijā"] },
-      { "greek": "Καππαδοκίας", "latvian": ["Kapadokijā"] },
+      { "greek": "Καππαδοκίας", "latvian": ["Kapadoķijā"] },
       { "greek": "Ἀσίας", "latvian": ["Āzijā"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "Βιθυνίας", "latvian": ["Bitinijā"] }
@@ -59,7 +59,7 @@
       { "greek": "πολὺ", "latvian": ["Savā", "lielajā"] },
       { "greek": "αὐτοῦ", "latvian": [] },
       { "greek": "ἔλεος", "latvian": ["žēlastībā"] },
-      { "greek": "ἀναγεννήσας", "latvian": ["mūs", "ir", "atdzemdinājis"] },
+      { "greek": "ἀναγεννήσας", "latvian": ["mūs", "ir", "atdzemdinājis"] },
       { "greek": "ἡμᾶς", "latvian": [] },
       { "greek": "εἰς", "latvian": ["dzīvai"] },
       { "greek": "ἐλπίδα", "latvian": ["cerībai"] },
@@ -69,7 +69,7 @@
       { "greek": "Ἰησοῦ", "latvian": [] },
       { "greek": "Χριστοῦ", "latvian": [] },
       { "greek": "ἐκ", "latvian": ["no"] },
-      { "greek": "νεκρῶν", "latvian": ["miroņiem"] }
+      { "greek": "νεκρῶν", "latvian": ["miroņiem"] }
     ],
     "leftover_latvian": []
   },
@@ -181,7 +181,7 @@
     "greek_words": [
       { "greek": "κομιζόμενοι", "latvian": ["kad", "jūs", "sasniegsit"] },
       { "greek": "τὸ", "latvian": [] },
-      { "greek": "τέλος", "latvian": ["savas", "ticības", "galamērķi"] },
+      { "greek": "τέλος", "latvian": ["savas", "ticības", "galamērķi"] },
       { "greek": "τῆς", "latvian": [] },
       { "greek": "πίστεως", "latvian": [] },
       { "greek": "ὑμῶν", "latvian": [] },
@@ -429,7 +429,7 @@
       { "greek": "ἐγείραντα", "latvian": ["Viņu", "ir", "uzmodinājis"] },
       { "greek": "αὐτὸν", "latvian": [] },
       { "greek": "ἐκ", "latvian": ["no"] },
-      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
+      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "δόξαν", "latvian": ["To", "godā"] },
       { "greek": "αὐτῷ", "latvian": [] },
@@ -458,7 +458,7 @@
       { "greek": "τῆς", "latvian": [] },
       { "greek": "ἀληθείας", "latvian": ["patiesībai"] },
       { "greek": "εἰς", "latvian": ["uz"] },
-      { "greek": "φιλαδελφίαν", "latvian": ["neliekulotu", "brāļu", "mīlestību"] },
+      { "greek": "φιλαδελφίαν", "latvian": ["neliekuļotu", "brāļu", "mīlestību"] },
       { "greek": "ἀνυπόκριτον", "latvian": [] },
       { "greek": "ἐκ", "latvian": [] },
       { "greek": "καθαρᾶς", "latvian": ["no", "visas"] },

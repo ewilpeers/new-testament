@@ -20,7 +20,7 @@
       { "greek": "ἐγείραντος", "latvian": ["Viņu", "uzmodinājis"] },
       { "greek": "αὐτὸν", "latvian": [] },
       { "greek": "ἐκ", "latvian": [] },
-      { "greek": "νεκρῶν", "latvian": ["miroņiem"] }
+      { "greek": "νεκρῶν", "latvian": ["miroņiem"] }
     ],
     "leftover_latvian": ["iecelts", "Jēzus", "Kristus"]
   },
@@ -258,7 +258,7 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "τῷ", "latvian": [] },
       { "greek": "Ἰουδαϊσμῷ", "latvian": ["jūdu", "ticībā"] },
-      { "greek": "ὅτι", "latvian": ["ka"] },
+      { "greek": "ὅτι", "latvian": ["kā"] },
       { "greek": "καθ", "latvian": ["pārlieku"] },
       { "greek": "ὑπερβολὴν", "latvian": [] },
       { "greek": "ἐδίωκον", "latvian": ["es", "vajāju"] },
@@ -347,7 +347,7 @@
       { "greek": "οὐδὲ", "latvian": ["nedz"] },
       { "greek": "ἀνῆλθον", "latvian": ["nogāju"] },
       { "greek": "εἰς", "latvian": ["uz"] },
-      { "greek": "Ἱεροσόλυμα", "latvian": ["Jeruzalemi"] },
+      { "greek": "Ἱεροσόλυμα", "latvian": ["Jeruzālemi"] },
       { "greek": "πρὸς", "latvian": ["pie"] },
       { "greek": "τοὺς", "latvian": ["tiem"] },
       { "greek": "πρὸ", "latvian": ["kas"] },
@@ -373,7 +373,7 @@
       { "greek": "ἔτη", "latvian": [] },
       { "greek": "ἀνῆλθον", "latvian": ["es", "nogāju"] },
       { "greek": "εἰς", "latvian": ["uz"] },
-      { "greek": "Ἱεροσόλυμα", "latvian": ["Jeruzalemi"] },
+      { "greek": "Ἱεροσόλυμα", "latvian": ["Jeruzālemi"] },
       { "greek": "ἱστορῆσαι", "latvian": ["iepazīties"] },
       { "greek": "Κηφᾶν", "latvian": ["ar", "Kēfu", "Pēteri"] },
       { "greek": "καὶ", "latvian": ["un"] },
@@ -455,7 +455,7 @@
     "greek_words": [
       { "greek": "μόνον", "latvian": ["Tikai"] },
       { "greek": "δὲ", "latvian": [] },
-      { "greek": "ἀκούοντες", "latvian": ["tās", "dzirdēja"] },
+      { "greek": "ἀκούοντες", "latvian": ["tas", "dzirdēja"] },
       { "greek": "ἦσαν", "latvian": [] },
       { "greek": "ὅτι", "latvian": [] },
       { "greek": "Ὁ", "latvian": ["kas"] },

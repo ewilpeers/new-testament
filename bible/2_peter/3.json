@@ -1,10 +1,10 @@
 [
   {
     "greek_words": [
-      { "greek": "Ταύτην", "latvian": ["Šī", "jau", "ir"] },
+      { "greek": "Ταύτην", "latvian": ["šī", "jau", "ir"] },
       { "greek": "ἤδη", "latvian": [] },
       { "greek": "ἀγαπητοί", "latvian": ["Mīļie"] },
-      { "greek": "δευτέραν", "latvian": ["otrā"] },
+      { "greek": "δευτέραν", "latvian": ["otra"] },
       { "greek": "ὑμῖν", "latvian": ["es", "jums"] },
       { "greek": "γράφω", "latvian": ["rakstu"] },
       { "greek": "ἐπιστολήν", "latvian": ["vēstule"] },
@@ -419,7 +419,7 @@
       { "greek": "Σωτῆρος", "latvian": [] },
       { "greek": "Ἰησοῦ", "latvian": [] },
       { "greek": "Χριστοῦ", "latvian": [] },
-      { "greek": "αὐτῷ", "latvian": ["žēlastībā", "un", "atziņa", "Viņam"] },
+      { "greek": "αὐτῷ", "latvian": ["žēlastībā", "un", "atziņā", "Viņam"] },
       { "greek": "ἡ", "latvian": [] },
       { "greek": "δόξα", "latvian": ["lai", "ir", "gods"] },
       { "greek": "καὶ", "latvian": ["tagad"] },

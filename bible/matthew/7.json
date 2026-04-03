@@ -62,7 +62,7 @@
       { "greek": "ἀδελφῷ", "latvian": ["brāli"] },
       { "greek": "σου", "latvian": ["savu"] },
       { "greek": "Ἄφες", "latvian": ["laid"] },
-      { "greek": "ἐκβάλω", "latvian": ["es", "izvilkšu"] },
+      { "greek": "ἐκβάλω", "latvian": ["es", "izvilkšu"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "κάρφος", "latvian": ["skabargu"] },
       { "greek": "ἐκ", "latvian": ["no"] },
@@ -76,7 +76,7 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "τῷ", "latvian": [] },
       { "greek": "ὀφθαλμῷ", "latvian": ["acī"] },
-      { "greek": "σοῦ", "latvian": ["tavā", "pašā"] }
+      { "greek": "σοῦ", "latvian": ["tavā", "paša"] }
     ],
     "leftover_latvian": ["uz"]
   },

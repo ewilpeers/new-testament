@@ -254,7 +254,7 @@
     "greek_words": [
       { "greek": "Εἴτε", "latvian": ["Ja"] },
       { "greek": "γὰρ", "latvian": [] },
-      { "greek": "ἐξέστημεν", "latvian": ["aizrāvāmies"] },
+      { "greek": "ἐξέστημεν", "latvian": ["aizrāvāmies"] },
       { "greek": "Θεῷ", "latvian": ["līdz", "neprātam", "Dievam", "par", "godu"] },
       { "greek": "εἴτε", "latvian": ["ja"] },
       { "greek": "σωφρονοῦμεν", "latvian": ["esam", "apdomīgi"] },
@@ -358,7 +358,7 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Θεοῦ", "latvian": ["Dieva"] },
       { "greek": "τοῦ", "latvian": ["kas"] },
-      { "greek": "καταλλάξαντος", "latvian": ["mūs", "ir", "salidzinājis"] },
+      { "greek": "καταλλάξαντος", "latvian": ["mūs", "ir", "salīdzinājis"] },
       { "greek": "ἡμᾶς", "latvian": [] },
       { "greek": "ἑαυτῷ", "latvian": ["ar", "Sevi"] },
       { "greek": "διὰ", "latvian": ["caur"] },
@@ -367,7 +367,7 @@
       { "greek": "δόντος", "latvian": ["mums", "devis"] },
       { "greek": "ἡμῖν", "latvian": [] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "διακονίαν", "latvian": ["salidzināšanas", "kalpošanu"] },
+      { "greek": "διακονίαν", "latvian": ["salīdzināšanas", "kalpošanu"] },
       { "greek": "τῆς", "latvian": [] },
       { "greek": "καταλλαγῆς", "latvian": [] }
     ],
@@ -381,7 +381,7 @@
       { "greek": "ἦν", "latvian": ["bija"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "Χριστῷ", "latvian": ["Kristū"] },
-      { "greek": "κόσμον", "latvian": ["un", "salidzināja", "pasauli"] },
+      { "greek": "κόσμον", "latvian": ["un", "salīdzināja", "pasauli"] },
       { "greek": "καταλλάσσων", "latvian": [] },
       { "greek": "ἑαυτῷ", "latvian": ["ar", "Sevi"] },
       { "greek": "μὴ", "latvian": ["tiem"] },
@@ -395,7 +395,7 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "ἡμῖν", "latvian": [] },
       { "greek": "τὸν", "latvian": [] },
-      { "greek": "λόγον", "latvian": ["salidzināšanas", "vārdu"] },
+      { "greek": "λόγον", "latvian": ["salīdzināšanas", "vārdu"] },
       { "greek": "τῆς", "latvian": [] },
       { "greek": "καταλλαγῆς", "latvian": [] }
     ],
@@ -416,7 +416,7 @@
       { "greek": "δεόμεθα", "latvian": ["Mēs", "lūdzam"] },
       { "greek": "ὑπὲρ", "latvian": ["Kristus", "Vārdā"] },
       { "greek": "Χριστοῦ", "latvian": [] },
-      { "greek": "καταλλάγητε", "latvian": ["ļaujieties", "salidzināties"] },
+      { "greek": "καταλλάγητε", "latvian": ["ļaujieties", "salīdzināties"] },
       { "greek": "τῷ", "latvian": ["ar"] },
       { "greek": "Θεῷ", "latvian": ["Dievu"] }
     ],

@@ -103,7 +103,7 @@
       { "greek": "εἰς", "latvian": ["vēl", "beigās"] },
       { "greek": "τέλος", "latvian": [] },
       { "greek": "ἐρχομένη", "latvian": ["nāks"] },
-      { "greek": "ὑπωπιάζῃ", "latvian": ["un", "man", "sitis", "vaigā"] },
+      { "greek": "ὑπωπιάζῃ", "latvian": ["un", "man", "sitīs", "vaigā"] },
       { "greek": "με", "latvian": [] }
     ],
     "leftover_latvian": ["viņa"]
@@ -480,8 +480,8 @@
       { "greek": "Ἰησοῦς", "latvian": ["Jēzus"] },
       { "greek": "εἶπεν", "latvian": ["teica"] },
       { "greek": "αὐτῷ", "latvian": [] },
-      { "greek": "Ἔτι", "latvian": ["Vēl"] },
-      { "greek": "ἕν", "latvian": ["vienas", "lietas"] },
+      { "greek": "Ἔτι", "latvian": ["vēl"] },
+      { "greek": "ἕν", "latvian": ["Vienas", "lietas"] },
       { "greek": "σοι", "latvian": ["tev"] },
       { "greek": "λείπει", "latvian": ["trūkst"] },
       { "greek": "πάντα", "latvian": ["visu"] },
@@ -703,7 +703,7 @@
       { "greek": "καὶ", "latvian": [] },
       { "greek": "ὑβρισθήσεται", "latvian": ["nonievās"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "ἐμπτυσθήσεται", "latvian": ["apsplaudīs"] }
+      { "greek": "ἐμπτυσθήσεται", "latvian": ["apspļaudīs"] }
     ],
     "leftover_latvian": []
   },
@@ -797,7 +797,7 @@
       { "greek": "ἐβόησεν", "latvian": ["viņš", "sauca"] },
       { "greek": "λέγων", "latvian": [] },
       { "greek": "Ἰησοῦ", "latvian": ["Jēzu"] },
-      { "greek": "υἱὲ", "latvian": ["Dēls"] },
+      { "greek": "υἱὲ", "latvian": ["dēls"] },
       { "greek": "Δαυίδ", "latvian": ["Dāvida"] },
       { "greek": "ἐλέησόν", "latvian": ["apžēlojies"] },
       { "greek": "με", "latvian": ["par", "mani"] }
@@ -818,7 +818,7 @@
       { "greek": "πολλῷ", "latvian": ["vēl"] },
       { "greek": "μᾶλλον", "latvian": ["stiprāk"] },
       { "greek": "ἔκραζεν", "latvian": ["kliedza"] },
-      { "greek": "Υἱὲ", "latvian": ["Tu", "Dēls"] },
+      { "greek": "Υἱὲ", "latvian": ["Tu", "dēls"] },
       { "greek": "Δαυίδ", "latvian": ["Dāvida"] },
       { "greek": "ἐλέησόν", "latvian": ["apžēlojies"] },
       { "greek": "με", "latvian": ["par", "mani"] }

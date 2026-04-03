@@ -57,7 +57,7 @@
       { "greek": "οὐδὲν", "latvian": [] },
       { "greek": "γὰρ", "latvian": [] },
       { "greek": "ἐμαυτῷ", "latvian": [] },
-      { "greek": "σύνοιδα", "latvian": ["es", "neapzinos"] },
+      { "greek": "σύνοιδα", "latvian": ["Es", "neapzinos"] },
       { "greek": "ἀλλ", "latvian": ["bet"] },
       { "greek": "οὐκ", "latvian": ["ne-"] },
       { "greek": "ἐν", "latvian": [] },
@@ -157,7 +157,7 @@
       { "greek": "οὐκ", "latvian": ["ne-"] },
       { "greek": "ἔλαβες", "latvian": ["būtu", "saņēmis"] },
       { "greek": "εἰ", "latvian": ["ja"] },
-      { "greek": "δὲ", "latvian": ["bet"] },
+      { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "καὶ", "latvian": [] },
       { "greek": "ἔλαβες", "latvian": ["esi", "saņēmis"] },
       { "greek": "τί", "latvian": ["kāpēc"] },
@@ -266,12 +266,12 @@
       { "greek": "ταῖς", "latvian": [] },
       { "greek": "ἰδίαις", "latvian": ["savām"] },
       { "greek": "χερσίν", "latvian": ["rokām"] },
-      { "greek": "λοιδορούμενοι", "latvian": ["Mūs", "lāmā"] },
+      { "greek": "λοιδορούμενοι", "latvian": ["Mūs", "lamā"] },
       { "greek": "εὐλογοῦμεν", "latvian": ["mēs", "svētījam"] },
       { "greek": "διωκόμενοι", "latvian": ["mūs", "vajā"] },
       { "greek": "ἀνεχόμεθα", "latvian": ["mēs"] }
     ],
-    "leftover_latvian": ["un", "paciešam", "Un"]
+    "leftover_latvian": ["un", "paciešam", "un"]
   },
   {
     "greek_words": [
@@ -327,7 +327,7 @@
       { "greek": "εὐαγγελίου", "latvian": ["evaņģēliju"] },
       { "greek": "ἐγὼ", "latvian": ["es"] },
       { "greek": "ὑμᾶς", "latvian": ["jūs"] },
-      { "greek": "ἐγέννησα", "latvian": ["esmu", "dzemdīnājis"] }
+      { "greek": "ἐγέννησα", "latvian": ["esmu", "dzemdinājis"] }
     ],
     "leftover_latvian": ["jums", "tad", "sludinādams"]
   },

@@ -161,7 +161,7 @@
       { "greek": "ἀγοράσατε", "latvian": ["pērciet"] },
       { "greek": "ἑαυταῖς", "latvian": ["sev"] }
     ],
-    "leftover_latvian": ["Bet"]
+    "leftover_latvian": ["bet"]
   },
   {
     "greek_words": [
@@ -338,7 +338,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Μετὰ", "latvian": ["Pēc"] },
+      { "greek": "Μετὰ", "latvian": ["pēc"] },
       { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "πολὺν", "latvian": ["ilga"] },
       { "greek": "χρόνον", "latvian": ["laika"] },

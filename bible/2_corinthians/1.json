@@ -81,7 +81,7 @@
       { "greek": "ἐπὶ", "latvian": [] },
       { "greek": "πάσῃ", "latvian": [] },
       { "greek": "τῇ", "latvian": [] },
-      { "greek": "θλίψει", "latvian": ["bēdās"] },
+      { "greek": "θλίψει", "latvian": ["bēdas"] },
       { "greek": "ἡμῶν", "latvian": [] },
       { "greek": "εἰς", "latvian": ["ka"] },
       { "greek": "τὸ", "latvian": [] },
@@ -237,7 +237,7 @@
       { "greek": "τῷ", "latvian": ["kas"] },
       { "greek": "ἐγείροντι", "latvian": ["uzmodina"] },
       { "greek": "τοὺς", "latvian": [] },
-      { "greek": "νεκρούς", "latvian": ["mirušos"] }
+      { "greek": "νεκρούς", "latvian": ["mirušos"] }
     ],
     "leftover_latvian": ["bijām", "nepaļāvāmies"]
   },
@@ -427,7 +427,7 @@
       { "greek": "ἄρα", "latvian": [] },
       { "greek": "τῇ", "latvian": [] },
       { "greek": "ἐλαφρίᾳ", "latvian": ["vieglprātīgi"] },
-      { "greek": "ἐχρησάμην", "latvian": ["rikojies"] },
+      { "greek": "ἐχρησάμην", "latvian": ["rīkojies"] },
       { "greek": "ἢ", "latvian": ["Jeb"] },
       { "greek": "ἃ", "latvian": ["vai"] },
       { "greek": "βουλεύομαι", "latvian": ["mani", "lēmumi"] },

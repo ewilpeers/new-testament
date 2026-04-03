@@ -91,7 +91,7 @@
       { "greek": "ἐν", "latvian": ["pie"] },
       { "greek": "αὐτῷ", "latvian": [] }
     ],
-    "leftover_latvian": ["tie", "apgrēcību", "Vai"]
+    "leftover_latvian": ["tie", "apgrēcību", "vai"]
   },
   {
     "greek_words": [
@@ -142,7 +142,7 @@
       { "greek": "χεῖρας", "latvian": ["rokas"] },
       { "greek": "ἐθεράπευσεν", "latvian": ["dziedināja"] }
     ],
-    "leftover_latvian": ["Viņš", "Viņš", "Un"]
+    "leftover_latvian": ["Viņš", "Viņš", "un"]
   },
   {
     "greek_words": [
@@ -283,7 +283,7 @@
       { "greek": "πόλει", "latvian": [] },
       { "greek": "ἐκείνῃ", "latvian": [] }
     ],
-    "leftover_latvian": ["tad", "Un"]
+    "leftover_latvian": ["tad", "un"]
   },
   {
     "greek_words": [
@@ -395,7 +395,7 @@
       { "greek": "αὐτὸν", "latvian": ["to"] },
       { "greek": "ἐν", "latvian": ["cietumā"] },
       { "greek": "φυλακῇ", "latvian": [] },
-      { "greek": "διὰ", "latvian": ["dēļ;"] },
+      { "greek": "διὰ", "latvian": ["dēļ"] },
       { "greek": "Ἡρῳδιάδα", "latvian": ["Hērodijas"] },
       { "greek": "τὴν", "latvian": ["sievas"] },
       { "greek": "γυναῖκα", "latvian": [] },
@@ -428,7 +428,7 @@
       { "greek": "ἀδελφοῦ", "latvian": [] },
       { "greek": "σου", "latvian": [] }
     ],
-    "leftover_latvian": ["bija", "Tev"]
+    "leftover_latvian": ["bija", "tev"]
   },
   {
     "greek_words": [
@@ -441,7 +441,7 @@
       { "greek": "ἤθελεν", "latvian": ["gribēja"] },
       { "greek": "αὐτὸν", "latvian": [] },
       { "greek": "ἀποκτεῖναι", "latvian": ["nokaut"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "οὐκ", "latvian": ["nevarēja"] },
       { "greek": "ἠδύνατο", "latvian": [] }
     ],
@@ -501,7 +501,7 @@
       { "greek": "τῆς", "latvian": [] },
       { "greek": "Γαλιλαίας", "latvian": ["Galilejā"] }
     ],
-    "leftover_latvian": ["dzimšanas", "vīriem", "diena"]
+    "leftover_latvian": ["dzimšanas", "vīriem", "dienā"]
   },
   {
     "greek_words": [
@@ -603,19 +603,19 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Βαπτιστοῦ", "latvian": ["Kristītāja"] }
     ],
-    "leftover_latvian": ["viņa", "gāja", "tu", "Un"]
+    "leftover_latvian": ["viņa", "gāja", "tu", "un"]
   },
   {
     "greek_words": [
       { "greek": "Καὶ", "latvian": ["un"] },
-      { "greek": "περίλυπος", "latvian": ["noskuma;"] },
+      { "greek": "περίλυπος", "latvian": ["noskuma"] },
       { "greek": "γενόμενος", "latvian": [] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "βασιλεὺς", "latvian": ["ķēniņš"] },
       { "greek": "διὰ", "latvian": ["dēļ"] },
       { "greek": "τοὺς", "latvian": [] },
       { "greek": "ὅρκους", "latvian": ["zvēresta"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "τοὺς", "latvian": [] },
       { "greek": "ἀνακειμένους", "latvian": ["kas", "pie", "galda", "sēdēja"] },
       { "greek": "οὐκ", "latvian": ["negribēja"] },
@@ -671,7 +671,7 @@
       { "greek": "μητρὶ", "latvian": ["mātei"] },
       { "greek": "αὐτῆς", "latvian": [] }
     ],
-    "leftover_latvian": ["tas", "nogājis", "viņam", "cietumā", "nocirta", "galvu", "Un"]
+    "leftover_latvian": ["tas", "nogājis", "viņam", "cietumā", "nocirta", "galvu", "un"]
   },
   {
     "greek_words": [
@@ -692,7 +692,7 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "μνημείῳ", "latvian": ["ielika"] }
     ],
-    "leftover_latvian": ["kapā", "miesas", "tās", "Un"]
+    "leftover_latvian": ["kapā", "miesas", "tās", "un"]
   },
   {
     "greek_words": [
@@ -708,10 +708,10 @@
       { "greek": "αὐτῷ", "latvian": ["Tam"] },
       { "greek": "πάντα", "latvian": ["visu"] },
       { "greek": "ὅσα", "latvian": ["ko"] },
-      { "greek": "ἐποίησαν", "latvian": ["bijā", "darījuši"] },
+      { "greek": "ἐποίησαν", "latvian": ["bija", "darījuši"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ὅσα", "latvian": ["ko"] },
-      { "greek": "ἐδίδαξαν", "latvian": ["bijā", "mācījuši"] }
+      { "greek": "ἐδίδαξαν", "latvian": ["bija", "mācījuši"] }
     ],
     "leftover_latvian": ["tie", "tie"]
   },
@@ -878,7 +878,7 @@
       { "greek": "αὐτοῖς", "latvian": ["tiem"] },
       { "greek": "φαγεῖν", "latvian": ["ēst"] }
     ],
-    "leftover_latvian": ["sacīja", "Vai", "tad", "mums", "būs", "par", "Un"]
+    "leftover_latvian": ["sacīja", "Vai", "tad", "mums", "būs", "par", "un"]
   },
   {
     "greek_words": [
@@ -899,7 +899,7 @@
       { "greek": "δύο", "latvian": ["divi"] },
       { "greek": "ἰχθύας", "latvian": ["zivis"] }
     ],
-    "leftover_latvian": ["uz", "tie", "un"]
+    "leftover_latvian": ["uz", "tie", "Un"]
   },
   {
     "greek_words": [
@@ -951,7 +951,7 @@
       { "greek": "κατέκλασεν", "latvian": ["pārlauza"] },
       { "greek": "τοὺς", "latvian": [] },
       { "greek": "ἄρτους", "latvian": ["maizes"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐδίδου", "latvian": ["deva"] },
       { "greek": "τοῖς", "latvian": ["Saviem"] },
       { "greek": "μαθηταῖς", "latvian": ["mācekļiem"] },
@@ -996,7 +996,7 @@
   {
     "greek_words": [
       { "greek": "καὶ", "latvian": ["Un"] },
-      { "greek": "ἦσαν", "latvian": ["bijā"] },
+      { "greek": "ἦσαν", "latvian": ["bija"] },
       { "greek": "οἱ", "latvian": ["to"] },
       { "greek": "φαγόντες", "latvian": ["kas", "ēduši"] },
       { "greek": "τοὺς", "latvian": ["tām"] },
@@ -1004,13 +1004,13 @@
       { "greek": "πεντακισχίλιοι", "latvian": ["pieci", "tūkstoši"] },
       { "greek": "ἄνδρες", "latvian": [] }
     ],
-    "leftover_latvian": ["no", "bijā"]
+    "leftover_latvian": ["no", "bija"]
   },
   {
     "greek_words": [
       { "greek": "Καὶ", "latvian": ["Un"] },
       { "greek": "εὐθὺς", "latvian": ["tūdaļ"] },
-      { "greek": "ἠνάγκασεν", "latvian": ["likā"] },
+      { "greek": "ἠνάγκασεν", "latvian": ["lika"] },
       { "greek": "τοὺς", "latvian": [] },
       { "greek": "μαθητὰς", "latvian": ["mācekļiem"] },
       { "greek": "αὐτοῦ", "latvian": ["Saviem"] },

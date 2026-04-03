@@ -102,7 +102,7 @@
       { "greek": "οὐκ", "latvian": [] },
       { "greek": "εἴασεν", "latvian": ["dzīvot"] }
     ],
-    "leftover_latvian": ["karājamies", "bet", "neļauj"]
+    "leftover_latvian": ["karājamies", "bet", "neļauj"]
   },
   {
     "greek_words": [
@@ -185,7 +185,7 @@
       { "greek": "ἐγένετο", "latvian": [] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "τὸν", "latvian": [] },
-      { "greek": "πατέρα", "latvian": ["Pūblija", "tēvs"] },
+      { "greek": "πατέρα", "latvian": ["Publija", "tēvs"] },
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Ποπλίου", "latvian": [] },
       { "greek": "πυρετοῖς", "latvian": ["drudzī"] },
@@ -310,7 +310,7 @@
       { "greek": "ἡμέρας", "latvian": ["septiņas", "dienas"] },
       { "greek": "ἑπτά", "latvian": [] },
       { "greek": "καὶ", "latvian": [] },
-      { "greek": "οὕτως", "latvian": ["tā", "beidzot"] },
+      { "greek": "οὕτως", "latvian": ["Tā", "beidzot"] },
       { "greek": "εἰς", "latvian": [] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "Ῥώμην", "latvian": ["mēs", "nonācām", "Romā"] },
@@ -320,7 +320,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Κἀκεῖθεν", "latvian": ["turienes"] },
+      { "greek": "Κἀκεῖθεν", "latvian": ["Turienes"] },
       { "greek": "οἱ", "latvian": [] },
       { "greek": "ἀδελφοὶ", "latvian": ["brāļi"] },
       { "greek": "ἀκούσαντες", "latvian": ["par", "mums", "dzirdējuši"] },
@@ -554,7 +554,7 @@
       { "greek": "ξενίαν", "latvian": ["mājokli"] },
       { "greek": "πλείονες", "latvian": [] },
       { "greek": "οἷς", "latvian": ["tiem"] },
-      { "greek": "ἐξετίθετο", "latvian": ["viņš", "izskaidroja"] },
+      { "greek": "ἐξετίθετο", "latvian": ["Viņš", "izskaidroja"] },
       { "greek": "διαμαρτυρόμενος", "latvian": ["apliecinādams"] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "βασιλείαν", "latvian": ["Dieva", "valstību"] },

@@ -118,7 +118,7 @@
       { "greek": "Χριστὸν", "latvian": ["Kristu"] },
       { "greek": "ἐγηγερμένον", "latvian": ["kas", "uzmodināts"] },
       { "greek": "ἐκ", "latvian": ["no"] },
-      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
+      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
       { "greek": "ἐκ", "latvian": ["no"] },
       { "greek": "σπέρματος", "latvian": ["Dāvida"] },
       { "greek": "Δαυίδ", "latvian": ["cilts"] },
@@ -281,7 +281,7 @@
       { "greek": "ἐστιν", "latvian": ["ir"] },
       { "greek": "Ὑμέναιος", "latvian": ["Himenajs"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "Φιλητός", "latvian": ["Filēts"] }
+      { "greek": "Φιλητός", "latvian": ["Filēts"] }
     ],
     "leftover_latvian": []
   },
@@ -465,7 +465,7 @@
       { "greek": "μετάνοιαν", "latvian": ["atgriezties"] },
       { "greek": "εἰς", "latvian": ["pie"] },
       { "greek": "ἐπίγνωσιν", "latvian": ["patiesības"] },
-      { "greek": "ἀληθείας", "latvian": ["atziņas"] }
+      { "greek": "ἀληθείας", "latvian": ["atziņas"] }
     ],
     "leftover_latvian": []
   },

@@ -119,8 +119,8 @@
     "greek_words": [
       { "greek": "οἱ", "latvian": ["Kas"] },
       { "greek": "γὰρ", "latvian": [] },
-      { "greek": "καθεύδοντες", "latvian": ["gul"] },
-      { "greek": "νυκτὸς", "latvian": ["tas", "gul", "naktī"] },
+      { "greek": "καθεύδοντες", "latvian": ["guļ"] },
+      { "greek": "νυκτὸς", "latvian": ["tas", "guļ", "naktī"] },
       { "greek": "καθεύδουσιν", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "οἱ", "latvian": ["kas"] },
@@ -235,7 +235,7 @@
       { "greek": "αὐτοὺς", "latvian": ["viņus"] },
       { "greek": "ὑπερεκπερισσοῦ", "latvian": ["mīļus", "un", "augstā"] },
       { "greek": "ἐν", "latvian": [] },
-      { "greek": "ἀγάπῃ", "latvian": ["cienā"] },
+      { "greek": "ἀγάπῃ", "latvian": ["cieņā"] },
       { "greek": "διὰ", "latvian": ["viņu", "darba"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "ἔργον", "latvian": ["dēļ"] },
@@ -317,7 +317,7 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "Χριστῷ", "latvian": ["Kristū"] },
       { "greek": "Ἰησοῦ", "latvian": ["Jēzū"] },
-      { "greek": "εἰς", "latvian": ["attiecībā", "uz"] },
+      { "greek": "εἰς", "latvian": ["attiecībā", "uz"] },
       { "greek": "ὑμᾶς", "latvian": ["jums"] }
     ],
     "leftover_latvian": []
@@ -327,7 +327,7 @@
       { "greek": "Τὸ", "latvian": [] },
       { "greek": "Πνεῦμα", "latvian": ["Garu"] },
       { "greek": "μὴ", "latvian": ["Ne-"] },
-      { "greek": "σβέννυτε", "latvian": ["- apslāpējiet"] }
+      { "greek": "σβέννυτε", "latvian": ["apslāpējiet"] }
     ],
     "leftover_latvian": []
   },

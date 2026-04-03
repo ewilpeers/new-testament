@@ -2,7 +2,7 @@
   {
     "greek_words": [
       { "greek": "Τῇ", "latvian": [] },
-      { "greek": "ἐλευθερίᾳ", "latvian": ["Svabadībai"] },
+      { "greek": "ἐλευθερίᾳ", "latvian": ["Svabadībai"] },
       { "greek": "ἡμᾶς", "latvian": ["mūs"] },
       { "greek": "Χριστὸς", "latvian": ["Kristus"] },
       { "greek": "ἠλευθέρωσεν", "latvian": ["ir", "atsvabinājis"] },
@@ -11,7 +11,7 @@
       { "greek": "καὶ", "latvian": ["stipri"] },
       { "greek": "μὴ", "latvian": ["un"] },
       { "greek": "πάλιν", "latvian": ["atkal"] },
-      { "greek": "ζυγῷ", "latvian": ["iejūgties"] },
+      { "greek": "ζυγῷ", "latvian": ["iejūgties"] },
       { "greek": "δουλείας", "latvian": ["kalpības", "jūgā"] },
       { "greek": "ἐνέχεσθε", "latvian": [] }
     ],
@@ -205,7 +205,7 @@
       { "greek": "μόνον", "latvian": ["Tik"] },
       { "greek": "μὴ", "latvian": ["ne", "tādai"] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "ἐλευθερίαν", "latvian": ["svabadībai"] },
+      { "greek": "ἐλευθερίαν", "latvian": ["svabadībai"] },
       { "greek": "εἰς", "latvian": ["kas", "dod", "vaļu"] },
       { "greek": "ἀφορμὴν", "latvian": [] },
       { "greek": "τῇ", "latvian": [] },
@@ -347,7 +347,7 @@
   {
     "greek_words": [
       { "greek": "φθόνοι", "latvian": ["skaudība"] },
-      { "greek": "μέθαι", "latvian": ["dzēršana"] },
+      { "greek": "μέθαι", "latvian": ["dzeršana"] },
       { "greek": "κῶμοι", "latvian": ["dzīrošana"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "τὰ", "latvian": [] },

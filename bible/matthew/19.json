@@ -30,7 +30,7 @@
   {
     "greek_words": [
       { "greek": "καὶ", "latvian": ["Un"] },
-      { "greek": "ἠκολούθησαν", "latvian": ["gāja", "pakal"] },
+      { "greek": "ἠκολούθησαν", "latvian": ["gāja", "pakaļ"] },
       { "greek": "αὐτῷ", "latvian": ["Viņam"] },
       { "greek": "ὄχλοι", "latvian": ["ļaužu"] },
       { "greek": "πολλοί", "latvian": ["daudz"] },
@@ -83,7 +83,7 @@
       { "greek": "ἐποίησεν", "latvian": ["radījis"] },
       { "greek": "αὐτοὺς", "latvian": ["tos"] }
     ],
-    "leftover_latvian": ["Viņš", "un", "ka"]
+    "leftover_latvian": ["Viņš", "un", "kā"]
   },
   {
     "greek_words": [
@@ -262,7 +262,7 @@
       { "greek": "ὑπὸ", "latvian": [] },
       { "greek": "τῶν", "latvian": [] },
       { "greek": "ἀνθρώπων", "latvian": ["citi"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "εἰσὶν", "latvian": ["ir"] },
       { "greek": "εὐνοῦχοι", "latvian": ["bezdzimuma", "cilvēki"] },
       { "greek": "οἵτινες", "latvian": ["kas"] },
@@ -338,7 +338,7 @@
       { "greek": "ἐπορεύθη", "latvian": ["aizgāja"] },
       { "greek": "ἐκεῖθεν", "latvian": ["no", "turienes"] }
     ],
-    "leftover_latvian": ["Viņš", "tad", "Un"]
+    "leftover_latvian": ["Viņš", "tad", "un"]
   },
   {
     "greek_words": [
@@ -357,7 +357,7 @@
       { "greek": "ζωὴν", "latvian": ["dzīvību"] },
       { "greek": "αἰώνιον", "latvian": ["mūžīgu"] }
     ],
-    "leftover_latvian": ["Un"]
+    "leftover_latvian": ["un"]
   },
   {
     "greek_words": [
@@ -468,7 +468,7 @@
       { "greek": "οὐρανοῖς", "latvian": ["debesīs"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "δεῦρο", "latvian": ["nāc"] },
-      { "greek": "ἀκολούθει", "latvian": ["staigā", "pakal"] },
+      { "greek": "ἀκολούθει", "latvian": ["staigā", "pakaļ"] },
       { "greek": "μοι", "latvian": ["Man"] }
     ],
     "leftover_latvian": ["tad", "tad", "un", "to"]
@@ -575,7 +575,7 @@
       { "greek": "πάντα", "latvian": ["visas", "lietas"] },
       { "greek": "δυνατά", "latvian": ["iespējamas"] }
     ],
-    "leftover_latvian": ["tos", "Un"]
+    "leftover_latvian": ["tos", "un"]
   },
   {
     "greek_words": [

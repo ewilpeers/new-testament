@@ -83,7 +83,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Τὸ", "latvian": ["Bet"] },
+      { "greek": "Τὸ", "latvian": ["bet"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "τέλος", "latvian": ["sludināšanas", "mērķis"] },
       { "greek": "τῆς", "latvian": [] },
@@ -97,7 +97,7 @@
       { "greek": "συνειδήσεως", "latvian": ["labas"] },
       { "greek": "ἀγαθῆς", "latvian": ["apziņas"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "πίστεως", "latvian": ["neliekulotas"] },
+      { "greek": "πίστεως", "latvian": ["neliekuļotas"] },
       { "greek": "ἀνυποκρίτου", "latvian": ["ticības"] }
     ],
     "leftover_latvian": []
@@ -174,7 +174,7 @@
   },
   {
     "greek_words": [
-      { "greek": "πόρνοις", "latvian": ["netikļiem"] },
+      { "greek": "πόρνοις", "latvian": ["netikļiem"] },
       { "greek": "ἀρσενοκοίταις", "latvian": ["vīru", "piegulētājiem"] },
       { "greek": "ἀνδραποδισταῖς", "latvian": ["cilvēku", "pārdevējiem"] },
       { "greek": "ψεύσταις", "latvian": [] },
@@ -308,7 +308,7 @@
       { "greek": "Χριστὸς", "latvian": [] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "ἅπασαν", "latvian": ["parādītu", "visu", "savu"] },
-      { "greek": "μακροθυμίαν", "latvian": ["lēnprātību"] },
+      { "greek": "μακροθυμίαν", "latvian": ["lēnprātību"] },
       { "greek": "πρὸς", "latvian": ["par", "priekšzīmi"] },
       { "greek": "ὑποτύπωσιν", "latvian": [] },
       { "greek": "τῶν", "latvian": ["tiem"] },
@@ -349,7 +349,7 @@
     "greek_words": [
       { "greek": "Ταύτην", "latvian": ["Šo"] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "παραγγελίαν", "latvian": ["piekodinājumu"] },
+      { "greek": "παραγγελίαν", "latvian": ["piekodinājumu"] },
       { "greek": "παρατίθεμαί", "latvian": ["es", "lieku", "tev", "pie", "sirds"] },
       { "greek": "σοι", "latvian": [] },
       { "greek": "τέκνον", "latvian": ["mans", "dēls"] },
@@ -391,7 +391,7 @@
     "greek_words": [
       { "greek": "ὧν", "latvian": ["to"] },
       { "greek": "ἐστιν", "latvian": ["starpā", "ir"] },
-      { "greek": "Ὑμέναιος", "latvian": ["Himenejs"] },
+      { "greek": "Ὑμέναιος", "latvian": ["Himenējs"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "Ἀλέξανδρος", "latvian": ["Aleksandrs"] },
       { "greek": "οὓς", "latvian": ["Tos"] },

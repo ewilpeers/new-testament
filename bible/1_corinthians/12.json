@@ -30,7 +30,7 @@
       { "greek": "ἤγεσθε", "latvian": ["vilktin", "vilka"] },
       { "greek": "ἀπαγόμενοι", "latvian": [] }
     ],
-    "leftover_latvian": ["vēl", "Jūs"]
+    "leftover_latvian": ["vēl", "jūs"]
   },
   {
     "greek_words": [
@@ -572,7 +572,7 @@
       { "greek": "γένη", "latvian": ["dažādās"] },
       { "greek": "γλωσσῶν", "latvian": ["mēlēs"] }
     ],
-    "leftover_latvian": ["par", "par", "par", "devis", "runāt", "Un"]
+    "leftover_latvian": ["par", "par", "par", "devis", "runāt", "un"]
   },
   {
     "greek_words": [

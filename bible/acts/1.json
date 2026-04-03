@@ -36,7 +36,7 @@
       { "greek": "ἐξελέξατο", "latvian": ["bija", "izredzējis"] },
       { "greek": "ἀνελήμφθη", "latvian": ["tika", "uzņemts"] }
     ],
-    "leftover_latvian": ["kad", "Viņš", "debēsīs"]
+    "leftover_latvian": ["kad", "Viņš", "debesīs"]
   },
   {
     "greek_words": [
@@ -491,7 +491,7 @@
       { "greek": "ἔρημος", "latvian": ["postažu"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "μὴ", "latvian": [] },
-      { "greek": "ἔστω", "latvian": ["nedzīvo;"] },
+      { "greek": "ἔστω", "latvian": ["nedzīvo"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "κατοικῶν", "latvian": ["tur"] },
       { "greek": "ἐν", "latvian": [] },

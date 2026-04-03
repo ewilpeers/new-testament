@@ -208,7 +208,7 @@
   },
   {
     "greek_words": [
-      { "greek": "σεισμοί", "latvian": ["lielas", "zemestrices"] },
+      { "greek": "σεισμοί", "latvian": ["lielas", "zemestrīces"] },
       { "greek": "τε", "latvian": [] },
       { "greek": "μεγάλοι", "latvian": [] },
       { "greek": "καὶ", "latvian": [] },
@@ -254,7 +254,7 @@
       { "greek": "βασιλεῖς", "latvian": ["ķēniņu"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἡγεμόνας", "latvian": ["valdnieku", "priekšā"] },
-      { "greek": "ἕνεκεν", "latvian": ["Manā", "Vārda", "dēļ"] },
+      { "greek": "ἕνεκεν", "latvian": ["Mana", "Vārda", "dēļ"] },
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "ὀνόματός", "latvian": [] },
       { "greek": "μου", "latvian": [] }
@@ -333,7 +333,7 @@
       { "greek": "μισούμενοι", "latvian": ["ienīdīs"] },
       { "greek": "ὑπὸ", "latvian": [] },
       { "greek": "πάντων", "latvian": [] },
-      { "greek": "διὰ", "latvian": ["Manā", "Vārda", "dēļ"] },
+      { "greek": "διὰ", "latvian": ["Mana", "Vārda", "dēļ"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "ὄνομά", "latvian": [] },
       { "greek": "μου", "latvian": [] }
@@ -708,7 +708,7 @@
       { "greek": "πρόσωπον", "latvian": [] },
       { "greek": "πάσης", "latvian": [] },
       { "greek": "τῆς", "latvian": [] },
-      { "greek": "γῆς", "latvian": ["virsu"] }
+      { "greek": "γῆς", "latvian": ["virsū"] }
     ],
     "leftover_latvian": []
   },

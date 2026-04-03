@@ -176,7 +176,7 @@
       { "greek": "οὐ", "latvian": [] },
       { "greek": "πιστεύουσιν", "latvian": [] },
       { "greek": "εἰς", "latvian": [] },
-      { "greek": "ἐμέ", "latvian": ["man"] }
+      { "greek": "ἐμέ", "latvian": ["Man"] }
     ],
     "leftover_latvian": ["tie", "Grēku", "netic"]
   },
@@ -225,7 +225,7 @@
       { "greek": "βαστάζειν", "latvian": ["nest"] },
       { "greek": "ἄρτι", "latvian": ["tagad"] }
     ],
-    "leftover_latvian": ["Man", "to", "Vēl"]
+    "leftover_latvian": ["Man", "to", "vēl"]
   },
   {
     "greek_words": [
@@ -240,7 +240,7 @@
       { "greek": "ὁδηγήσει", "latvian": ["vadīs"] },
       { "greek": "ὑμᾶς", "latvian": ["jūs"] },
       { "greek": "ἐν", "latvian": ["visā"] },
-      { "greek": "τῇ", "latvian": ["patiesībā;"] },
+      { "greek": "τῇ", "latvian": ["patiesībā"] },
       { "greek": "ἀληθείᾳ", "latvian": [] },
       { "greek": "πάσῃ", "latvian": [] },
       { "greek": "οὐ", "latvian": ["jo"] },
@@ -447,7 +447,7 @@
       { "greek": "ἡ", "latvian": [] },
       { "greek": "ὥρα", "latvian": ["stunda"] },
       { "greek": "αὐτῆς", "latvian": ["viņas"] },
-      { "greek": "ὅταν", "latvian": ["kad"] },
+      { "greek": "ὅταν", "latvian": ["Kad"] },
       { "greek": "δὲ", "latvian": ["bet"] },
       { "greek": "γεννήσῃ", "latvian": ["dzemdējusi"] },
       { "greek": "τὸ", "latvian": [] },
@@ -479,7 +479,7 @@
       { "greek": "ἔχετε", "latvian": ["ir"] },
       { "greek": "πάλιν", "latvian": ["atkal"] },
       { "greek": "δὲ", "latvian": [] },
-      { "greek": "ὄψομαι", "latvian": ["redzēšu;"] },
+      { "greek": "ὄψομαι", "latvian": ["redzēšu"] },
       { "greek": "ὑμᾶς", "latvian": ["jūs"] },
       { "greek": "καὶ", "latvian": [] },
       { "greek": "χαρήσεται", "latvian": ["priecāsies"] },
@@ -554,7 +554,7 @@
       { "greek": "Ταῦτα", "latvian": ["To"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "παροιμίαις", "latvian": ["līdzībās"] },
-      { "greek": "λελάληκα", "latvian": ["esmu", "runājis;"] },
+      { "greek": "λελάληκα", "latvian": ["esmu", "runājis"] },
       { "greek": "ὑμῖν", "latvian": ["jums"] },
       { "greek": "ἔρχεται", "latvian": ["nāk"] },
       { "greek": "ὥρα", "latvian": ["stunda"] },
@@ -740,7 +740,7 @@
       { "greek": "ἐν", "latvian": ["Pasaulē"] },
       { "greek": "τῷ", "latvian": [] },
       { "greek": "κόσμῳ", "latvian": [] },
-      { "greek": "θλῖψιν", "latvian": ["bēdas;"] },
+      { "greek": "θλῖψιν", "latvian": ["bēdas"] },
       { "greek": "ἔχετε", "latvian": ["ir"] },
       { "greek": "ἀλλὰ", "latvian": ["bet"] },
       { "greek": "θαρσεῖτε", "latvian": ["turiet"] },

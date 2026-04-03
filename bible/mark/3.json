@@ -96,13 +96,13 @@
       { "greek": "σου", "latvian": ["savu"] },
       { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐξέτεινεν", "latvian": ["izstiepa"] },
-      { "greek": "καὶ", "latvian": ["Un"] },
+      { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἀπεκατεστάθη", "latvian": ["kļuva", "vesela"] },
       { "greek": "ἡ", "latvian": [] },
       { "greek": "χεὶρ", "latvian": ["roka"] },
       { "greek": "αὐτοῦ", "latvian": ["viņa"] }
     ],
-    "leftover_latvian": ["Viņš", "Viņš", "tas", "to", "atkal", "Un"]
+    "leftover_latvian": ["Viņš", "Viņš", "tas", "to", "atkal", "un"]
   },
   {
     "greek_words": [
@@ -178,7 +178,7 @@
       { "greek": "πρὸς", "latvian": ["pie"] },
       { "greek": "αὐτόν", "latvian": ["Viņa"] }
     ],
-    "leftover_latvian": ["Jūdejas", "no", "no", "no", "no", "lielas", "lietas", "Viņš", "Un"]
+    "leftover_latvian": ["Jūdejas", "no", "no", "no", "no", "lielas", "lietas", "Viņš", "un"]
   },
   {
     "greek_words": [
@@ -269,7 +269,7 @@
       { "greek": "οὓς", "latvian": ["kurus"] },
       { "greek": "ἤθελεν", "latvian": ["gribēja"] },
       { "greek": "αὐτός", "latvian": ["pats"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἀπῆλθον", "latvian": ["nāca"] },
       { "greek": "πρὸς", "latvian": ["pie"] },
       { "greek": "αὐτόν", "latvian": ["Viņa"] }
@@ -469,12 +469,12 @@
   },
   {
     "greek_words": [
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐὰν", "latvian": ["ja"] },
       { "greek": "βασιλεία", "latvian": ["valsts"] },
       { "greek": "ἐφ", "latvian": ["savā"] },
       { "greek": "ἑαυτὴν", "latvian": ["starpā"] },
-      { "greek": "μερισθῇ", "latvian": ["sanāk", "nāidā"] },
+      { "greek": "μερισθῇ", "latvian": ["sanāk", "naidā"] },
       { "greek": "οὐ", "latvian": [] },
       { "greek": "δύναται", "latvian": [] },
       { "greek": "σταθῆναι", "latvian": ["pastāvēt"] },
@@ -676,7 +676,7 @@
       { "greek": "ἀδελφοί", "latvian": ["brāļi"] },
       { "greek": "μου", "latvian": ["Mani"] }
     ],
-    "leftover_latvian": ["Viņš", "Un"]
+    "leftover_latvian": ["Viņš", "un"]
   },
   {
     "greek_words": [

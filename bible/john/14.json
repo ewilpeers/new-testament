@@ -89,7 +89,7 @@
       { "greek": "οὐκ", "latvian": [] },
       { "greek": "οἴδαμεν", "latvian": ["nezinām"] },
       { "greek": "ποῦ", "latvian": ["kurp"] },
-      { "greek": "ὑπάγεις", "latvian": ["Tu", "ej;"] },
+      { "greek": "ὑπάγεις", "latvian": ["Tu", "ej"] },
       { "greek": "πῶς", "latvian": ["kā"] },
       { "greek": "δυνάμεθα", "latvian": ["mēs"] },
       { "greek": "τὴν", "latvian": [] },
@@ -217,7 +217,7 @@
       { "greek": "λέγω", "latvian": ["saku"] },
       { "greek": "ὑμῖν", "latvian": ["jums"] },
       { "greek": "ἀπ", "latvian": ["no"] },
-      { "greek": "ἐμαυτοῦ", "latvian": ["Sevis;"] },
+      { "greek": "ἐμαυτοῦ", "latvian": ["Sevis"] },
       { "greek": "οὐ", "latvian": [] },
       { "greek": "λαλῶ", "latvian": ["nerunāju"] },
       { "greek": "ὁ", "latvian": [] },
@@ -548,7 +548,7 @@
       { "greek": "ἀγαπῶν", "latvian": [] },
       { "greek": "με", "latvian": ["Mani"] },
       { "greek": "τοὺς", "latvian": ["tas"] },
-      { "greek": "λόγους", "latvian": ["vārdus;"] },
+      { "greek": "λόγους", "latvian": ["vārdus"] },
       { "greek": "μου", "latvian": ["Manus"] },
       { "greek": "οὐ", "latvian": ["nav"] },
       { "greek": "τηρεῖ", "latvian": ["netur"] },
@@ -619,7 +619,7 @@
       { "greek": "εἰρήνην", "latvian": ["mieru"] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "ἐμὴν", "latvian": ["Savu"] },
-      { "greek": "δίδωμι", "latvian": ["dodu;"] },
+      { "greek": "δίδωμι", "latvian": ["dodu"] },
       { "greek": "ὑμῖν", "latvian": ["jums"] },
       { "greek": "οὐ", "latvian": ["ne"] },
       { "greek": "καθὼς", "latvian": ["kā"] },
@@ -668,7 +668,7 @@
       { "greek": "μού", "latvian": ["nekā", "Es"] },
       { "greek": "ἐστιν", "latvian": ["ir"] }
     ],
-    "leftover_latvian": ["Jūs", "atkal", "jūs", "Es", "Es", "Jūs"]
+    "leftover_latvian": ["Jūs", "atkal", "jūs", "Es", "Es", "jūs"]
   },
   {
     "greek_words": [
@@ -697,7 +697,7 @@
       { "greek": "ὁ", "latvian": ["šīs"] },
       { "greek": "τοῦ", "latvian": ["pasaules"] },
       { "greek": "κόσμου", "latvian": [] },
-      { "greek": "ἄρχων", "latvian": ["valdnieks;"] },
+      { "greek": "ἄρχων", "latvian": ["valdnieks"] },
       { "greek": "καὶ", "latvian": ["gan"] },
       { "greek": "ἐν", "latvian": ["pār"] },
       { "greek": "ἐμοὶ", "latvian": ["Mani"] },

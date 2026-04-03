@@ -64,7 +64,7 @@
       { "greek": "ἀπέχουσιν", "latvian": ["jau", "ir"] },
       { "greek": "τὸν", "latvian": [] },
       { "greek": "μισθὸν", "latvian": ["alga"] },
-      { "greek": "αὐτῶν", "latvian": ["sava"] }
+      { "greek": "αὐτῶν", "latvian": ["savā"] }
     ],
     "leftover_latvian": ["tad", "to", "to", "tiem"]
   },
@@ -191,7 +191,7 @@
       { "greek": "Προσευχόμενοι", "latvian": ["Dievu", "lūdzot"] },
       { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "μὴ", "latvian": ["ne-"] },
-      { "greek": "βατταλογήσητε", "latvian": ["plāpājiet"] },
+      { "greek": "βατταλογήσητε", "latvian": ["nepļāpājiet"] },
       { "greek": "ὥσπερ", "latvian": ["kā"] },
       { "greek": "οἱ", "latvian": [] },
       { "greek": "ἐθνικοί", "latvian": ["pagāni"] },
@@ -200,7 +200,7 @@
       { "greek": "ὅτι", "latvian": ["ka"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "τῇ", "latvian": [] },
-      { "greek": "πολυλογίᾳ", "latvian": ["plāpāšanas", "dēļ"] },
+      { "greek": "πολυλογίᾳ", "latvian": ["pļāpāšanas", "dēļ"] },
       { "greek": "αὐτῶν", "latvian": ["savas"] },
       { "greek": "εἰσακουσθήσονται", "latvian": ["taps", "paklausīti"] }
     ],
@@ -255,7 +255,7 @@
       { "greek": "ἡ", "latvian": [] },
       { "greek": "βασιλεία", "latvian": ["valstība"] },
       { "greek": "σου", "latvian": ["Tava"] },
-      { "greek": "Γενηθήτω", "latvian": ["Lai", "notiek"] },
+      { "greek": "Γενηθήτω", "latvian": ["lai", "notiek"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "θέλημά", "latvian": ["prāts"] },
       { "greek": "σου", "latvian": ["Tavs"] },
@@ -521,7 +521,7 @@
       { "greek": "Ὁ", "latvian": [] },
       { "greek": "λύχνος", "latvian": ["spīdeklis"] },
       { "greek": "τοῦ", "latvian": [] },
-      { "greek": "σώματός", "latvian": ["miesas"] },
+      { "greek": "σώματός", "latvian": ["Miesas"] },
       { "greek": "ἐστιν", "latvian": ["ir"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "ὀφθαλμός", "latvian": ["acs"] },
@@ -638,7 +638,7 @@
       { "greek": "τοῦ", "latvian": ["nekā"] },
       { "greek": "ἐνδύματος", "latvian": ["drēbes"] }
     ],
-    "leftover_latvian": ["nav", "nav", "labāka", "Vai"]
+    "leftover_latvian": ["nav", "nav", "labāka", "vai"]
   },
   {
     "greek_words": [

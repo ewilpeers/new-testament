@@ -107,7 +107,7 @@
       { "greek": "εἰς", "latvian": [] },
       { "greek": "Μύρα", "latvian": ["Mirrā"] },
       { "greek": "τῆς", "latvian": [] },
-      { "greek": "Λυκίας", "latvian": ["Līkijā"] }
+      { "greek": "Λυκίας", "latvian": ["Likijā"] }
     ],
     "leftover_latvian": []
   },
@@ -317,7 +317,7 @@
       { "greek": "τυφωνικὸς", "latvian": [] },
       { "greek": "ὁ", "latvian": ["ko", "sauc", "par"] },
       { "greek": "καλούμενος", "latvian": [] },
-      { "greek": "Εὐρακύλων", "latvian": ["eurakvilonu", "ziemeļriteni"] }
+      { "greek": "Εὐρακύλων", "latvian": ["eurakvilonu", "ziemeļrīteni"] }
     ],
     "leftover_latvian": ["sacēlās"]
   },
@@ -885,7 +885,7 @@
       { "greek": "καὶ", "latvian": [] },
       { "greek": "ἡ", "latvian": [] },
       { "greek": "μὲν", "latvian": [] },
-      { "greek": "πρῷρα", "latvian": ["kuģa", "priekšgals"] },
+      { "greek": "πρῷρα", "latvian": ["Kuģa", "priekšgals"] },
       { "greek": "ἐρείσασα", "latvian": ["palika"] },
       { "greek": "ἔμεινεν", "latvian": ["nekustīgs"] },
       { "greek": "ἀσάλευτος", "latvian": [] },

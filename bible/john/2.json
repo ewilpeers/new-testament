@@ -165,7 +165,7 @@
       { "greek": "γεγενημένον", "latvian": ["kas", "bija", "kļuvis"] },
       { "greek": "καὶ", "latvian": [] },
       { "greek": "οὐκ", "latvian": ["ne-"] },
-      { "greek": "ᾔδει", "latvian": ["- zinādams"] },
+      { "greek": "ᾔδει", "latvian": ["zinādams"] },
       { "greek": "πόθεν", "latvian": ["no", "kurienes"] },
       { "greek": "ἐστίν", "latvian": ["ir"] },
       { "greek": "οἱ", "latvian": [] },
@@ -375,7 +375,7 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "οἴκου", "latvian": [] },
       { "greek": "σου", "latvian": [] },
-      { "greek": "καταφάγεταί", "latvian": ["Mani", "aprij-"] },
+      { "greek": "καταφάγεταί", "latvian": ["Mani", "aprij"] },
       { "greek": "με", "latvian": [] }
     ],
     "leftover_latvian": []

@@ -178,14 +178,14 @@
       { "greek": "προσκυνήσω", "latvian": ["pielūdzu"] },
       { "greek": "αὐτῷ", "latvian": ["Viņu"] }
     ],
-    "leftover_latvian": ["jūs", "un", "viņš", "un", "un", "to", "Viņu", "tad", "Un"]
+    "leftover_latvian": ["jūs", "un", "viņš", "un", "un", "to", "Viņu", "tad", "un"]
   },
   {
     "greek_words": [
       { "greek": "Οἱ", "latvian": ["tie"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "ἀκούσαντες", "latvian": ["dzirdējuši"] },
-      { "greek": "τοῦ", "latvian": ["no", "ķēniņa", "(To…)"] },
+      { "greek": "τοῦ", "latvian": ["no", "ķēniņa"] },
       { "greek": "βασιλέως", "latvian": [] },
       { "greek": "ἐπορεύθησαν", "latvian": ["aizgāja"] },
       { "greek": "καὶ", "latvian": ["Un"] },
@@ -208,7 +208,7 @@
       { "greek": "τὸ", "latvian": [] },
       { "greek": "παιδίον", "latvian": ["bērns"] }
     ],
-    "leftover_latvian": ["namu", "tie", "Un"]
+    "leftover_latvian": ["namu", "tie", "un", "To"]
   },
   {
     "greek_words": [
@@ -264,7 +264,7 @@
       { "greek": "χρηματισθέντες", "latvian": ["saņēmuši", "norādījumu"] },
       { "greek": "κατ", "latvian": ["sapnī"] },
       { "greek": "ὄναρ", "latvian": [] },
-      { "greek": "μὴ", "latvian": ["(neatgriezties)"] },
+      { "greek": "μὴ", "latvian": ["neatgriezties"] },
       { "greek": "ἀνακάμψαι", "latvian": [] },
       { "greek": "πρὸς", "latvian": ["pie"] },
       { "greek": "Ἡρῴδην", "latvian": ["Hēroda"] },

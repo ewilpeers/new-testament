@@ -58,7 +58,7 @@
       { "greek": "ἕτερον", "latvian": ["citu"] },
       { "greek": "προσδοκῶμεν", "latvian": ["mums", "gaidīt"] }
     ],
-    "leftover_latvian": ["un", "Vai", "Vai"]
+    "leftover_latvian": ["un", "Vai", "vai"]
   },
   {
     "greek_words": [
@@ -76,7 +76,7 @@
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "βλέπετε", "latvian": ["redzat"] }
     ],
-    "leftover_latvian": ["un", "Un"]
+    "leftover_latvian": ["un", "un"]
   },
   {
     "greek_words": [
@@ -137,7 +137,7 @@
       { "greek": "ἀνέμου", "latvian": ["vējš"] },
       { "greek": "σαλευόμενον", "latvian": ["šauba"] }
     ],
-    "leftover_latvian": ["uz", "Vai", "kādu", "šurpu", "turpu", "Ko"]
+    "leftover_latvian": ["uz", "Vai", "kādu", "šurpu", "turpu", "ko"]
   },
   {
     "greek_words": [
@@ -194,7 +194,7 @@
       { "greek": "μου", "latvian": ["Savu"] },
       { "greek": "πρὸ", "latvian": [] },
       { "greek": "προσώπου", "latvian": ["priekšā"] },
-      { "greek": "σου", "latvian": ["Tava"] },
+      { "greek": "σου", "latvian": ["Tavā"] },
       { "greek": "Ὃς", "latvian": ["kam"] },
       { "greek": "κατασκευάσει", "latvian": ["būs", "sataisīt"] },
       { "greek": "τὴν", "latvian": [] },
@@ -320,7 +320,7 @@
   {
     "greek_words": [
       { "greek": "λέγουσιν", "latvian": ["sacīdami"] },
-      { "greek": "Ηὐλήσαμεν", "latvian": ["mēs", "stabuļējām"] },
+      { "greek": "Ηὐλήσαμεν", "latvian": ["mēs", "stabulējām"] },
       { "greek": "ὑμῖν", "latvian": ["jums"] },
       { "greek": "Καὶ", "latvian": ["un"] },
       { "greek": "οὐκ", "latvian": [] },
@@ -478,7 +478,7 @@
       { "greek": "τῆς", "latvian": [] },
       { "greek": "σήμερον", "latvian": ["šodien"] }
     ],
-    "leftover_latvian": ["tu", "nebiji", "tādi", "tad", "tu"]
+    "leftover_latvian": ["tu", "nebiji", "tādi", "tad", "Tu"]
   },
   {
     "greek_words": [
@@ -541,7 +541,7 @@
       { "greek": "εὐδοκία", "latvian": ["Tavs", "labais", "prāts"] },
       { "greek": "ἐγένετο", "latvian": ["ir", "noticis"] },
       { "greek": "ἔμπροσθέν", "latvian": [] },
-      { "greek": "σου", "latvian": ["Tava", "priekšā"] }
+      { "greek": "σου", "latvian": ["Tavā", "priekšā"] }
     ],
     "leftover_latvian": []
   },

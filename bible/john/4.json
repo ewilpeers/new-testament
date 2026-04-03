@@ -169,7 +169,7 @@
       { "greek": "Σαμαρίτιδος", "latvian": ["samarietes"] },
       { "greek": "οὔσης", "latvian": [] },
       { "greek": "οὐ", "latvian": [] },
-      { "greek": "γὰρ", "latvian": ["jo"] },
+      { "greek": "γὰρ", "latvian": ["Jo"] },
       { "greek": "συνχρῶνται", "latvian": [] },
       { "greek": "Ἰουδαῖοι", "latvian": ["jūdi"] },
       { "greek": "Σαμαρίταις", "latvian": ["ar", "samariešiem"] }
@@ -359,7 +359,7 @@
       { "greek": "ἐλθὲ", "latvian": ["nāc"] },
       { "greek": "ἐνθάδε", "latvian": ["šurp"] }
     ],
-    "leftover_latvian": ["Viņš", "tad"]
+    "leftover_latvian": ["Viņš", "Tad"]
   },
   {
     "greek_words": [
@@ -1002,7 +1002,7 @@
       { "greek": "ὕδωρ", "latvian": [] },
       { "greek": "οἶνον", "latvian": ["par", "vīnu"] },
       { "greek": "Καὶ", "latvian": ["Bija"] },
-      { "greek": "ἦν", "latvian": ["Bija"] },
+      { "greek": "ἦν", "latvian": ["bija"] },
       { "greek": "τις", "latvian": ["kāds"] },
       { "greek": "βασιλικὸς", "latvian": ["ķēniņa", "galma", "vīrs"] },
       { "greek": "οὗ", "latvian": ["kura"] },
@@ -1173,7 +1173,7 @@
       { "greek": "Ἰησοῦς", "latvian": ["Jēzus"] },
       { "greek": "Ὁ", "latvian": [] },
       { "greek": "υἱός", "latvian": ["dēls"] },
-      { "greek": "σου", "latvian": ["tavs"] },
+      { "greek": "σου", "latvian": ["Tavs"] },
       { "greek": "ζῇ", "latvian": ["ir", "dzīvs"] },
       { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐπίστευσεν", "latvian": ["kļuva", "ticīgs"] },

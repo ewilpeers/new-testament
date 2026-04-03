@@ -314,7 +314,7 @@
       { "greek": "ὁ", "latvian": [] },
       { "greek": "κόσμος", "latvian": [] }
     ],
-    "leftover_latvian": ["ienīst", "Nebrīnieties"]
+    "leftover_latvian": ["ienīst", "Nebrīnieties"]
   },
   {
     "greek_words": [
@@ -350,7 +350,7 @@
       { "greek": "τὸν", "latvian": [] },
       { "greek": "ἀδελφὸν", "latvian": [] },
       { "greek": "αὐτοῦ", "latvian": [] },
-      { "greek": "ἀνθρωποκτόνος", "latvian": ["ienīst", "ir", "slepkava"] },
+      { "greek": "ἀνθρωποκτόνος", "latvian": ["ienīst", "ir", "slepkava"] },
       { "greek": "ἐστίν", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "οἴδατε", "latvian": ["jūs", "zināt"] },
@@ -565,7 +565,7 @@
       { "greek": "ἐντολὰς", "latvian": [] },
       { "greek": "αὐτοῦ", "latvian": [] },
       { "greek": "ἐν", "latvian": ["tur"] },
-      { "greek": "αὐτῷ", "latvian": ["viņš", "paliek", "Viņā"] },
+      { "greek": "αὐτῷ", "latvian": ["Viņš", "paliek", "Viņā"] },
       { "greek": "μένει", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "αὐτὸς", "latvian": ["Viņš"] },

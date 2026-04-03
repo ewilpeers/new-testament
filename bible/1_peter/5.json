@@ -1,7 +1,7 @@
 [
   {
     "greek_words": [
-      { "greek": "Πρεσβυτέρους", "latvian": ["Vecākos"] },
+      { "greek": "Πρεσβυτέρους", "latvian": ["Vecākos"] },
       { "greek": "τοὺς", "latvian": [] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "ὑμῖν", "latvian": ["jūsu", "starpā"] },
@@ -87,7 +87,7 @@
       { "greek": "δὲ", "latvian": [] },
       { "greek": "ἀλλήλοις", "latvian": ["citam"] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "ταπεινοφροσύνην", "latvian": ["padodamies", "apjožieties"] },
+      { "greek": "ταπεινοφροσύνην", "latvian": ["padodamies", "apjozieties"] },
       { "greek": "ἐγκομβώσασθε", "latvian": ["ar", "pazemību"] },
       { "greek": "ὅτι", "latvian": ["Jo"] },
       { "greek": "Ὁ", "latvian": [] },
@@ -105,7 +105,7 @@
     "greek_words": [
       { "greek": "Ταπεινώθητε", "latvian": ["Tad", "nu", "pazemojieties"] },
       { "greek": "οὖν", "latvian": [] },
-      { "greek": "ὑπὸ", "latvian": ["apaķš"] },
+      { "greek": "ὑπὸ", "latvian": ["apakš"] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "κραταιὰν", "latvian": ["Dieva", "varenās"] },
       { "greek": "χεῖρα", "latvian": ["rokas"] },

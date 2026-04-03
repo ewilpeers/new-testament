@@ -242,10 +242,10 @@
   },
   {
     "greek_words": [
-      { "greek": "τῇ", "latvian": ["priecīgi"] },
+      { "greek": "τῇ", "latvian": ["priecīgi"] },
       { "greek": "ἐλπίδι", "latvian": ["cerībā"] },
       { "greek": "χαίροντες", "latvian": [] },
-      { "greek": "τῇ", "latvian": ["pacietīgi"] },
+      { "greek": "τῇ", "latvian": ["pacietīgi"] },
       { "greek": "θλίψει", "latvian": ["bēdās"] },
       { "greek": "ὑπομένοντες", "latvian": [] },
       { "greek": "τῇ", "latvian": ["neatlaidīgi"] },
@@ -284,7 +284,7 @@
     "greek_words": [
       { "greek": "χαίρειν", "latvian": ["Priecājieties"] },
       { "greek": "μετὰ", "latvian": ["ar"] },
-      { "greek": "χαιρόντων", "latvian": ["priecīgajiem"] },
+      { "greek": "χαιρόντων", "latvian": ["priecīgajiem"] },
       { "greek": "κλαίειν", "latvian": ["raudiet"] },
       { "greek": "μετὰ", "latvian": ["ar"] },
       { "greek": "κλαιόντων", "latvian": ["tiem", "kas", "raud"] }

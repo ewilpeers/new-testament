@@ -107,24 +107,24 @@
       { "greek": "Ὑπερλίαν", "latvian": ["dižapustuļiem"] },
       { "greek": "ἀποστόλων", "latvian": [] }
     ],
-    "leftover_latvian": ["nekādā", "ziņā", "Es"]
+    "leftover_latvian": ["nekādā", "ziņā", "es"]
   },
   {
     "greek_words": [
       { "greek": "εἰ", "latvian": ["Lai", "arī"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "καὶ", "latvian": [] },
-      { "greek": "ἰδιώτης", "latvian": ["esmu", "neprašā"] },
+      { "greek": "ἰδιώτης", "latvian": ["esmu", "nepraša"] },
       { "greek": "τῷ", "latvian": [] },
       { "greek": "λόγῳ", "latvian": ["runā"] },
       { "greek": "ἀλλ", "latvian": ["tomēr", "ne"] },
       { "greek": "οὐ", "latvian": [] },
       { "greek": "τῇ", "latvian": [] },
-      { "greek": "γνώσει", "latvian": ["atziņā"] },
+      { "greek": "γνώσει", "latvian": ["atziņā"] },
       { "greek": "ἀλλ", "latvian": ["to", "esam", "jums"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "παντὶ", "latvian": ["visiem"] },
-      { "greek": "φανερώσαντες", "latvian": ["visās", "lietās", "pieradījuši"] },
+      { "greek": "φανερώσαντες", "latvian": ["visās", "lietās", "pierādījuši"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "πᾶσιν", "latvian": [] },
       { "greek": "εἰς", "latvian": [] },
@@ -180,7 +180,7 @@
       { "greek": "οὐθενός", "latvian": [] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "γὰρ", "latvian": [] },
-      { "greek": "ὑστέρημά", "latvian": ["manu", "trūkumu"] },
+      { "greek": "ὑστέρημά", "latvian": ["Manu", "trūkumu"] },
       { "greek": "μου", "latvian": [] },
       { "greek": "προσανεπλήρωσαν", "latvian": ["novērsa"] },
       { "greek": "οἱ", "latvian": [] },

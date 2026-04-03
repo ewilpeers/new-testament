@@ -33,7 +33,7 @@
       { "greek": "κόσμον", "latvian": ["pasauli"] },
       { "greek": "κρινοῦσιν", "latvian": ["tiesās"] },
       { "greek": "καὶ", "latvian": [] },
-      { "greek": "εἰ", "latvian": ["ja"] },
+      { "greek": "εἰ", "latvian": ["Ja"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "ὑμῖν", "latvian": [] },
       { "greek": "κρίνεται", "latvian": [] },
@@ -72,7 +72,7 @@
       { "greek": "τῇ", "latvian": [] },
       { "greek": "ἐκκλησίᾳ", "latvian": ["draudzē"] },
       { "greek": "τούτους", "latvian": [] },
-      { "greek": "καθίζετε", "latvian": ["jūs", "iecelāt", "par", "tiesnešiem"] }
+      { "greek": "καθίζετε", "latvian": ["jūs", "ieceļat", "par", "tiesnešiem"] }
     ],
     "leftover_latvian": ["vai", "tad"]
   },
@@ -83,7 +83,7 @@
       { "greek": "ὑμῖν", "latvian": ["jums"] },
       { "greek": "λέγω", "latvian": ["es", "saku"] },
       { "greek": "οὕτως", "latvian": ["To"] },
-      { "greek": "οὐκ", "latvian": ["vai"] },
+      { "greek": "οὐκ", "latvian": ["Vai"] },
       { "greek": "ἔνι", "latvian": [] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "ὑμῖν", "latvian": ["jūsu", "vidū"] },
@@ -178,7 +178,7 @@
       { "greek": "οὔτε", "latvian": [] },
       { "greek": "ἀρσενοκοῖται", "latvian": ["vīriešu", "piegulētāji"] }
     ],
-    "leftover_latvian": ["jūs", "nezināt"]
+    "leftover_latvian": ["jūs", "nezināt", "ne"]
   },
   {
     "greek_words": [

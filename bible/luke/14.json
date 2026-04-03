@@ -103,7 +103,7 @@
   {
     "greek_words": [
       { "greek": "Καὶ", "latvian": ["Un"] },
-      { "greek": "οὐκ", "latvian": ["tie", "nekā"] },
+      { "greek": "οὐκ", "latvian": ["tie", "nekā"] },
       { "greek": "ἴσχυσαν", "latvian": ["nespēja"] },
       { "greek": "ἀνταποκριθῆναι", "latvian": ["atbildēt"] },
       { "greek": "πρὸς", "latvian": ["uz"] },
@@ -506,7 +506,7 @@
       { "greek": "τὰς", "latvian": [] },
       { "greek": "ὁδοὺς", "latvian": ["lielceļiem"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "φραγμοὺς", "latvian": ["sētmalēm"] },
+      { "greek": "φραγμοὺς", "latvian": ["sētmalēm"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἀνάγκασον", "latvian": ["spied", "visus"] },
       { "greek": "εἰσελθεῖν", "latvian": ["nākt", "iekšā"] },
@@ -659,7 +659,7 @@
   },
   {
     "greek_words": [
-      { "greek": "λέγοντες", "latvian": ["sacīdami"] },
+      { "greek": "λέγοντες", "latvian": ["sacīdami"] },
       { "greek": "ὅτι", "latvian": [] },
       { "greek": "Οὗτος", "latvian": ["šis"] },
       { "greek": "ὁ", "latvian": [] },
@@ -697,7 +697,7 @@
       { "greek": "ὑπαντῆσαι", "latvian": ["varēs", "stāties", "pretim"] },
       { "greek": "τῷ", "latvian": ["tam"] },
       { "greek": "μετὰ", "latvian": ["kas", "nāk"] },
-      { "greek": "εἴκοσι", "latvian": ["virsu", "ar", "divdesmit"] },
+      { "greek": "εἴκοσι", "latvian": ["virsū", "ar", "divdesmit"] },
       { "greek": "χιλιάδων", "latvian": ["tūkstošiem"] },
       { "greek": "ἐρχομένῳ", "latvian": [] },
       { "greek": "ἐπ", "latvian": [] },
@@ -782,6 +782,6 @@
       { "greek": "ἀκούειν", "latvian": ["dzirdēt"] },
       { "greek": "ἀκουέτω", "latvian": ["tas", "lai", "dzird"] }
     ],
-    "leftover_latvian": ["Tā"]
+    "leftover_latvian": ["tā"]
   }
 ]

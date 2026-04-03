@@ -38,8 +38,8 @@
       { "greek": "ἄσπονδοι", "latvian": ["nesamierināmi"] },
       { "greek": "διάβολοι", "latvian": ["apmelotāji"] },
       { "greek": "ἀκρατεῖς", "latvian": ["nesavaldīgi"] },
-      { "greek": "ἀνήμεροι", "latvian": ["nesavaldāmi"] },
-      { "greek": "ἀφιλάγαθοι", "latvian": ["laba", "nīdēji"] }
+      { "greek": "ἀνήμεροι", "latvian": ["nesavaldāmi"] },
+      { "greek": "ἀφιλάγαθοι", "latvian": ["labā", "nīdēji"] }
     ],
     "leftover_latvian": []
   },
@@ -102,7 +102,7 @@
       { "greek": "εἰς", "latvian": ["nevar"] },
       { "greek": "ἐπίγνωσιν", "latvian": ["nonākt", "pie"] },
       { "greek": "ἀληθείας", "latvian": ["patiesības"] },
-      { "greek": "ἐλθεῖν", "latvian": ["atziņas"] },
+      { "greek": "ἐλθεῖν", "latvian": ["atziņas"] },
       { "greek": "δυνάμενα", "latvian": [] }
     ],
     "leftover_latvian": []

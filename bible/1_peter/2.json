@@ -138,13 +138,13 @@
       { "greek": "κεφαλὴν", "latvian": ["stūra"] },
       { "greek": "γωνίας", "latvian": ["akmeni"] }
     ],
-    "leftover_latvian": ["akmens", "ir", "un", "un", "kuru", "krīt", "klints", "pie", "kuras", "piedauzās", "par"]
+    "leftover_latvian": ["akmens", "ir", "un", "un", "kuru", "krīt", "klints", "pie", "kuras", "piedauzās", "pār"]
   },
   {
     "greek_words": [
       { "greek": "Καὶ", "latvian": ["ir"] },
       { "greek": "Λίθος", "latvian": [] },
-      { "greek": "προσκόμματος", "latvian": ["pār"] },
+      { "greek": "προσκόμματος", "latvian": ["par"] },
       { "greek": "καὶ", "latvian": [] },
       { "greek": "πέτρα", "latvian": [] },
       { "greek": "σκανδάλου", "latvian": [] },
@@ -343,7 +343,7 @@
       { "greek": "Θεὸν", "latvian": ["Dievu"] },
       { "greek": "φοβεῖσθε", "latvian": [] },
       { "greek": "τὸν", "latvian": [] },
-      { "greek": "βασιλέα", "latvian": ["godājiet", "valdnieku"] },
+      { "greek": "βασιλέα", "latvian": ["godājiet", "valdnieku"] },
       { "greek": "τιμᾶτε", "latvian": [] }
     ],
     "leftover_latvian": ["bīstaities"]

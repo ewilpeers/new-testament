@@ -50,7 +50,7 @@
     "greek_words": [
       { "greek": "Ἡ", "latvian": ["Jo"] },
       { "greek": "γὰρ", "latvian": [] },
-      { "greek": "παράκλησις", "latvian": ["mūsu", "sludinājuma", "pamata"] },
+      { "greek": "παράκλησις", "latvian": ["mūsu", "sludinājuma", "pamatā"] },
       { "greek": "ἡμῶν", "latvian": [] },
       { "greek": "οὐκ", "latvian": ["nav"] },
       { "greek": "ἐκ", "latvian": [] },
@@ -190,7 +190,7 @@
       { "greek": "τὸν", "latvian": [] },
       { "greek": "μόχθον", "latvian": ["pūles"] },
       { "greek": "νυκτὸς", "latvian": ["strādādami", "dienām"] },
-      { "greek": "καὶ", "latvian": ["naktīm"] },
+      { "greek": "καὶ", "latvian": ["naktīm"] },
       { "greek": "ἡμέρας", "latvian": [] },
       { "greek": "ἐργαζόμενοι", "latvian": [] },
       { "greek": "πρὸς", "latvian": ["lai", "tikai"] },

@@ -100,7 +100,7 @@
       { "greek": "ἡμῶν", "latvian": [] },
       { "greek": "ἀλλ", "latvian": ["bēdas"] },
       { "greek": "ἐν", "latvian": ["no", "visām"] },
-      { "greek": "παντὶ", "latvian": ["pusēm"] },
+      { "greek": "παντὶ", "latvian": ["pusēm"] },
       { "greek": "θλιβόμενοι", "latvian": [] },
       { "greek": "ἔξωθεν", "latvian": ["ārā"] },
       { "greek": "μάχαι", "latvian": ["cīņas"] },
@@ -189,7 +189,7 @@
       { "greek": "εἰ", "latvian": ["jūs", "skumdināja"] },
       { "greek": "καὶ", "latvian": [] },
       { "greek": "πρὸς", "latvian": ["lai", "arī"] },
-      { "greek": "ὥραν", "latvian": ["tikai", "uz", "brīdi"] },
+      { "greek": "ὥραν", "latvian": ["tikai", "uz", "brīdi"] },
       { "greek": "ἐλύπησεν", "latvian": [] },
       { "greek": "ὑμᾶς", "latvian": [] }
     ],
@@ -201,10 +201,10 @@
       { "greek": "χαίρω", "latvian": ["es", "priecājos"] },
       { "greek": "οὐχ", "latvian": ["ne", "par", "to"] },
       { "greek": "ὅτι", "latvian": ["ka"] },
-      { "greek": "ἐλυπήθητε", "latvian": ["jūs", "tapat", "skumdināti"] },
+      { "greek": "ἐλυπήθητε", "latvian": ["jūs", "tapāt", "skumdināti"] },
       { "greek": "ἀλλ", "latvian": ["bet", "par", "to"] },
       { "greek": "ὅτι", "latvian": ["ka"] },
-      { "greek": "ἐλυπήθητε", "latvian": ["jūs", "tapat", "skumdināti"] },
+      { "greek": "ἐλυπήθητε", "latvian": ["jūs", "tapāt", "skumdināti"] },
       { "greek": "εἰς", "latvian": ["uz"] },
       { "greek": "μετάνοιαν", "latvian": ["atgriešanos"] },
       { "greek": "ἐλυπήθητε", "latvian": ["jo", "jūs", "esat", "skumdināti"] },
@@ -270,7 +270,7 @@
       { "greek": "ἐκδίκησιν", "latvian": ["sodīšanu"] },
       { "greek": "ἐν", "latvian": ["Katrā"] },
       { "greek": "παντὶ", "latvian": ["ziņā"] },
-      { "greek": "συνεστήσατε", "latvian": ["jūs", "esat", "pieradījuši"] },
+      { "greek": "συνεστήσατε", "latvian": ["jūs", "esat", "pierādījuši"] },
       { "greek": "ἑαυτοὺς", "latvian": [] },
       { "greek": "ἁγνοὺς", "latvian": ["ka", "šinī", "lietā", "esat"] },
       { "greek": "εἶναι", "latvian": [] },
@@ -311,7 +311,7 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Θεοῦ", "latvian": [] }
     ],
-    "leftover_latvian": ["dēļ", "tādēļ"]
+    "leftover_latvian": ["dēļ", "tādēļ"]
   },
   {
     "greek_words": [

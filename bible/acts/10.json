@@ -271,7 +271,7 @@
       { "greek": "Ἀναστάς", "latvian": ["Celies"] },
       { "greek": "Πέτρε", "latvian": ["Pēteri"] },
       { "greek": "θῦσον", "latvian": ["kauj"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "φάγε", "latvian": ["ēd"] }
     ],
     "leftover_latvian": ["runāja"]
@@ -513,7 +513,7 @@
       { "greek": "συνῆλθον", "latvian": ["gāja"] },
       { "greek": "αὐτῷ", "latvian": ["viņam"] }
     ],
-    "leftover_latvian": ["viņš", "viņš", "ceļā", "ar", "kas", "bijā", "līdzi"]
+    "leftover_latvian": ["viņš", "viņš", "ceļā", "ar", "kas", "bija", "līdzi"]
   },
   {
     "greek_words": [
@@ -523,7 +523,7 @@
       { "greek": "εἰσῆλθεν", "latvian": ["nonāca"] },
       { "greek": "εἰς", "latvian": [] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "Καισάρειαν", "latvian": ["Cezarejā;"] },
+      { "greek": "Καισάρειαν", "latvian": ["Cezarejā"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "Κορνήλιος", "latvian": ["Kornēlijs"] },
@@ -702,7 +702,7 @@
       { "greek": "Σίμωνα", "latvian": ["Sīmani"] },
       { "greek": "ὃς", "latvian": ["kam"] },
       { "greek": "ἐπικαλεῖται", "latvian": ["pievārds"] },
-      { "greek": "Πέτρος", "latvian": ["Pēteris;"] },
+      { "greek": "Πέτρος", "latvian": ["Pēteris"] },
       { "greek": "οὗτος", "latvian": ["tas"] },
       { "greek": "ξενίζεται", "latvian": ["mājo"] },
       { "greek": "ἐν", "latvian": [] },

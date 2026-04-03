@@ -17,7 +17,7 @@
   },
   {
     "greek_words": [
-      { "greek": "ὁ", "latvian": ["Kas"] },
+      { "greek": "ὁ", "latvian": ["kas"] },
       { "greek": "γὰρ", "latvian": ["Jo"] },
       { "greek": "λαλῶν", "latvian": ["runā"] },
       { "greek": "γλώσσῃ", "latvian": ["mēlēs"] },
@@ -43,7 +43,7 @@
       { "greek": "προφητεύων", "latvian": ["pravieto"] },
       { "greek": "ἀνθρώποις", "latvian": ["cilvēku"] },
       { "greek": "λαλεῖ", "latvian": ["runā"] },
-      { "greek": "οἰκοδομὴν", "latvian": ["celsanai"] },
+      { "greek": "οἰκοδομὴν", "latvian": ["celšanai"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "παράκλησιν", "latvian": ["pamudināšanai"] },
       { "greek": "καὶ", "latvian": [] },
@@ -506,7 +506,7 @@
       { "greek": "ἄπιστος", "latvian": ["neticīgs"] },
       { "greek": "ἢ", "latvian": ["vai"] },
       { "greek": "ἰδιώτης", "latvian": ["svešinieks"] },
-      { "greek": "ἐλέγχεται", "latvian": ["ved", "pie", "atzīšanās"] },
+      { "greek": "ἐλέγχεται", "latvian": ["ved", "pie", "atzīšanas"] },
       { "greek": "ὑπὸ", "latvian": [] },
       { "greek": "πάντων", "latvian": ["visi"] },
       { "greek": "ἀνακρίνεται", "latvian": ["spriež", "pār", "viņu"] },
@@ -541,7 +541,7 @@
       { "greek": "ὑμῖν", "latvian": ["jūsu", "vidū"] },
       { "greek": "ἐστιν", "latvian": ["ir"] }
     ],
-    "leftover_latvian": ["Un", "domas", "viņš", "Un"]
+    "leftover_latvian": ["Un", "domas", "viņš", "un"]
   },
   {
     "greek_words": [
@@ -607,7 +607,7 @@
       { "greek": "τῷ", "latvian": [] },
       { "greek": "Θεῷ", "latvian": ["Dievam"] }
     ],
-    "leftover_latvian": ["tad", "tie", "tik", "Un"]
+    "leftover_latvian": ["tad", "tie", "tik", "un"]
   },
   {
     "greek_words": [
@@ -705,7 +705,7 @@
       { "greek": "νόμος", "latvian": ["bauslība"] },
       { "greek": "λέγει", "latvian": ["nosaka"] }
     ],
-    "leftover_latvian": ["kā", "tas", "parasts", "visās", "ticīgo", "jo", "nav", "draudzes"]
+    "leftover_latvian": ["kā", "tas", "parasts", "visās", "ticīgo", "jo", "nav", "draudzēs"]
   },
   {
     "greek_words": [
@@ -746,7 +746,7 @@
       { "greek": "μόνους", "latvian": ["vien"] },
       { "greek": "κατήντησεν", "latvian": ["ir", "nācis"] }
     ],
-    "leftover_latvian": ["tas", "Vai"]
+    "leftover_latvian": ["tas", "vai"]
   },
   {
     "greek_words": [

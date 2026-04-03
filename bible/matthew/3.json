@@ -387,15 +387,15 @@
       { "greek": "Πνεῦμα", "latvian": ["Garu"] },
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Θεοῦ", "latvian": ["Dieva"] },
-      { "greek": "καταβαῖνον", "latvian": ["nolaizamies"] },
+      { "greek": "καταβαῖνον", "latvian": ["nolaižamies"] },
       { "greek": "ὡσεὶ", "latvian": ["kā"] },
       { "greek": "περιστερὰν", "latvian": ["balodi"] },
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐρχόμενον", "latvian": ["nākam"] },
       { "greek": "ἐπ", "latvian": ["uz"] },
       { "greek": "αὐτόν", "latvian": ["Viņu"] }
     ],
-    "leftover_latvian": ["Viņš", "Viņš"]
+    "leftover_latvian": ["Viņš", "viņš"]
   },
   {
     "greek_words": [

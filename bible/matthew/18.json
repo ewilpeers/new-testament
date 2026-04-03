@@ -240,7 +240,7 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "πυρός", "latvian": ["ugunī"] }
     ],
-    "leftover_latvian": ["to", "tas", "kad", "Un"]
+    "leftover_latvian": ["to", "tas", "kad", "un"]
   },
   {
     "greek_words": [
@@ -826,7 +826,7 @@
       { "greek": "ὀφειλόμενον", "latvian": ["ko", "viņš", "tam", "bija", "parādā"] },
       { "greek": "αὐτῷ", "latvian": [] }
     ],
-    "leftover_latvian": ["Un"]
+    "leftover_latvian": ["un"]
   },
   {
     "greek_words": [

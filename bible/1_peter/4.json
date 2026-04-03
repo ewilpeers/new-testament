@@ -22,7 +22,7 @@
   },
   {
     "greek_words": [
-      { "greek": "εἰς", "latvian": ["tā", "kā"] },
+      { "greek": "εἰς", "latvian": ["tā", "ka"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "μηκέτι", "latvian": ["viņš", "miesas", "dzīvē", "atlikušo", "laiku"] },
       { "greek": "ἀνθρώπων", "latvian": ["vairs"] },
@@ -93,7 +93,7 @@
       { "greek": "κρῖναι", "latvian": ["tiesās"] },
       { "greek": "ζῶντας", "latvian": ["dzīvus"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "νεκρούς", "latvian": ["mirušus"] }
+      { "greek": "νεκρούς", "latvian": ["mirušus"] }
     ],
     "leftover_latvian": ["jādod"]
   },
@@ -159,7 +159,7 @@
       { "greek": "εἰς", "latvian": ["cits", "pret"] },
       { "greek": "ἀλλήλους", "latvian": ["citu"] },
       { "greek": "ἄνευ", "latvian": ["bez"] },
-      { "greek": "γογγυσμοῦ", "latvian": ["kurnešanas"] }
+      { "greek": "γογγυσμοῦ", "latvian": ["kurnēšanas"] }
     ],
     "leftover_latvian": []
   },

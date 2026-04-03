@@ -77,7 +77,7 @@
       { "greek": "ἀλλ", "latvian": ["bet"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "ἀποδείξει", "latvian": ["izpausmē"] },
-      { "greek": "Πνεύματος", "latvian": ["Gara"] },
+      { "greek": "Πνεύματος", "latvian": ["gara"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "δυνάμεως", "latvian": ["spēka"] }
     ],
@@ -124,7 +124,7 @@
       { "greek": "τῶν", "latvian": ["kas"] },
       { "greek": "καταργουμένων", "latvian": ["lemti", "iznīcībai"] }
     ],
-    "leftover_latvian": ["bet", "Gudrību"]
+    "leftover_latvian": ["bet", "gudrību"]
   },
   {
     "greek_words": [
@@ -170,7 +170,7 @@
       { "greek": "δόξης", "latvian": ["godības"] },
       { "greek": "ἐσταύρωσαν", "latvian": ["būtu", "krustā", "situši"] }
     ],
-    "leftover_latvian": ["ja", "tie", "tie", "tad", "To"]
+    "leftover_latvian": ["ja", "tie", "tie", "tad", "to"]
   },
   {
     "greek_words": [
@@ -360,7 +360,7 @@
       { "greek": "συμβιβάσει", "latvian": ["varētu", "dot", "padomu"] },
       { "greek": "αὐτόν", "latvian": ["Viņam"] },
       { "greek": "ἡμεῖς", "latvian": ["mums"] },
-      { "greek": "δὲ", "latvian": ["bet"] },
+      { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "νοῦν", "latvian": ["prāts"] },
       { "greek": "Χριστοῦ", "latvian": ["Kristus"] },
       { "greek": "ἔχομεν", "latvian": ["ir"] }

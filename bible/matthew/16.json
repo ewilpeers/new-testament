@@ -248,7 +248,7 @@
       { "greek": "εἰς", "latvian": [] },
       { "greek": "τὰ", "latvian": [] },
       { "greek": "μέρη", "latvian": ["robežās"] },
-      { "greek": "Καισαρείας", "latvian": ["Cēzarejas"] },
+      { "greek": "Καισαρείας", "latvian": ["Cezarejas"] },
       { "greek": "τῆς", "latvian": [] },
       { "greek": "Φιλίππου", "latvian": ["Filipa"] },
       { "greek": "ἠρώτα", "latvian": ["vaicāja"] },
@@ -352,7 +352,7 @@
       { "greek": "τοῖς", "latvian": [] },
       { "greek": "οὐρανοῖς", "latvian": ["debesīs"] }
     ],
-    "leftover_latvian": ["to", "ir", "Un"]
+    "leftover_latvian": ["to", "ir", "un"]
   },
   {
     "greek_words": [
@@ -494,7 +494,7 @@
       { "greek": "σοι", "latvian": ["Tev"] },
       { "greek": "τοῦτο", "latvian": ["tas"] }
     ],
-    "leftover_latvian": ["ka", "Un"]
+    "leftover_latvian": ["ka", "un"]
   },
   {
     "greek_words": [

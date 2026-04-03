@@ -86,7 +86,7 @@
       { "greek": "ἔν", "latvian": [] },
       { "greek": "τε", "latvian": [] },
       { "greek": "Ἱεροσολύμοις", "latvian": ["un", "Jeruzālemē"] },
-      { "greek": "ἴσασι", "latvian": ["pazīst", "visi"] },
+      { "greek": "ἴσασι", "latvian": ["pazīst", "Visi"] },
       { "greek": "πάντες", "latvian": [] },
       { "greek": "οἱ", "latvian": [] },
       { "greek": "Ἰουδαῖοι", "latvian": ["jūdi"] }
@@ -170,7 +170,7 @@
       { "greek": "εἰ", "latvian": ["ka"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Θεὸς", "latvian": ["Dievs"] },
-      { "greek": "νεκροὺς", "latvian": ["mirusos"] },
+      { "greek": "νεκροὺς", "latvian": ["mirušos"] },
       { "greek": "ἐγείρει", "latvian": ["uzmodina"] }
     ],
     "leftover_latvian": []
@@ -539,9 +539,9 @@
       { "greek": "εἰ", "latvian": ["ka", "Viņš"] },
       { "greek": "πρῶτος", "latvian": ["pirmais"] },
       { "greek": "ἐξ", "latvian": ["no"] },
-      { "greek": "ἀναστάσεως", "latvian": ["mirusiem"] },
+      { "greek": "ἀναστάσεως", "latvian": ["mirušiem"] },
       { "greek": "νεκρῶν", "latvian": [] },
-      { "greek": "φῶς", "latvian": ["augšāmcelies"] },
+      { "greek": "φῶς", "latvian": ["augšāmcēlies"] },
       { "greek": "μέλλει", "latvian": ["sludināt"] },
       { "greek": "καταγγέλλειν", "latvian": ["gaismu"] },
       { "greek": "τῷ", "latvian": [] },
@@ -561,7 +561,7 @@
       { "greek": "ἀπολογουμένου", "latvian": ["aizstāvoties"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Φῆστος", "latvian": ["Fēsts"] },
-      { "greek": "μεγάλῃ", "latvian": ["skalā"] },
+      { "greek": "μεγάλῃ", "latvian": ["skaļā"] },
       { "greek": "τῇ", "latvian": [] },
       { "greek": "φωνῇ", "latvian": ["balsī"] },
       { "greek": "φησιν", "latvian": ["sacīja"] },
@@ -659,7 +659,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Ὁ", "latvian": ["Bet"] },
+      { "greek": "Ὁ", "latvian": ["bet"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "Παῦλος", "latvian": ["Pāvils"] },
       { "greek": "Εὐξαίμην", "latvian": ["Lai", "Dievs", "dod"] },

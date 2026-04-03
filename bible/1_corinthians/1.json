@@ -105,7 +105,7 @@
       { "greek": "λόγῳ", "latvian": ["vārdos"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "πάσῃ", "latvian": [] },
-      { "greek": "γνώσει", "latvian": ["atzinā"] }
+      { "greek": "γνώσει", "latvian": ["atziņā"] }
     ],
     "leftover_latvian": ["jūs", "lietās", "viscaur"]
   },
@@ -278,14 +278,14 @@
       { "greek": "ἐσταυρώθη", "latvian": ["ir", "krustā", "sists"] },
       { "greek": "ὑπὲρ", "latvian": ["par"] },
       { "greek": "ὑμῶν", "latvian": ["jums"] },
-      { "greek": "ἢ", "latvian": ["jeb"] },
+      { "greek": "ἢ", "latvian": ["Jeb"] },
       { "greek": "εἰς", "latvian": ["uz"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "ὄνομα", "latvian": ["vārdu"] },
       { "greek": "Παύλου", "latvian": ["Pāvila"] },
       { "greek": "ἐβαπτίσθητε", "latvian": ["esat", "kristīti"] }
     ],
-    "leftover_latvian": ["Vai", "tad", "tad", "jūs", "Vai", "Vai"]
+    "leftover_latvian": ["Vai", "tad", "tad", "jūs", "Vai", "vai"]
   },
   {
     "greek_words": [

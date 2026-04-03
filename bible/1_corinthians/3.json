@@ -190,7 +190,7 @@
       { "greek": "δὲ", "latvian": ["bet"] },
       { "greek": "ἐποικοδομεῖ", "latvian": ["ceļ", "uz", "tā", "ēku"] },
       { "greek": "ἕκαστος", "latvian": ["katrs"] },
-      { "greek": "δὲ", "latvian": ["bet"] },
+      { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "βλεπέτω", "latvian": ["lai", "pielūko"] },
       { "greek": "πῶς", "latvian": ["kā"] },
       { "greek": "ἐποικοδομεῖ", "latvian": ["viņš", "to", "ceļ"] }
@@ -217,7 +217,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Εἰ", "latvian": ["Ja"] },
+      { "greek": "Εἰ", "latvian": ["ja"] },
       { "greek": "δέ", "latvian": ["Bet"] },
       { "greek": "τις", "latvian": ["kas"] },
       { "greek": "ἐποικοδομεῖ", "latvian": ["ceļ"] },
@@ -356,7 +356,7 @@
       { "greek": "τῷ", "latvian": [] },
       { "greek": "αἰῶνι", "latvian": ["pasaules", "lietās"] },
       { "greek": "τούτῳ", "latvian": ["šīs"] },
-      { "greek": "μωρὸς", "latvian": ["ģekim"] },
+      { "greek": "μωρὸς", "latvian": ["ģeķim"] },
       { "greek": "γενέσθω", "latvian": ["jātop"] },
       { "greek": "ἵνα", "latvian": ["lai"] },
       { "greek": "γένηται", "latvian": ["kļūtu"] },
@@ -404,7 +404,7 @@
       { "greek": "εἰσὶν", "latvian": ["ir"] },
       { "greek": "μάταιοι", "latvian": ["tukšas"] }
     ],
-    "leftover_latvian": ["Tas"]
+    "leftover_latvian": ["tās"]
   },
   {
     "greek_words": [

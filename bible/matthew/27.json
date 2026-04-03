@@ -73,7 +73,7 @@
       { "greek": "πρὸς", "latvian": [] },
       { "greek": "ἡμᾶς", "latvian": ["mums"] },
       { "greek": "σὺ", "latvian": ["tu"] },
-      { "greek": "ὄψῃ", "latvian": ["pats", "raugi"] }
+      { "greek": "ὄψῃ", "latvian": ["pats", "Raugi"] }
     ],
     "leftover_latvian": ["nenoziedzīgas", "par", "daļu"]
   },
@@ -250,7 +250,7 @@
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Πιλᾶτος", "latvian": ["Pilāts"] },
       { "greek": "Οὐκ", "latvian": ["Vai", "ne-"] },
-      { "greek": "ἀκούεις", "latvian": ["tu", "dzirdi"] },
+      { "greek": "ἀκούεις", "latvian": ["Tu", "dzirdi"] },
       { "greek": "πόσα", "latvian": ["cik", "smagi"] },
       { "greek": "σου", "latvian": ["pret", "Tevi"] },
       { "greek": "καταμαρτυροῦσιν", "latvian": ["tie", "liecina"] }
@@ -485,7 +485,7 @@
       { "greek": "αἵματος", "latvian": ["asinīm"] },
       { "greek": "τούτου", "latvian": ["šī", "taisnā"] },
       { "greek": "ὑμεῖς", "latvian": ["jūs"] },
-      { "greek": "ὄψεσθε", "latvian": ["paši", "raugait"] }
+      { "greek": "ὄψεσθε", "latvian": ["paši", "Raugait"] }
     ],
     "leftover_latvian": ["kad", "lielāks"]
   },
@@ -642,7 +642,7 @@
       { "greek": "δὲ", "latvian": [] },
       { "greek": "εὗρον", "latvian": ["tie", "sastapa"] },
       { "greek": "ἄνθρωπον", "latvian": ["cilvēku"] },
-      { "greek": "Κυρηναῖον", "latvian": ["no", "Kirenas"] },
+      { "greek": "Κυρηναῖον", "latvian": ["no", "Kirēnas"] },
       { "greek": "ὀνόματι", "latvian": ["vārdā"] },
       { "greek": "Σίμωνα", "latvian": ["Sīmani"] },
       { "greek": "τοῦτον", "latvian": ["to"] },

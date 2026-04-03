@@ -119,7 +119,7 @@
       { "greek": "καιρὸν", "latvian": ["kad", "vēl"] },
       { "greek": "ὑπὲρ", "latvian": [] },
       { "greek": "ἀσεβῶν", "latvian": [] },
-      { "greek": "ἀπέθανεν", "latvian": ["bijām", "nespēcīgi"] }
+      { "greek": "ἀπέθανεν", "latvian": ["bijām", "nespēcīgi"] }
     ],
     "leftover_latvian": []
   },
@@ -161,7 +161,7 @@
       { "greek": "ἡμῶν", "latvian": [] },
       { "greek": "Χριστὸς", "latvian": [] },
       { "greek": "ὑπὲρ", "latvian": ["kad", "vēl"] },
-      { "greek": "ἡμῶν", "latvian": ["bijām"] },
+      { "greek": "ἡμῶν", "latvian": ["bijām"] },
       { "greek": "ἀπέθανεν", "latvian": ["grēcinieki"] }
     ],
     "leftover_latvian": []
@@ -190,7 +190,7 @@
     "greek_words": [
       { "greek": "εἰ", "latvian": ["Jo"] },
       { "greek": "γὰρ", "latvian": [] },
-      { "greek": "ἐχθροὶ", "latvian": ["ja", "mēs", "kas", "bijām"] },
+      { "greek": "ἐχθροὶ", "latvian": ["ja", "mēs", "kas", "bijām"] },
       { "greek": "ὄντες", "latvian": [] },
       { "greek": "κατηλλάγημεν", "latvian": ["naidā", "ar", "Dievu"] },
       { "greek": "τῷ", "latvian": [] },

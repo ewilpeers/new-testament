@@ -1,7 +1,7 @@
 [
   {
     "greek_words": [
-      { "greek": "Ἐρωτῶμεν", "latvian": ["Bet", "attiecībā", "uz"] },
+      { "greek": "Ἐρωτῶμεν", "latvian": ["Bet", "attiecībā", "uz"] },
       { "greek": "δὲ", "latvian": [] },
       { "greek": "ὑμᾶς", "latvian": [] },
       { "greek": "ἀδελφοί", "latvian": ["mēs", "lūdzam", "jūs", "brāļi"] },
@@ -118,7 +118,7 @@
       { "greek": "Οὐ", "latvian": ["Vai", "jūs"] },
       { "greek": "μνημονεύετε", "latvian": ["neatceraties"] },
       { "greek": "ὅτι", "latvian": ["ka"] },
-      { "greek": "ἔτι", "latvian": ["es", "par", "to", "jums", "esmu", "runājis"] },
+      { "greek": "ἔτι", "latvian": ["es", "par", "to", "jums", "esmu", "runājis"] },
       { "greek": "ὢν", "latvian": [] },
       { "greek": "πρὸς", "latvian": [] },
       { "greek": "ὑμᾶς", "latvian": [] },
@@ -184,7 +184,7 @@
       { "greek": "στόματος", "latvian": ["elpu"] },
       { "greek": "αὐτοῦ", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "καταργήσει", "latvian": ["izdeldēs", "viņu"] },
+      { "greek": "καταργήσει", "latvian": ["izdeldēs", "viņu"] },
       { "greek": "τῇ", "latvian": [] },
       { "greek": "ἐπιφανείᾳ", "latvian": ["kad", "pats", "atnāks"] },
       { "greek": "τῆς", "latvian": [] },

@@ -67,7 +67,7 @@
       { "greek": "ὁράσει", "latvian": [] },
       { "greek": "λίθῳ", "latvian": ["līdzīgs"] },
       { "greek": "ἰάσπιδι", "latvian": ["dārgakmeņiem"] },
-      { "greek": "καὶ", "latvian": ["jaspīdam"] },
+      { "greek": "καὶ", "latvian": ["jaspīdam"] },
       { "greek": "σαρδίῳ", "latvian": ["un", "sardijam"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἶρις", "latvian": ["ap", "goda"] },
@@ -280,7 +280,7 @@
   },
   {
     "greek_words": [
-      { "greek": "πεσοῦνται", "latvian": ["tad", "metas", "zemē"] },
+      { "greek": "πεσοῦνται", "latvian": ["tad", "metas", "zemē"] },
       { "greek": "οἱ", "latvian": [] },
       { "greek": "εἴκοσι", "latvian": ["divdesmit"] },
       { "greek": "τέσσαρες", "latvian": ["četri"] },

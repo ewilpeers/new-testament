@@ -579,7 +579,7 @@
       { "greek": "παιδίσκης", "latvian": [] },
       { "greek": "μετὰ", "latvian": ["kopā", "ar"] },
       { "greek": "τοῦ", "latvian": [] },
-      { "greek": "υἱοῦ", "latvian": ["svabadas", "dēlu"] },
+      { "greek": "υἱοῦ", "latvian": ["svabadās", "dēlu"] },
       { "greek": "τῆς", "latvian": [] },
       { "greek": "ἐλευθέρας", "latvian": [] }
     ],
@@ -595,7 +595,7 @@
       { "greek": "τέκνα", "latvian": ["bērni"] },
       { "greek": "ἀλλὰ", "latvian": ["bet"] },
       { "greek": "τῆς", "latvian": [] },
-      { "greek": "ἐλευθέρας", "latvian": ["svabadas"] }
+      { "greek": "ἐλευθέρας", "latvian": ["svabadās"] }
     ],
     "leftover_latvian": []
   }

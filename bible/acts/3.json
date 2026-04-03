@@ -29,7 +29,7 @@
       { "greek": "κοιλίας", "latvian": ["miesām"] },
       { "greek": "μητρὸς", "latvian": ["mātes"] },
       { "greek": "αὐτοῦ", "latvian": [] },
-      { "greek": "ὑπάρχων", "latvian": ["bijā"] },
+      { "greek": "ὑπάρχων", "latvian": ["bija"] },
       { "greek": "ἐβαστάζετο", "latvian": ["nesa"] },
       { "greek": "ὃν", "latvian": [] },
       { "greek": "ἐτίθουν", "latvian": ["nolika"] },
@@ -142,7 +142,7 @@
       { "greek": "τῆς", "latvian": [] },
       { "greek": "δεξιᾶς", "latvian": ["labās"] },
       { "greek": "χειρὸς", "latvian": ["rokas"] },
-      { "greek": "ἤγειρεν", "latvian": ["pacēla;"] },
+      { "greek": "ἤγειρεν", "latvian": ["pacēla"] },
       { "greek": "αὐτόν", "latvian": [] },
       { "greek": "παραχρῆμα", "latvian": ["tūdaļ"] },
       { "greek": "δὲ", "latvian": ["un"] },
@@ -283,7 +283,7 @@
       { "greek": "περιπατεῖν", "latvian": ["staigā"] },
       { "greek": "αὐτόν", "latvian": [] }
     ],
-    "leftover_latvian": ["un", "it", "mēs", "ar", "savu", "būtu", "šis", "jūs", "jūs", "To", "kā"]
+    "leftover_latvian": ["un", "it", "mēs", "ar", "savu", "būtu", "šis", "jūs", "jūs", "To", "ka"]
   },
   {
     "greek_words": [
@@ -516,7 +516,7 @@
       { "greek": "ἀδελφῶν", "latvian": ["brāļiem"] },
       { "greek": "ὑμῶν", "latvian": [] },
       { "greek": "ὡς", "latvian": ["tāpat"] },
-      { "greek": "ἐμέ", "latvian": ["mani;"] },
+      { "greek": "ἐμέ", "latvian": ["mani"] },
       { "greek": "αὐτοῦ", "latvian": [] },
       { "greek": "ἀκούσεσθε", "latvian": ["klausait"] },
       { "greek": "κατὰ", "latvian": ["visās"] },

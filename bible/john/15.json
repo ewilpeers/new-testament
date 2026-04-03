@@ -135,7 +135,7 @@
       { "greek": "τὸ", "latvian": ["tas"] },
       { "greek": "κλῆμα", "latvian": ["zars"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "ἐξηράνθη", "latvian": ["sakalst;"] },
+      { "greek": "ἐξηράνθη", "latvian": ["sakalst"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "συνάγουσιν", "latvian": ["savāc"] },
       { "greek": "αὐτὰ", "latvian": ["tos"] },
@@ -310,7 +310,7 @@
       { "greek": "ἐντέλλομαι", "latvian": ["pavēlu"] },
       { "greek": "ὑμῖν", "latvian": ["jums"] }
     ],
-    "leftover_latvian": ["Jūs"]
+    "leftover_latvian": ["jūs"]
   },
   {
     "greek_words": [
@@ -324,7 +324,7 @@
       { "greek": "οὐκ", "latvian": ["nesaprot"] },
       { "greek": "οἶδεν", "latvian": [] },
       { "greek": "τί", "latvian": ["ko"] },
-      { "greek": "ποιεῖ", "latvian": ["dara;"] },
+      { "greek": "ποιεῖ", "latvian": ["dara"] },
       { "greek": "αὐτοῦ", "latvian": ["viņa"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "κύριος", "latvian": ["kungs"] },

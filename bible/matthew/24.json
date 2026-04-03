@@ -80,7 +80,7 @@
       { "greek": "σῆς", "latvian": ["Tavas"] },
       { "greek": "παρουσίας", "latvian": ["atnākšanas"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "συντελείας", "latvian": ["pastara", "laika"] },
+      { "greek": "συντελείας", "latvian": ["pastarā", "laika"] },
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "αἰῶνος", "latvian": [] }
     ],
@@ -98,9 +98,9 @@
       { "greek": "μή", "latvian": ["ka"] },
       { "greek": "τις", "latvian": ["neviens"] },
       { "greek": "ὑμᾶς", "latvian": ["jūs"] },
-      { "greek": "πλανήσῃ", "latvian": ["nepievil"] }
+      { "greek": "πλανήσῃ", "latvian": ["nepieviļ"] }
     ],
-    "leftover_latvian": ["Un"]
+    "leftover_latvian": ["un"]
   },
   {
     "greek_words": [
@@ -904,7 +904,7 @@
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "οὐκ", "latvian": ["ne-"] },
       { "greek": "ἂν", "latvian": [] },
-      { "greek": "εἴασεν", "latvian": ["lautu"] },
+      { "greek": "εἴασεν", "latvian": ["neļautu"] },
       { "greek": "διορυχθῆναι", "latvian": ["ielauzties"] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "οἰκίαν", "latvian": ["savā", "namā"] },

@@ -9,7 +9,7 @@
       { "greek": "ὑμᾶς", "latvian": [] },
       { "greek": "διὰ", "latvian": ["ar"] },
       { "greek": "τῆς", "latvian": [] },
-      { "greek": "πραΰτητος", "latvian": ["Kristus", "lēnprātību"] },
+      { "greek": "πραΰτητος", "latvian": ["Kristus", "lēnprātību"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἐπιεικείας", "latvian": ["laipnību"] },
       { "greek": "τοῦ", "latvian": [] },
@@ -57,7 +57,7 @@
   {
     "greek_words": [
       { "greek": "Ἐν", "latvian": ["Mēs", "dzīvojam", "gan"] },
-      { "greek": "σαρκὶ", "latvian": ["pasaulē"] },
+      { "greek": "σαρκὶ", "latvian": ["pasaulē"] },
       { "greek": "γὰρ", "latvian": [] },
       { "greek": "περιπατοῦντες", "latvian": [] },
       { "greek": "οὐ", "latvian": ["bet"] },
@@ -82,14 +82,14 @@
       { "greek": "τῷ", "latvian": [] },
       { "greek": "Θεῷ", "latvian": ["Dieva", "priekšā"] },
       { "greek": "πρὸς", "latvian": ["cietokšņu"] },
-      { "greek": "καθαίρεσιν", "latvian": ["noārdisanai"] },
+      { "greek": "καθαίρεσιν", "latvian": ["noārdīšanai"] },
       { "greek": "ὀχυρωμάτων", "latvian": [] }
     ],
     "leftover_latvian": []
   },
   {
     "greek_words": [
-      { "greek": "λογισμοὺς", "latvian": ["Mēs", "apgāžam", "prātojumus"] },
+      { "greek": "λογισμοὺς", "latvian": ["Mēs", "apgāžam", "prātojumus"] },
       { "greek": "καθαιροῦντες", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "πᾶν", "latvian": ["visas"] },
@@ -97,7 +97,7 @@
       { "greek": "ἐπαιρόμενον", "latvian": [] },
       { "greek": "κατὰ", "latvian": ["kas", "paceļas"] },
       { "greek": "τῆς", "latvian": [] },
-      { "greek": "γνώσεως", "latvian": ["pret", "Dieva", "atziņu"] },
+      { "greek": "γνώσεως", "latvian": ["pret", "Dieva", "atziņu"] },
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Θεοῦ", "latvian": [] },
       { "greek": "καὶ", "latvian": ["un"] },
@@ -220,7 +220,7 @@
       { "greek": "λόγος", "latvian": ["viņa", "runa"] },
       { "greek": "ἐξουθενημένος", "latvian": ["ir", "nenozīmīga"] }
     ],
-    "leftover_latvian": ["svarīgas"]
+    "leftover_latvian": ["svarīgas"]
   },
   {
     "greek_words": [

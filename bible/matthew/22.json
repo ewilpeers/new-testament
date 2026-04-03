@@ -823,7 +823,7 @@
       { "greek": "οὖν", "latvian": ["tad"] },
       { "greek": "Δαυὶδ", "latvian": ["Dāvids"] },
       { "greek": "ἐν", "latvian": [] },
-      { "greek": "Πνεύματι", "latvian": ["Garā"] },
+      { "greek": "Πνεύματι", "latvian": ["garā"] },
       { "greek": "καλεῖ", "latvian": ["sauc"] },
       { "greek": "αὐτὸν", "latvian": ["Viņu"] },
       { "greek": "Κύριον", "latvian": ["par", "Kungu"] },
@@ -889,6 +889,6 @@
       { "greek": "αὐτὸν", "latvian": ["Viņam"] },
       { "greek": "οὐκέτι", "latvian": ["vairs"] }
     ],
-    "leftover_latvian": ["arī", "ko", "Un"]
+    "leftover_latvian": ["arī", "ko", "un"]
   }
 ]

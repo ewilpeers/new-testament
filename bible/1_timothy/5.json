@@ -31,7 +31,7 @@
   {
     "greek_words": [
       { "greek": "Χήρας", "latvian": ["atraitnes"] },
-      { "greek": "τίμα", "latvian": ["Goda"] },
+      { "greek": "τίμα", "latvian": ["Godā"] },
       { "greek": "τὰς", "latvian": ["tās"] },
       { "greek": "ὄντως", "latvian": ["kas", "ir", "īstas"] },
       { "greek": "χήρας", "latvian": ["atraitnes"] }
@@ -88,7 +88,7 @@
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ταῖς", "latvian": [] },
       { "greek": "προσευχαῖς", "latvian": ["pielūgšanās"] },
-      { "greek": "νυκτὸς", "latvian": ["naktī"] },
+      { "greek": "νυκτὸς", "latvian": ["nakti"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἡμέρας", "latvian": ["dienu"] }
     ],
@@ -111,7 +111,7 @@
       { "greek": "παράγγελλε", "latvian": ["to"] },
       { "greek": "ἵνα", "latvian": ["lai"] },
       { "greek": "ἀνεπίλημπτοι", "latvian": ["viņas", "būtu"] },
-      { "greek": "ὦσιν", "latvian": ["nepeļamas"] }
+      { "greek": "ὦσιν", "latvian": ["nepeļamas"] }
     ],
     "leftover_latvian": []
   },
@@ -212,7 +212,7 @@
       { "greek": "καὶ", "latvian": ["vēl", "arī"] },
       { "greek": "ἀργαὶ", "latvian": ["viņas", "mācās", "dīkā"] },
       { "greek": "μανθάνουσιν", "latvian": ["dzīvot"] },
-      { "greek": "περιερχόμεναι", "latvian": ["staigādamās"] },
+      { "greek": "περιερχόμεναι", "latvian": ["staigādamas"] },
       { "greek": "τὰς", "latvian": ["apkārt"] },
       { "greek": "οἰκίας", "latvian": ["no", "mājas", "uz", "māju"] },
       { "greek": "οὐ", "latvian": ["taču", "ne", "tikai"] },
@@ -221,7 +221,7 @@
       { "greek": "ἀργαὶ", "latvian": ["dīkā", "dzīvot"] },
       { "greek": "ἀλλὰ", "latvian": ["bet", "arī"] },
       { "greek": "καὶ", "latvian": [] },
-      { "greek": "φλύαροι", "latvian": ["plāpas"] },
+      { "greek": "φλύαροι", "latvian": ["pļāpas"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "περίεργοι", "latvian": ["jaukties", "citu"] },
       { "greek": "λαλοῦσαι", "latvian": ["darīšanās"] },
@@ -289,7 +289,7 @@
       { "greek": "καλῶς", "latvian": ["Presbiteri", "kas", "ir", "labi"] },
       { "greek": "προεστῶτες", "latvian": ["priekšnieki"] },
       { "greek": "πρεσβύτεροι", "latvian": [] },
-      { "greek": "διπλῆς", "latvian": ["lai", "būtu", "divkārsā"] },
+      { "greek": "διπλῆς", "latvian": ["lai", "būtu", "divkārša"] },
       { "greek": "τιμῆς", "latvian": ["goda"] },
       { "greek": "ἀξιούσθωσαν", "latvian": ["cienīgi"] },
       { "greek": "μάλιστα", "latvian": ["visvairāk", "tie"] },

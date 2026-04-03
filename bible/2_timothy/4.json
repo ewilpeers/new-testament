@@ -13,7 +13,7 @@
       { "greek": "κρίνειν", "latvian": ["tiesās"] },
       { "greek": "ζῶντας", "latvian": ["dzīvus"] },
       { "greek": "καὶ", "latvian": ["un"] },
-      { "greek": "νεκρούς", "latvian": ["mirušus"] },
+      { "greek": "νεκρούς", "latvian": ["mirušus"] },
       { "greek": "καὶ", "latvian": ["Viņa"] },
       { "greek": "τὴν", "latvian": [] },
       { "greek": "ἐπιφάνειαν", "latvian": ["parādīšanos"] },
@@ -261,7 +261,7 @@
     "greek_words": [
       { "greek": "Ἀλέξανδρος", "latvian": ["Aleksandrs"] },
       { "greek": "ὁ", "latvian": [] },
-      { "greek": "χαλκεὺς", "latvian": ["Kalējs"] },
+      { "greek": "χαλκεὺς", "latvian": ["Kalējs"] },
       { "greek": "πολλά", "latvian": ["ir", "man"] },
       { "greek": "μοι", "latvian": [] },
       { "greek": "κακὰ", "latvian": ["daudz", "ļauna"] },
@@ -336,7 +336,7 @@
       { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἐρρύσθην", "latvian": ["es", "esmu", "izrauts"] },
       { "greek": "ἐκ", "latvian": ["no"] },
-      { "greek": "στόματος", "latvian": ["lauvās"] },
+      { "greek": "στόματος", "latvian": ["lauvas"] },
       { "greek": "λέοντος", "latvian": ["rīkles"] }
     ],
     "leftover_latvian": []

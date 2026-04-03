@@ -152,7 +152,7 @@
     "greek_words": [
       { "greek": "ἀσθενοῦντας", "latvian": ["slimus"] },
       { "greek": "θεραπεύετε", "latvian": ["Dziediniet"] },
-      { "greek": "νεκροὺς", "latvian": ["mirušus"] },
+      { "greek": "νεκροὺς", "latvian": ["mirušus"] },
       { "greek": "ἐγείρετε", "latvian": ["uzmodiniet"] },
       { "greek": "λεπροὺς", "latvian": ["spitālīgus"] },
       { "greek": "καθαρίζετε", "latvian": ["šķīstiet"] },
@@ -226,7 +226,7 @@
       { "greek": "ἂν", "latvian": [] },
       { "greek": "ἐξέλθητε", "latvian": ["jūs", "aiziesit"] }
     ],
-    "leftover_latvian": ["Un", "tiekāms", "no", "turienes", "Un"]
+    "leftover_latvian": ["Un", "tiekāms", "no", "turienes", "un"]
   },
   {
     "greek_words": [
@@ -297,7 +297,7 @@
       { "greek": "ποδῶν", "latvian": ["kājām"] },
       { "greek": "ὑμῶν", "latvian": ["savām"] }
     ],
-    "leftover_latvian": ["no", "tāda", "nokratait", "Un"]
+    "leftover_latvian": ["no", "tāda", "nokratait", "un"]
   },
   {
     "greek_words": [

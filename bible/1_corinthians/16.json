@@ -115,7 +115,7 @@
       { "greek": "ἐὰν", "latvian": [] },
       { "greek": "πορεύωμαι", "latvian": ["es", "aiziešu"] }
     ],
-    "leftover_latvian": ["kādu", "laiku", "Varbūt"]
+    "leftover_latvian": ["kādu", "laiku", "varbūt"]
   },
   {
     "greek_words": [
@@ -176,7 +176,7 @@
       { "greek": "Τιμόθεος", "latvian": ["Timotejs"] },
       { "greek": "βλέπετε", "latvian": ["gādājiet"] },
       { "greek": "ἵνα", "latvian": ["ka"] },
-      { "greek": "ἀφόβως", "latvian": ["drošs"] },
+      { "greek": "ἀφόβως", "latvian": ["drošs"] },
       { "greek": "γένηται", "latvian": ["var", "būt"] },
       { "greek": "πρὸς", "latvian": [] },
       { "greek": "ὑμᾶς", "latvian": ["jūsu", "vidū"] },

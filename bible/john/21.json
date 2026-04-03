@@ -82,7 +82,7 @@
       { "greek": "ἐπίασαν", "latvian": ["nedabūja"] },
       { "greek": "οὐδέν", "latvian": ["nekā"] }
     ],
-    "leftover_latvian": ["Tad", "bet", "Tie"]
+    "leftover_latvian": ["Tad", "bet", "tie"]
   },
   {
     "greek_words": [
@@ -351,7 +351,7 @@
   },
   {
     "greek_words": [
-      { "greek": "Ὅτε", "latvian": ["kad"] },
+      { "greek": "Ὅτε", "latvian": ["Kad"] },
       { "greek": "οὖν", "latvian": [] },
       { "greek": "ἠρίστησαν", "latvian": [] },
       { "greek": "λέγει", "latvian": ["saka"] },

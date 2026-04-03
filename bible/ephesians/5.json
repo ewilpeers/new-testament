@@ -109,7 +109,7 @@
     "greek_words": [
       { "greek": "Μηδεὶς", "latvian": ["Neviens"] },
       { "greek": "ὑμᾶς", "latvian": ["lai", "jūs"] },
-      { "greek": "ἀπατάτω", "latvian": ["nepievil"] },
+      { "greek": "ἀπατάτω", "latvian": ["nepieviļ"] },
       { "greek": "κενοῖς", "latvian": ["tukšām"] },
       { "greek": "λόγοις", "latvian": ["runām"] },
       { "greek": "διὰ", "latvian": ["jo"] },
@@ -213,7 +213,7 @@
       { "greek": "αἰσχρόν", "latvian": ["par", "to", "pat"] },
       { "greek": "ἐστιν", "latvian": [] },
       { "greek": "καὶ", "latvian": ["kauns"] },
-      { "greek": "λέγειν", "latvian": ["runāt"] }
+      { "greek": "λέγειν", "latvian": ["runāt"] }
     ],
     "leftover_latvian": []
   },
@@ -234,7 +234,7 @@
       { "greek": "φῶς", "latvian": ["gaisma"] },
       { "greek": "ἐστιν", "latvian": ["ir"] }
     ],
-    "leftover_latvian": ["gaismā"]
+    "leftover_latvian": ["gaisma"]
   },
   {
     "greek_words": [
@@ -247,7 +247,7 @@
       { "greek": "ἀνάστα", "latvian": ["celies", "augšā"] },
       { "greek": "ἐκ", "latvian": ["no"] },
       { "greek": "τῶν", "latvian": [] },
-      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
+      { "greek": "νεκρῶν", "latvian": ["miroņiem"] },
       { "greek": "καὶ", "latvian": ["tad"] },
       { "greek": "ἐπιφαύσει", "latvian": ["atspīdēs"] },
       { "greek": "σοι", "latvian": ["tev"] },
@@ -366,7 +366,7 @@
       { "greek": "Ὑποτασσόμενοι", "latvian": ["Un", "esiet", "paklausīgi"] },
       { "greek": "ἀλλήλοις", "latvian": ["cits", "citam"] },
       { "greek": "ἐν", "latvian": [] },
-      { "greek": "φόβῳ", "latvian": ["Kristus", "bījībā"] },
+      { "greek": "φόβῳ", "latvian": ["Kristus", "bijībā"] },
       { "greek": "Χριστοῦ", "latvian": [] }
     ],
     "leftover_latvian": []
@@ -624,7 +624,7 @@
       { "greek": "δὲ", "latvian": [] },
       { "greek": "γυνὴ", "latvian": ["sieva"] },
       { "greek": "ἵνα", "latvian": ["lai"] },
-      { "greek": "φοβῆται", "latvian": ["jūt", "bījību"] },
+      { "greek": "φοβῆται", "latvian": ["jūt", "bijību"] },
       { "greek": "τὸν", "latvian": ["pret"] },
       { "greek": "ἄνδρα", "latvian": ["savu", "vīru"] }
     ],

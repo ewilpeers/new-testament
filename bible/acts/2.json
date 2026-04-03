@@ -248,7 +248,7 @@
   {
     "greek_words": [
       { "greek": "Ἕτεροι", "latvian": ["citi"] },
-      { "greek": "δὲ", "latvian": ["bet"] },
+      { "greek": "δὲ", "latvian": ["Bet"] },
       { "greek": "διαχλευάζοντες", "latvian": [] },
       { "greek": "ἔλεγον", "latvian": [] },
       { "greek": "ὅτι", "latvian": [] },
@@ -417,7 +417,7 @@
       { "greek": "ἀτμίδα", "latvian": ["tvaiku"] },
       { "greek": "καπνοῦ", "latvian": ["dūmus"] }
     ],
-    "leftover_latvian": ["Es", "Un"]
+    "leftover_latvian": ["Es", "un"]
   },
   {
     "greek_words": [
@@ -445,7 +445,7 @@
   },
   {
     "greek_words": [
-      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "καὶ", "latvian": ["Un"] },
       { "greek": "ἔσται", "latvian": [] },
       { "greek": "πᾶς", "latvian": [] },
       { "greek": "ὃς", "latvian": [] },
@@ -454,7 +454,7 @@
       { "greek": "τὸ", "latvian": [] },
       { "greek": "ὄνομα", "latvian": [] },
       { "greek": "Κυρίου", "latvian": ["Kunga"] },
-      { "greek": "σωθήσεται", "latvian": ["tiks izglābts"] }
+      { "greek": "σωθήσεται", "latvian": ["tiks", "izglābts"] }
     ],
     "leftover_latvian": ["ikviens", "kas", "Tā", "Vārdu", "piesauks"]
   },
@@ -558,7 +558,7 @@
       { "greek": "ἐστιν", "latvian": ["ir"] },
       { "greek": "ἵνα", "latvian": ["lai"] },
       { "greek": "μὴ", "latvian": ["ne-"] },
-      { "greek": "σαλευθῶ", "latvian": ["es", "- šaubītos"] }
+      { "greek": "σαλευθῶ", "latvian": ["es", "šaubītos"] }
     ],
     "leftover_latvian": ["Viņš"]
   },
@@ -1069,6 +1069,6 @@
       { "greek": "τὸ", "latvian": [] },
       { "greek": "αὐτό", "latvian": [] }
     ],
-    "leftover_latvian": ["viņi", "bijā", "Tas", "viņiem", "tos", "kas", "tika", "ieredzēti"]
+    "leftover_latvian": ["viņi", "bija", "Tas", "viņiem", "tos", "kas", "tika", "ieredzēti"]
   }
 ]

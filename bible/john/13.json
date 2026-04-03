@@ -82,7 +82,7 @@
       { "greek": "Θεὸν", "latvian": ["Dieva"] },
       { "greek": "ὑπάγει", "latvian": ["aiziet"] }
     ],
-    "leftover_latvian": ["bija", "Viņš", "Viņš", "ir", "ka"]
+    "leftover_latvian": ["bija", "Viņš", "Viņš", "ir", "kā"]
   },
   {
     "greek_words": [
@@ -288,7 +288,7 @@
       { "greek": "πεποίηκα", "latvian": ["darījis"] },
       { "greek": "ὑμῖν", "latvian": [] }
     ],
-    "leftover_latvian": ["Viņš", "bijā", "Viņš", "Savas", "Tad", "Viņš", "Vai", "jūs", "Es", "esmu"]
+    "leftover_latvian": ["Viņš", "bija", "Viņš", "Savas", "Tad", "Viņš", "Vai", "jūs", "Es", "esmu"]
   },
   {
     "greek_words": [
@@ -306,7 +306,7 @@
       { "greek": "εἰμὶ", "latvian": ["esmu"] },
       { "greek": "γάρ", "latvian": ["jo"] }
     ],
-    "leftover_latvian": ["Es", "tas", "saucat", "Jūs"]
+    "leftover_latvian": ["Es", "tas", "saucat", "jūs"]
   },
   {
     "greek_words": [
@@ -806,7 +806,7 @@
       { "greek": "δὲ", "latvian": ["bet"] },
       { "greek": "ὕστερον", "latvian": ["vēlāk"] }
     ],
-    "leftover_latvian": ["Tu", "Es", "turp", "Tu"]
+    "leftover_latvian": ["Tu", "Es", "turp", "tu"]
   },
   {
     "greek_words": [

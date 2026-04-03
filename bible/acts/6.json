@@ -132,7 +132,7 @@
     "greek_words": [
       { "greek": "οὓς", "latvian": ["tos"] },
       { "greek": "ἔστησαν", "latvian": ["veda"] },
-      { "greek": "ἐνώπιον", "latvian": ["priekšā;"] },
+      { "greek": "ἐνώπιον", "latvian": ["priekšā"] },
       { "greek": "τῶν", "latvian": [] },
       { "greek": "ἀποστόλων", "latvian": ["apustuļu"] },
       { "greek": "καὶ", "latvian": ["un"] },
@@ -351,6 +351,6 @@
       { "greek": "πρόσωπον", "latvian": ["vaigam"] },
       { "greek": "ἀγγέλου", "latvian": ["eņģeļa"] }
     ],
-    "leftover_latvian": ["Un"]
+    "leftover_latvian": ["un"]
   }
 ]

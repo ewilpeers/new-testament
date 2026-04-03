@@ -542,16 +542,16 @@
       { "greek": "μόνον", "latvian": ["vai", "tikai"] },
       { "greek": "οὐχὶ", "latvian": ["ne"] },
       { "greek": "καὶ", "latvian": ["arī"] },
-      { "greek": "ἐθνῶν", "latvian": ["pagānu"] },
+      { "greek": "ἐθνῶν", "latvian": ["pagānu"] },
       { "greek": "ναὶ", "latvian": ["Protams"] },
       { "greek": "καὶ", "latvian": ["arī"] },
-      { "greek": "ἐθνῶν", "latvian": ["pagānu"] }
+      { "greek": "ἐθνῶν", "latvian": ["pagānu"] }
     ],
     "leftover_latvian": ["Dievs"]
   },
   {
     "greek_words": [
-      { "greek": "εἴπερ", "latvian": ["Tik", "tiešām", "ka"] },
+      { "greek": "εἴπερ", "latvian": ["Tik", "tiešām", "ka"] },
       { "greek": "εἷς", "latvian": ["ir", "tikai", "viens"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Θεός", "latvian": ["Dievs"] },

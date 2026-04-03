@@ -389,8 +389,8 @@
   },
   {
     "greek_words": [
-      { "greek": "καὶ", "latvian": ["Un"] },
-      { "greek": "ἡμεῖς", "latvian": ["mēs", "esam"] },
+      { "greek": "καὶ", "latvian": ["un"] },
+      { "greek": "ἡμεῖς", "latvian": ["Mēs", "esam"] },
       { "greek": "ἐγνώκαμεν", "latvian": ["atzinuši"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "πεπιστεύκαμεν", "latvian": ["ticam"] },
@@ -491,7 +491,7 @@
   {
     "greek_words": [
       { "greek": "Ἡμεῖς", "latvian": [] },
-      { "greek": "ἀγαπῶμεν", "latvian": ["mīlēsim"] },
+      { "greek": "ἀγαπῶμεν", "latvian": ["Mīlēsim"] },
       { "greek": "ὅτι", "latvian": ["jo"] },
       { "greek": "αὐτὸς", "latvian": ["Viņš"] },
       { "greek": "πρῶτος", "latvian": ["ir", "mūs", "pirmais"] },

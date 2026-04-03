@@ -352,7 +352,7 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "κόσμου", "latvian": [] }
     ],
-    "leftover_latvian": ["esmu", "ir", "tāpēc", "ka"]
+    "leftover_latvian": ["esmu", "ir", "tāpēc", "kā"]
   },
   {
     "greek_words": [
@@ -450,7 +450,7 @@
       { "greek": "δὲ", "latvian": ["bet"] },
       { "greek": "ἐρωτῶ", "latvian": ["lūdzu"] },
       { "greek": "μόνον", "latvian": ["vien"] },
-      { "greek": "ἀλλὰ", "latvian": ["bet"] },
+      { "greek": "ἀλλὰ", "latvian": ["Bet"] },
       { "greek": "καὶ", "latvian": ["arī"] },
       { "greek": "περὶ", "latvian": ["par"] },
       { "greek": "τῶν", "latvian": ["tiem"] },
@@ -474,7 +474,7 @@
       { "greek": "σύ", "latvian": ["Tu"] },
       { "greek": "πάτερ", "latvian": ["Tēvs"] },
       { "greek": "ἐν", "latvian": ["Manī"] },
-      { "greek": "ἐμοὶ", "latvian": ["Manī"] },
+      { "greek": "ἐμοὶ", "latvian": ["Mani"] },
       { "greek": "κἀγὼ", "latvian": ["un", "Es"] },
       { "greek": "ἐν", "latvian": ["Tevī"] },
       { "greek": "σοί", "latvian": [] },

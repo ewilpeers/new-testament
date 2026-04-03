@@ -3,7 +3,7 @@
     "greek_words": [
       { "greek": "Ὅσοι", "latvian": ["Visiem", "kas"] },
       { "greek": "εἰσὶν", "latvian": ["ir"] },
-      { "greek": "ὑπὸ", "latvian": ["verģi", "apakš"] },
+      { "greek": "ὑπὸ", "latvian": ["vergi", "apakš"] },
       { "greek": "ζυγὸν", "latvian": ["jūga"] },
       { "greek": "δοῦλοι", "latvian": [] },
       { "greek": "τοὺς", "latvian": [] },
@@ -421,7 +421,7 @@
       { "greek": "Ὦ", "latvian": [] },
       { "greek": "Τιμόθεε", "latvian": ["Tu", "Timotej"] },
       { "greek": "τὴν", "latvian": [] },
-      { "greek": "παραθήκην", "latvian": ["paglābā", "uzticēto"] },
+      { "greek": "παραθήκην", "latvian": ["paglabā", "uzticēto"] },
       { "greek": "φύλαξον", "latvian": ["mantu"] },
       { "greek": "ἐκτρεπόμενος", "latvian": ["novērsdamies"] },
       { "greek": "τὰς", "latvian": ["no"] },
@@ -430,8 +430,8 @@
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "ἀντιθέσεις", "latvian": ["pretrunām"] },
       { "greek": "τῆς", "latvian": ["kas", "ceļas", "no"] },
-      { "greek": "ψευδωνύμου", "latvian": ["nepareizas", "tā", "devētās"] },
-      { "greek": "γνώσεως", "latvian": ["atziņas"] }
+      { "greek": "ψευδωνύμου", "latvian": ["nepareizas", "tā", "dēvētās"] },
+      { "greek": "γνώσεως", "latvian": ["atziņas"] }
     ],
     "leftover_latvian": []
   },

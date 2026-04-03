@@ -53,7 +53,7 @@
       { "greek": "ἄρτοι", "latvian": [] },
       { "greek": "γένωνται", "latvian": ["top"] }
     ],
-    "leftover_latvian": ["Viņa", "tad", "par", "maizi", "Un"]
+    "leftover_latvian": ["Viņa", "tad", "par", "maizi", "un"]
   },
   {
     "greek_words": [
@@ -134,7 +134,7 @@
       { "greek": "προσκόψῃς", "latvian": [] },
       { "greek": "πρὸς", "latvian": ["pie"] },
       { "greek": "λίθον", "latvian": ["akmens"] },
-      { "greek": "τὸν", "latvian": ["savu"] },
+      { "greek": "τὸν", "latvian": ["Savu"] },
       { "greek": "πόδα", "latvian": ["kāju"] },
       { "greek": "σου", "latvian": [] }
     ],
@@ -207,7 +207,7 @@
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Ἰησοῦς", "latvian": ["Jēzus"] },
       { "greek": "Ὕπαγε", "latvian": ["Atkāpies"] },
-      { "greek": "Σατανᾶ", "latvian": ["sātān"] },
+      { "greek": "Σατανᾶ", "latvian": ["sātan"] },
       { "greek": "γέγραπται", "latvian": ["stāv", "rakstīts"] },
       { "greek": "γάρ", "latvian": ["Jo"] },
       { "greek": "Κύριον", "latvian": ["Kungu"] },
@@ -534,7 +534,7 @@
   {
     "greek_words": [
       { "greek": "Καὶ", "latvian": ["Un"] },
-      { "greek": "ἠκολούθησαν", "latvian": ["gāja", "pakal"] },
+      { "greek": "ἠκολούθησαν", "latvian": ["gāja", "pakaļ"] },
       { "greek": "αὐτῷ", "latvian": ["Viņam"] },
       { "greek": "ὄχλοι", "latvian": ["ļaužu"] },
       { "greek": "πολλοὶ", "latvian": ["daudz"] },
