@@ -1,0 +1,72 @@
+# .github/workflows/build-and-deploy.yml
+#
+# Converts bible JSON → HTML and publishes to GitHub Pages.
+# Triggers on push to main (when bible/ data or the build script change).
+
+name: Build HTML & Deploy Pages
+
+on:
+  repository_dispatch:
+    types: [data-updated]
+  push:
+    branches: [main]
+    paths:
+    - 'bible/**'
+      - 'ci/build_html.py'
+  workflow_dispatch:  # manual trigger button in GitHub UI
+
+# Sets permissions for GITHUB_TOKEN to allow Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ewilpeers/new-testament-data
+          token: ${{ secrets.DATA_REPO_PAT }}
+          path: data
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Build HTML
+        run: python ci/build_html.py --out-dir html --data-dir data
+
+      # If you have audio files or other static assets, copy them too:
+      # - name: Copy static assets
+      #   run: |
+      #     cp -r strongs_p_g html/ 2>/dev/null || true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
