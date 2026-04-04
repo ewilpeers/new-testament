@@ -45,7 +45,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pandas
+        run: pip install pandas jupyter nbconvert openpyxl tqdm
 
       - name: Build HTML
         run: python ci/build_html.py --out-dir html --data-dir data
