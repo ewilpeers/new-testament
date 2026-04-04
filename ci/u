@@ -98,6 +98,11 @@ for book_dir in $sorted_books; do
     echo "</div>" >> $OUTPUT
 done
 
+echo "<hr>" >> $OUTPUT
+echo "<hr>" >> $OUTPUT
+echo "<a href='bibele_g.zip'>HTML FILES.zip</a><br />" >> $OUTPUT
+echo "<a href='excel/excel.zip'>Excel FILES.zip</a><br />" >> $OUTPUT
+
 cat <<EOF >> $OUTPUT
     <p style="text-align: center; color: #aaa; margin-top: 50px;">Ģenerēts: $(date '+%Y-%m-%d %H:%M')</p>
 </body>

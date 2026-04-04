@@ -61,6 +61,12 @@ jobs:
       - name: Build XLSX
         run: jupyter nbconvert --to notebook --execute ci/7excel_import_export.ipynb --ExecutePreprocessor.timeout=11337
         
+      - name: Zip excel folder
+        run: cd excel && zip -qr ../excel/excel.zip .
+        
+      - name: Zip html folder
+        run: cd html && zip -qr ../html/bibele_g.zip .
+        
       - name: Prepare deploy folder
         run: |
           mkdir -p _site
