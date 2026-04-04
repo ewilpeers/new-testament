@@ -3,7 +3,7 @@
 # Converts bible JSON → HTML and publishes to GitHub Pages.
 # Triggers on push to main (when bible/ data or the build script change).
 
-name: Build HTML & Deploy Pages
+name: Build HTML, XLSX & Deploy Pages
 
 on:
   repository_dispatch:
