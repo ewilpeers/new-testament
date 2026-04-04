@@ -55,7 +55,7 @@ jobs:
         run: pip install jupyter nbconvert pandas openpyxl tqdm
 
       - name: Build XLSX
-        run: jupyter nbconvert --to notebook --execute ci/7excel_import_export.ipynb --ExecutePreprocessor.timeout=1337
+        run: jupyter nbconvert --to notebook --execute ci/7excel_import_export.ipynb --ExecutePreprocessor.timeout=11337
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

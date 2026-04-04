@@ -58,11 +58,19 @@ jobs:
       # - name: Copy static assets
       #   run: |
       #     cp -r strongs_p_g html/ 2>/dev/null || true
+      - name: Build XLSX
+        run: jupyter nbconvert --to notebook --execute ci/7excel_import_export.ipynb --ExecutePreprocessor.timeout=11337
+        
+      - name: Prepare deploy folder
+        run: |
+          mkdir -p _site
+          cp -r html/* _site/
+          cp -r excel _site/excel
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: html
+          path: _site
 
   deploy:
     needs: build
