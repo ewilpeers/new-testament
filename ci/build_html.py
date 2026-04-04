@@ -342,8 +342,8 @@ def main():
     args = parser.parse_args()
 
     print(f"Reading datasets...")
-    strongs_df = pd.read_csv(f"{data-dir}/strongs.csv")
-    lv65_df = pd.read_csv(f"{data-dir}/latvian_full65.csv")
+    strongs_df = pd.read_csv(f"{args.data_dir}/strongs.csv")
+    lv65_df = pd.read_csv(f"{args.data_dir}/latvian_full65.csv")
     strongs_g = strongs_df.groupby(["book", "chapter", "verse"])
     lv_g = lv65_df.groupby(["book", "chapter", "verse"])
 
