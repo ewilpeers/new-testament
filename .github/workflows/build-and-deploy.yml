@@ -11,7 +11,7 @@ on:
   push:
     branches: [main]
     paths:
-    - 'bible/**'
+      - 'bible/**'
       - 'ci/build_html.py'
   workflow_dispatch:  # manual trigger button in GitHub UI
 

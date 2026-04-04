@@ -1014,16 +1014,16 @@
       { "greek": "τὸ", "latvian": ["tam", "kas"] },
       { "greek": "φθαρτὸν", "latvian": ["šeit", "iznīcīgs"] },
       { "greek": "τοῦτο", "latvian": [] },
-      { "greek": "ἐνδύσασθαι", "latvian": [] },
+      { "greek": "ἐνδύσασθαι", "latvian": ["jātērpjas"] },
       { "greek": "ἀφθαρσίαν", "latvian": ["neiznīcībā"] },
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "τὸ", "latvian": ["tam", "kas"] },
       { "greek": "θνητὸν", "latvian": ["šeit", "mirstīgs"] },
       { "greek": "τοῦτο", "latvian": [] },
-      { "greek": "ἐνδύσασθαι", "latvian": [] },
+      { "greek": "ἐνδύσασθαι", "latvian": ["jātērpjas"] },
       { "greek": "ἀθανασίαν", "latvian": ["nemirstībā"] }
     ],
-    "leftover_latvian": ["jātērpjas", "jātērpjas"]
+    "leftover_latvian": []
   },
   {
     "greek_words": [
