@@ -53,7 +53,7 @@ jobs:
       - name: Generate Index
         run: |
           cd html
-          bash ci/u
+          bash ../ci/u
       # If you have audio files or other static assets, copy them too:
       # - name: Copy static assets
       #   run: |
