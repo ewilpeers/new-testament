@@ -49,7 +49,11 @@ jobs:
 
       - name: Build HTML
         run: python ci/build_html.py --out-dir html --data-dir data
-
+      
+      - name: Generate Index
+        run: |
+          cd html
+          bash ci/u
       # If you have audio files or other static assets, copy them too:
       # - name: Copy static assets
       #   run: |

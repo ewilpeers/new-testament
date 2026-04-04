@@ -1,0 +1,107 @@
+#!/bin/bash
+
+OUTPUT="index.html"
+
+# 1. Define the Latvian translations mapping
+declare -A lv_names
+lv_names=(
+    ["1_corinthians"]="1. korintiešiem"
+    ["2_corinthians"]="2. korintiešiem"
+    ["1_thessalonians"]="1. tesaloniķiešiem"
+    ["2_thessalonians"]="2. tesaloniķiešiem"
+    ["1_timothy"]="1. Timotejam"
+    ["2_timothy"]="2. Timotejam"
+    ["1_john"]="1. Jāņa"
+    ["2_john"]="2. Jāņa"
+    ["3_john"]="3. Jāņa"
+    ["1_peter"]="1. Pētera"
+    ["2_peter"]="2. Pētera"
+    ["acts"]="Apustuļu darbi"
+    ["colossians"]="Kolosiešiem"
+    ["ephesians"]="Efeziešiem"
+    ["galatians"]="Galatiešiem"
+    ["hebrews"]="Ebrejiem"
+    ["james"]="Jēkaba"
+    ["john"]="Jāņa evaņģēlijs"
+    ["jude"]="Jūdas"
+    ["luke"]="Lūkas evaņģēlijs"
+    ["mark"]="Marka evaņģēlijs"
+    ["matthew"]="Mateja evaņģēlijs"
+    ["philemon"]="Filemonam"
+    ["philippians"]="Filipiešiem"
+    ["revelation"]="Atklāsmes grāmata"
+    ["romans"]="Romiešiem"
+    ["titus"]="Titam"
+)
+
+# Start HTML
+cat <<EOF > $OUTPUT
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bībeles Indekss</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 40px; background-color: #f4f7f6; color: #333; }
+        .book-section { background: #fff; padding: 25px; margin-bottom: 25px; border-radius: 12px; border-left: 5px solid #2c3e50; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { margin-top: 0; color: #2c3e50; font-size: 1.5rem; }
+        h2 span { color: #888; font-weight: normal; font-size: 0.9rem; margin-left: 10px; }
+        .chapter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(45px, 1fr)); gap: 8px; margin-top: 15px; }
+        .chapter-link { 
+            display: flex; align-items: center; justify-content: center; 
+            height: 45px; background: #edf2f7; color: #2d3748; 
+            text-decoration: none; border-radius: 6px; font-weight: 600; transition: all 0.2s;
+        }
+        .chapter-link:hover { background: #2c3e50; color: white; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <h1>Bībeles Grāmatas</h1>
+EOF
+
+all_books=$(ls -d */ | sort -V | sed 's|/||g')
+if echo "$all_books" | grep -q "^excel$"; then
+	# Remove excel from the list
+	sorted_books=$(echo "$all_books" | grep -v "^excel$")
+else
+    sorted_books="$all_books"
+fi
+
+# Loop through the custom ordered list
+for book_dir in $sorted_books; do
+    
+    # Get Latvian name from array, or use the folder name if not found
+    latvian_name=${lv_names[$book_dir]}
+    
+    # If translation doesn't exist, just use a capitalized folder name
+    if [ -z "$latvian_name" ]; then
+        latvian_name=$(echo "$book_dir" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
+    fi
+
+    echo "Adding: $latvian_name ($book_dir)"
+
+    echo "<div class='book-section'>" >> $OUTPUT
+    echo "    <h2>$latvian_name <span>($book_dir)</span></h2>" >> $OUTPUT
+    echo "    <div class='chapter-grid'>" >> $OUTPUT
+
+    # Use 'ls -v' to sort 1.html, 2.html ... 10.html correctly
+    if ls "$book_dir"/*.html >/dev/null 2>&1; then
+        for chapter_file in $(ls -v "$book_dir"/*.html); do
+            filename=$(basename "$chapter_file")
+            chapter_num="${filename%.html}"
+            echo "        <a class='chapter-link' href=\"$chapter_file\">$chapter_num</a>" >> $OUTPUT
+        done
+    fi
+
+    echo "    </div>" >> $OUTPUT
+    echo "</div>" >> $OUTPUT
+done
+
+cat <<EOF >> $OUTPUT
+    <p style="text-align: center; color: #aaa; margin-top: 50px;">Ģenerēts: $(date '+%Y-%m-%d %H:%M')</p>
+</body>
+</html>
+EOF
+
+echo "Done! index.html is ready."
