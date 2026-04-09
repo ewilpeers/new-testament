@@ -9,7 +9,7 @@ on:
   repository_dispatch:
     types: [data-updated]
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'bible/**'
       - 'ci/build_html.py'
