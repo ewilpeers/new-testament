@@ -303,7 +303,7 @@
       { "greek": "τοιαύτην", "latvian": ["tādu"] },
       { "greek": "συνήθειαν", "latvian": ["ieražu"] },
       { "greek": "οὐκ", "latvian": ["ne-"] },
-      { "greek": "ἔχομεν", "latvian": ["nepazīstam"] },
+      { "greek": "ἔχομεν", "latvian": ["pazīstam"] },
       { "greek": "οὐδὲ", "latvian": ["arī", "ne"] },
       { "greek": "αἱ", "latvian": [] },
       { "greek": "ἐκκλησίαι", "latvian": ["draudzes"] },
@@ -612,7 +612,7 @@
       { "greek": "καὶ", "latvian": ["un"] },
       { "greek": "πίνει", "latvian": ["dzer"] },
       { "greek": "μὴ", "latvian": ["ja", "ne-"] },
-      { "greek": "διακρίνων", "latvian": ["neizšķir"] },
+      { "greek": "διακρίνων", "latvian": ["izšķir"] },
       { "greek": "τὸ", "latvian": [] },
       { "greek": "σῶμα", "latvian": ["miesu"] }
     ],

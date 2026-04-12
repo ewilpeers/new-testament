@@ -198,7 +198,7 @@
       { "greek": "σὺν", "latvian": ["ar"] },
       { "greek": "ἐμοί", "latvian": ["mani"] }
     ],
-    "leftover_latvian": ["no", "es", "tomēr", "ir", "ne"]
+    "leftover_latvian": ["no", "es", "tomēr", "ir"]
   },
   {
     "greek_words": [
@@ -981,7 +981,7 @@
       { "greek": "δὲ", "latvian": ["bet"] },
       { "greek": "ἀλλαγησόμεθα", "latvian": ["tiksim", "pārvērsti"] }
     ],
-    "leftover_latvian": ["ne"]
+    "leftover_latvian": []
   },
   {
     "greek_words": [
