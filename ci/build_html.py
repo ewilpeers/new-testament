@@ -216,14 +216,12 @@ def build_chapter_from_json(book, chapter_num, strongs_g, lv_g, l24_g, l1694_g):
             )
         else:
             latvian_text_24 = "-"
-            if(LOG_DATA_WARNINGS):
-                printer(f"⚠️ {key} not in l24_df latvian 24!")
+            print(f"⚠️ {key} not in l24_df latvian 24!")
 
         latvian_text_full_original_1694=""
         #???? mapping ????
         if not key in l1694_g.groups:
-            if(LOG_DATA_WARNINGS or True):
-                printer(f"⚠️ {key} not in 1694 GLUCK!")
+            print(f"⚠️ {key} not in 1694 GLUCK!")
             latvian_text_full_original_1694="-"
         else:
             latvian_text_full_original_1694 =  " ".join(
