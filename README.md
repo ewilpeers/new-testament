@@ -2,7 +2,43 @@
 
 [Rendered site](https://t.noit.pro/g/)
 
+# the missing chapers in 2024 (marked as 'in some sources')
+## which is basically boiling the frog:
+If you throw frog in hot water, she jums out bc its hot.
+If you , on the contrary, put her in a lukewarm water, she does not jump out.
+Then you keep heating it till its boiling, and frog is boiled. Frog did not notice
+the gradual change of the water.
+Same here, first mark them as in "some" sources, then move to footnotes
+then remove.
+At the end we get gentile source (including parodies, 
+mocked, twisted variatons) citation set 
+instead of the living word.
+
+
+* ⚠️ ('acts', 8, 37) not in l24_df latvian 24!
+* ⚠️ ('acts', 15, 17) not in l24_df latvian 24!
+* ⚠️ ('acts', 15, 34) not in l24_df latvian 24!
+* ⚠️ ('acts', 24, 7) not in l24_df latvian 24!
+* ⚠️ ('acts', 28, 29) not in l24_df latvian 24!
+* ⚠️ ('james', 1, 7) not in l24_df latvian 24!
+* ⚠️ ('john', 5, 4) not in l24_df latvian 24!
+* ⚠️ ('luke', 9, 56) not in l24_df latvian 24!
+* ⚠️ ('luke', 17, 36) not in l24_df latvian 24!
+* ⚠️ ('luke', 20, 30) not in l24_df latvian 24!
+* ⚠️ ('luke', 23, 17) not in l24_df latvian 24!
+* ⚠️ ('mark', 7, 16) not in l24_df latvian 24!
+* ⚠️ ('mark', 9, 44) not in l24_df latvian 24!
+* ⚠️ ('mark', 9, 46) not in l24_df latvian 24!
+* ⚠️ ('mark', 11, 26) not in l24_df latvian 24!
+* ⚠️ ('mark', 15, 28) not in l24_df latvian 24!
+* ⚠️ ('matthew', 17, 21) not in l24_df latvian 24!
+* ⚠️ ('matthew', 18, 11) not in l24_df latvian 24!
+* ⚠️ ('matthew', 23, 14) not in l24_df latvian 24!
+* ⚠️ ('romans', 16, 24) not in l24_df latvian 24!
+
 ---
+
+# all chapters verses conts:
 
  ✅ 1_corinthians: 16 chapters, 437 verses (1.71s) <br>
   ✅ 1_john: 5 chapters, 105 verses (0.40s) <br>
