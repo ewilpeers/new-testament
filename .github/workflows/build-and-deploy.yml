@@ -71,7 +71,8 @@ jobs:
         run: |
           mkdir -p _site
           cp -r html/* _site/
-          cp -r excel _site/excel
+          cp -r excel _site/
+          cp -r bible/fonts _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
