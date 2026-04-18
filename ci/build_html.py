@@ -158,7 +158,7 @@ def make_audio_players(strong_num_raw, v_num, word_idx):
 
 # ─── Build chapter data ─────────────────────────────────────────────────────
 
-def build_chapter_from_json(book, chapter_num, strongs_g, lv_g):
+def build_chapter_from_json(book, chapter_num, strongs_g, lv_g, l24_g, l1694_g):
     chapter_path = BASE_DIR / str(book) / f"{chapter_num}.json"
     if not chapter_path.exists():
         print(f"  ❓ {chapter_path} not found, skipping.")
@@ -209,12 +209,34 @@ def build_chapter_from_json(book, chapter_num, strongs_g, lv_g):
                 mappings.append(dict(gw))
             greek_text_parts = [gw.get("greek", "") for gw in greek_words_json]
 
+        latvian_text_24=""
+        if key in l24_g.groups:
+            latvian_text_24 = " ".join(
+                l24_g.get_group(key).sort_values("word_idx")["form"].astype(str)
+            )
+        else:
+            latvian_text_24 = "-"
+            if(LOG_DATA_WARNINGS):
+                printer(f"⚠️ {key} not in l24_df latvian 24!")
+
+        latvian_text_full_original_1694=""
+        #???? mapping ????
+        if not key in l1694_g.groups:
+            if(LOG_DATA_WARNINGS or True):
+                printer(f"⚠️ {key} not in 1694 GLUCK!")
+            latvian_text_full_original_1694="-"
+        else:
+            latvian_text_full_original_1694 =  " ".join(
+                 l1694_g.get_group(key).sort_values("word_idx")["form"].astype(str)
+        )
         results.append({
             "book": book,
             "chapter": chapter_num,
             "verse": verse_num,
             "greek_text": " ".join(greek_text_parts),
             "latvian_text": latvian_text,
+            "latvian_text_24": latvian_text_24,
+            "latvian_text_full_original_1694": latvian_text_full_original_1694,
             "mappings": mappings,
             "leftover_latvian": leftover_latvian
         })
@@ -248,6 +270,20 @@ def chapter_to_html_render(data):
         .morph-info { font-style: italic; color: #e67e22; cursor: text; border-bottom: 1px dotted #e67e22; display: inline-block; }
         .definition-cell { color: #555; font-size: 0.85em; line-height: 1.3; max-width: 400px; }
         .index-badge { display: inline-block; width: 25px; height: 25px; background-color: #e74c3c; color: white; border-radius: 50%; text-align: center; line-height: 25px; margin-right: 8px; }
+    /* gothic old print render */
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url('../fonts/unifrakturmaguntia-webfont.woff2') format('woff2'),
+         url('../fonts/unifrakturmaguntia-webfont.woff') format('woff'),
+         url('../fonts/unifrakturmaguntia-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.frankfurt-line {
+    font-family: 'UnifrakturMaguntia', 'Times New Roman', serif;
+   /* background-color: #fdf6ec; */
+}
     </style>
     """
 
@@ -270,8 +306,16 @@ def chapter_to_html_render(data):
                 <div class="line-content greek-line">{verse_data.get('greek_text', '')}</div>
             </div>
             <div class="line-box">
-                <div class="line-label">🇱🇻 Latvian:</div>
+                <div class="line-label">🇱🇻 Latvian (65):</div>
                 <div class="line-content">{verse_data.get('latvian_text', '')}</div>
+            </div>
+            <div class="line-box">
+                <div class="line-label">🇱🇻 Latvian (1694):</div>
+                <div class="line-content frankfurt-line">{verse_data.get('latvian_text_full_original_1694', '')}</div>
+            </div>
+            <div class="line-box">
+                <div class="line-label">🇱🇻 Latvian (2024):</div>
+                <div class="line-content">{verse_data.get('latvian_text_24', '')}</div>
             </div>
         </div>
         '''
@@ -344,8 +388,12 @@ def main():
     print(f"Reading datasets...")
     strongs_df = pd.read_csv(f"{args.data_dir}/strongs.csv")
     lv65_df = pd.read_csv(f"{args.data_dir}/latvian_full65.csv")
+    l24_df = pd.read_csv("JTR2024_words.csv", dtype={'strong_num': str})
+    l1694_df = pd.read_csv('GL1694_words.csv')
     strongs_g = strongs_df.groupby(["book", "chapter", "verse"])
     lv_g = lv65_df.groupby(["book", "chapter", "verse"])
+    l24_g = l24_df.groupby(["book", "chapter", "verse"])
+    l1694_g = l1694_df.groupby(["book", "chapter", "verse"])
 
     total_start = time.perf_counter()
     total_chapters = 0
@@ -373,7 +421,7 @@ def main():
         book_verses = 0
 
         for ch_num, _ in chapter_jsons:
-            data = build_chapter_from_json(book_name, ch_num, strongs_g, lv_g)
+            data = build_chapter_from_json(book_name, ch_num, strongs_g, lv_g, l24_g, l1694_g)
             if data:
                 render_chapter_html(book_name, ch_num, data, out_dir=args.out_dir)
                 book_verses += len(data)
