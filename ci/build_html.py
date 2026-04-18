@@ -389,7 +389,7 @@ def main():
     strongs_df = pd.read_csv(f"{args.data_dir}/strongs.csv")
     lv65_df = pd.read_csv(f"{args.data_dir}/latvian_full65.csv")
     l24_df = pd.read_csv(f"{args.data_dir}/JTR2024_words.csv", dtype={'strong_num': str})
-    l1694_df = pd.read_csv(f"{args.data_dir}/GL1694_words.csv')
+    l1694_df = pd.read_csv(f"{args.data_dir}/GL1694_words.csv")
     strongs_g = strongs_df.groupby(["book", "chapter", "verse"])
     lv_g = lv65_df.groupby(["book", "chapter", "verse"])
     l24_g = l24_df.groupby(["book", "chapter", "verse"])
