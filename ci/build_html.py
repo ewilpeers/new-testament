@@ -797,12 +797,13 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     chapter = data[0].get('chapter', '')
     html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{css}{srch_css}{books_data_js}{bib_search_js}</head><body>"
     html += f"<h1>📖 {book_title} Chapter {chapter}</h1>"
+    html += '<div id="bible-search" data-base="/g"></div>'
 
     for verse_data in data:
         v_num = verse_data.get('verse')
         locus = f"{book_title} {chapter}:{v_num}"
 
-        html += f'<div class="verse-container">'
+        html += f'<div class="verse-container" id="v{v_num}">'
         html += f'<div class="verse-header"><span class="index-badge">{v_num}</span> {locus}</div>'
 
         html += f'''
