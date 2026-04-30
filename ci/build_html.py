@@ -255,7 +255,7 @@ def chapter_to_html_render(data):
         .verse-container { background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 40px; padding: 25px; border-left: 5px solid #3498db; }
         .verse-header { font-weight: bold; color: #2c3e50; background-color: #ecf0f1; padding: 8px 15px; border-radius: 20px; margin-bottom: 15px; }
         .verse-lines { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 20px; }
-        .line-box { flex: 1 1 45%; min-width: 300px; }
+        .line-box { flex: 1 1 45%; min-width: 100px; }
         .line-label { font-weight: bold; color: #16a085; margin-bottom: 5px; }
         .line-content { background-color: #f0f7f4; padding: 12px; border-radius: 8px; border: 1px solid #bdc3c7; font-size: 1.1em; }
         .greek-line { background-color: #f0f0f0; font-family: 'Times New Roman', serif; }
@@ -282,6 +282,37 @@ def chapter_to_html_render(data):
     font-family: 'UnifrakturMaguntia', 'Times New Roman', serif;
    /* background-color: #fdf6ec; */
 }
+/* verse-collapse toggle */
+.verse-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.verse-header-main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+.verse-collapse {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #34495e;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.verse-collapse input {
+  cursor: pointer;
+  accent-color: #3498db;
+  margin: 0;
+}
+
+body.details-collapsed .mapping-table { display: none; }
     </style>
     """
     srch_css="""
@@ -791,6 +822,17 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     fold: fold,
   };
 })();
+document.addEventListener('DOMContentLoaded', function () {
+  var boxes = document.querySelectorAll('.verse-collapse-cb');
+  boxes.forEach(function (cb) {
+    cb.addEventListener('change', function () {
+      var on = cb.checked;
+      document.body.classList.toggle('details-collapsed', on);
+      // sync all other checkboxes
+      boxes.forEach(function (other) { if (other !== cb) other.checked = on; });
+    });
+  });
+});
 </script>
 """
     book_title = data[0].get('book', 'Bible').capitalize()
@@ -804,7 +846,14 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
         locus = f"{book_title} {chapter}:{v_num}"
 
         html += f'<div class="verse-container" id="v{v_num}">'
-        html += f'<div class="verse-header"><span class="index-badge">{v_num}</span> {locus}</div>'
+        html += (
+    f'<div class="verse-header">'
+    f'<span class="verse-header-main"><span class="index-badge">{v_num}</span> {locus}</span>'
+    f'<label class="verse-collapse" title="Saglabā tikai panta tekstu, paslēpj vārdu detaļas">'
+    f'<input type="checkbox" class="verse-collapse-cb"> 📋 Tikai pants'
+    f'</label>'
+    f'</div>'
+    )
 
         html += f'''
         <div class="verse-lines">
