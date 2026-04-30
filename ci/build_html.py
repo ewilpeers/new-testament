@@ -635,7 +635,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       label: b.name_lv,
       sublabel: b.name_en,
       
-      href: (b['slug'] in nt_books ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/1.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/1.html',
     };
   }
   function makeChapterRow(b, chap, baseAttr) {
@@ -644,7 +644,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap,
       label: b.name_lv + ' ' + chap,
       sublabel: b.name_en + ' ' + chap,
-      href: (b['slug'] in nt_books ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html',
     };
   }
   function makeVerseRow(b, chap, verse, baseAttr) {
@@ -653,7 +653,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap, verse: verse,
       label: b.name_lv + ' ' + chap + ':' + verse,
       sublabel: b.name_en + ' ' + chap + ':' + verse,
-      href: (b['slug'] in nt_books ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
     };
   }
 
