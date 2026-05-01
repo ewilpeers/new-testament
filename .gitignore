@@ -20,3 +20,4 @@ latvian_full65.csv
 strongs.csv
 *.csv
 sr/
+**/__pycache__/

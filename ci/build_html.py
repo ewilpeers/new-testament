@@ -244,6 +244,45 @@ def build_chapter_from_json(book, chapter_num, strongs_g, lv_g, l24_g, l1694_g):
 
 # ─── HTML renderer ───────────────────────────────────────────────────────────
 
+from gluck_1694_bible_map_pages import gl_map
+def f_bcom_2_gluck_page(tple):
+    if not tple:
+        #wrong params, start with genesis then
+        return -1
+    #print( (tple[0], tple[1]) )
+    if (tple[0], tple[1]) in gl_map:
+        init, ls = gl_map[(tple[0], tple[1])]
+        if tple[2] <= ls[0]:
+            return init
+        else:
+            pointer = 1
+            for i in range(1, len(ls)):
+                if ls[i]<0:
+                    pointer += ls[i] * -1
+                if tple[2] <= ls[i]:
+                    return init+pointer
+                pointer +=1
+        # the verse is larger than list shows, so return thousand days
+        raise Exception(f"{tple} verse is larger than list shows!\nlist:\n{init, ls}")
+        #return gl_map[tple]
+    else:
+        #not in map at all, so cover page returned
+        raise Exception(f"{tple} not in map!")
+        
+def page_foto(pge):
+    excepttions = {
+2685: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:511',
+2686: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:510',
+2687: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:511',
+2688: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:512',
+2689: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:513',
+2690: 'https://gramatas.lndb.lv/periodika2-viewer/?lang=fr#panel:pp|issue:722371|page:514',
+    }
+    if pge not in excepttions.keys():
+        return  f"https://www.digitale-sammlungen.de/en/view/bsb10914821?page={pge}"#,{pge+1}"
+    else: 
+        return excepttions[pge]
+
 def chapter_to_html_render(data):
     if not data or len(data) < 1:
         return ""
@@ -867,7 +906,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
             <div class="line-box">
                 <div class="line-label">🇱🇻 Latvian (1694):</div>
-                <div class="line-content frankfurt-line">{verse_data.get('latvian_text_full_original_1694', '')}</div>
+                <div class="line-content frankfurt-line">{verse_data.get('latvian_text_full_original_1694', '')} <a href="{page_foto(f_bcom_2_gluck_page((data[0].get('book', 'Bible'), chapter, v_num)))}" target="_blank" style="text-decoration: none;">📖</a></div>
             </div>
             <div class="line-box">
                 <div class="line-label">🇱🇻 Latvian (2024):</div>
