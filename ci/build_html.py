@@ -219,7 +219,7 @@ def build_chapter_from_json(book, chapter_num, strongs_g, lv_g, l24_g, l1694_g):
             print(f"⚠️ {key} not in l24_df latvian 24!")
 
         latvian_text_full_original_1694=""
-        #???? mapping ????
+        # ???? mapping ????
         if not key in l1694_g.groups:
             print(f"⚠️ {key} not in 1694 GLUCK!")
             latvian_text_full_original_1694="-"
