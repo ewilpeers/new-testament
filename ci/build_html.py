@@ -20,7 +20,7 @@ import pandas as pd
 
 BASE_DIR = Path("bible")
 
-# ─── Morphology maps ────────────────────────────────────────────────────────
+# ─── Morphology maps ─────────────────────────────────────────────────────────
 
 POS_MAP = {
     "V": "Verb", "N": "Noun", "Adv": "Adverb", "Adj": "Adjective",
