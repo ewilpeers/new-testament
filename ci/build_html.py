@@ -30,7 +30,8 @@ POS_MAP = {
     "RecPro": "Reciprocal Pronoun", "RelPro": "Relative Pronoun",
     "RefPro": "Reflexive Pronoun", "Prep": "Preposition",
     "Conj": "Conjunction", "I": "Interjection", "Prtcl": "Particle",
-    "Heb": "Hebrew Word", "Aram": "Aramaic Word"
+    "Heb": "Hebrew Word", "Aram": "Aramaic Word",
+    "Numeral": "Numeral"
 }
 PERSON_MAP = {"1": "1st Person", "2": "2nd Person", "3": "3rd Person"}
 TENSE_MAP = {"P": "Present", "I": "Imperfect", "F": "Future",
@@ -1027,6 +1028,9 @@ _POS_CLASS = {
     'Interjection': 'interj',
     'Particle':    'particle',
     'Number':      'num',
+    # greek specific
+    "Numeral": "num",
+    "Particle, Disjunctive Particle": 'particle',
     # Pronoun family — fold all six Greek variants and the Hebrew "Pronoun" into one class
     'Pronoun':                            'pron',
     'Demonstrative Pronoun':              'pron',
