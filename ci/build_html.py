@@ -352,6 +352,22 @@ def chapter_to_html_render(data):
 }
 
 body.details-collapsed .mapping-table { display: none; }
+/* ~~~~~~~~ morphology parts colors ~~~~~~~~~~~~~~~~~ */
+/* Morph POS color coding — shared across Hebrew and Greek */
+.pos-verb     { color: #c0392b; }   /* red    — verbs */
+.pos-noun     { color: #2c3e50; }   /* navy   — nouns */
+.pos-adj      { color: #16a085; }   /* teal   — adjectives */
+.pos-adv      { color: #d35400; }   /* orange — adverbs */
+.pos-pron     { color: #8e44ad; }   /* purple — pronouns */
+.pos-art      { color: #95a5a6; }   /* grey   — articles */
+.pos-prep     { color: #2980b9; }   /* blue   — prepositions */
+.pos-conj     { color: #7f8c8d; }   /* slate  — conjunctions */
+.pos-particle { color: #7f8c8d; }
+.pos-num      { color: #b7950b; }   /* gold   — numerals */
+.pos-interj   { color: #e67e22; }
+/* Slightly stronger weight on the form cell to make color pop */
+.morph-colored { font-weight: 600; }
+.morph-info.morph-colored { font-weight: normal; }  /* keep tag itself less shouty */
     </style>
     """
     srch_css="""
@@ -465,13 +481,6 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
 /* bible-search.js
  * Serverless reference search for the Bible explore site.
  *
- *
- * The data-base attribute decides which site this widget links into:
- *   "/e"  -> OT explore tree (chapter pages: /e/<slug>/<chap>.html)
- *   "/g"  -> NT explore tree (chapter pages: /g/<slug>/<chap>.html)
- *   ""    -> auto: link to whichever tree the book belongs to
- *            (OT books -> /e, NT books -> /g)
- *
  * Anchors:
  *   When a verse is specified, the link uses #v{n}. The chapter generator
  *   should add id="v{n}" to each .verse-container div. Without anchors, the
@@ -501,18 +510,25 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       .toLowerCase();
   }
 
+  // Normalize a query fragment so matching is forgiving of dots/extra spaces:
+  //   "1. kor"  -> "1 kor"
+  //   "1.cor"   -> "1 cor"
+  //   "1kor"    -> "1kor" (matched directly by the {ord}{stem} haystacks)
+  function normFrag(f) {
+    return fold(f).replace(/[.,]+/g, ' ').replace(/\\s+/g, ' ').trim();
+  }
+
   // ---------------------------------------------------------------------
   // Build search index over book metadata.
-  // For each book we collect a few "haystacks": slug, English name,
-  // Latvian name, plus a few common short forms / abbreviations derived
-  // from the Latvian name (first word, prefixes "mat", "mar", "jan", ...).
+  // For each book we collect a list of "haystacks": slug, English name,
+  // Latvian name, Latvian short, plus — for numbered books — a set of
+  // ordinal-aware short forms ("1 kor", "1kor", "1k", "1 cor", "1c", ...).
   // ---------------------------------------------------------------------
   var BOOKS = window.BOOKS_DATA;
 
-  // Derive a primary Latvian short name = first significant word of name_lv,
-  // skipping leading ordinal prefixes like "Pirmā", "Otrā", "Trešā", "Pāvila",
-  // "Vēstule" etc. — but we keep BOTH the short form and full form as
-  // searchable haystacks, so a missed heuristic just costs zero coverage.
+  // Ordinal prefixes / common filler words to skip when picking a Latvian
+  // short name. Kept conservative: a missed heuristic just costs zero
+  // coverage, since the full lv name is also in the haystack.
   var LV_STOP = new Set([
     'pirma','otra','tresa','ceturta','piekta', // ordinal feminine
     'pavila','vestule','grāmata','gramata',
@@ -527,14 +543,52 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     return parts[0] || '';
   }
 
+  // Extract a leading ordinal digit from a folded name, if any:
+  //   "1. pavila vestule korintiesiem" -> "1"
+  //   "1 corinthians"                  -> "1"
+  //   "matthew"                        -> ""
+  function leadingOrdinal(folded) {
+    var m = folded.match(/^(\\d+)\\b/);
+    return m ? m[1] : '';
+  }
+
   // Build per-book search record
   BOOKS.forEach(function (b) {
-    b._slug_f = fold(b.slug.replace(/_/g, ' '));
-    b._en_f   = fold(b.name_en);
-    b._lv_f   = fold(b.name_lv);
+    b._slug_f   = fold(b.slug.replace(/_/g, ' '));
+    b._en_f     = fold(b.name_en);
+    b._lv_f     = fold(b.name_lv);
     b._lv_short = lvShort(b.name_lv);
-    // a flat haystack used for "contains" matching as fallback
-    b._all = [b._slug_f, b._en_f, b._lv_f, b._lv_short].join(' | ');
+
+    // Collect a list of haystacks. Anything in this list is matched against
+    // the query independently (exact / prefix / contains).
+    var hay = [b._slug_f, b._en_f, b._lv_f, b._lv_short];
+
+    // Ordinal-aware short forms. For a numbered book, expose every reasonable
+    // shorthand a user might type — "1 kor", "1kor", "1k", "1 cor", "1c", etc.
+    // Drawn from both the Latvian short and the English name's first word.
+    var ord = leadingOrdinal(b._lv_f) || leadingOrdinal(b._en_f) || leadingOrdinal(b._slug_f);
+    if (ord) {
+      var enWord = b._en_f.replace(/^\\d+\\s*/, '').split(/\\s+/)[0] || '';
+      var lvWord = b._lv_short || '';
+      var stems  = [];
+      // Various-length prefixes of each word (1..4 chars), plus the full word
+      [enWord, lvWord].forEach(function (w) {
+        if (!w) return;
+        for (var n = 1; n <= Math.min(4, w.length); n++) stems.push(w.slice(0, n));
+        stems.push(w);
+      });
+      // Dedupe + emit "{ord}{stem}" and "{ord} {stem}"
+      var seen = {};
+      stems.forEach(function (s) {
+        if (!s || seen[s]) return;
+        seen[s] = 1;
+        hay.push(ord + s);
+        hay.push(ord + ' ' + s);
+      });
+    }
+
+    b._hay = hay;             // array of haystacks for exact/prefix tests
+    b._all = hay.join(' | '); // flat haystack for contains fallback
   });
 
   // ---------------------------------------------------------------------
@@ -560,7 +614,6 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     var q = (raw || '').trim();
     if (!q) return null;
 
-    // Normalize separators: any run of whitespace + " : " around colon
     var folded = fold(q);
 
     // Split into a leading book-fragment and an optional trailing
@@ -576,7 +629,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     //   $
     var m = folded.match(/^(.*?)\\s*(\\d+)(?::(\\d+)(?:-(\\d+))?)?$/);
     if (m) {
-      var bf = m[1].trim();
+      var bf   = normFrag(m[1]);
       var chap = parseInt(m[2], 10);
       var v    = m[3] ? parseInt(m[3], 10) : null;
       var v2   = m[4] ? parseInt(m[4], 10) : null;
@@ -588,14 +641,14 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       return out;
     }
 
-    // No numeric tail — pure book fragment (e.g. "mat", "1 kor")
-    return { bookFrag: folded };
+    // No numeric tail — pure book fragment (e.g. "mat", "1 kor", "1. kor")
+    return { bookFrag: normFrag(folded) };
   }
 
   // ---------------------------------------------------------------------
   // Match books against a fragment.
   // Returns books with a quality score:
-  //    0 = exact slug / Latvian short / English match
+  //    0 = exact match on any haystack
   //    1 = startswith on any haystack
   //    2 = contains on flat haystack
   // Lower score = better. Books without a match are excluded.
@@ -605,22 +658,22 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     if (!frag) return BOOKS.slice().sort(function (a, b) {
       return a.priority - b.priority;
     });
-    var f = fold(frag);
+    var f = normFrag(frag);
     var hits = [];
     BOOKS.forEach(function (b) {
       var score = -1;
-      if (b._slug_f === f || b._en_f === f || b._lv_short === f) {
-        score = 0;
-      } else if (
-        b._slug_f.startsWith(f) ||
-        b._en_f.startsWith(f)   ||
-        b._lv_f.startsWith(f)   ||
-        b._lv_short.startsWith(f)
-      ) {
-        score = 1;
-      } else if (b._all.indexOf(f) !== -1) {
-        score = 2;
+      // Exact on any haystack
+      for (var i = 0; i < b._hay.length; i++) {
+        if (b._hay[i] === f) { score = 0; break; }
       }
+      // Prefix on any haystack
+      if (score < 0) {
+        for (var j = 0; j < b._hay.length; j++) {
+          if (b._hay[j] && b._hay[j].indexOf(f) === 0) { score = 1; break; }
+        }
+      }
+      // Contains fallback
+      if (score < 0 && b._all.indexOf(f) !== -1) score = 2;
       if (score >= 0) hits.push({ book: b, score: score });
     });
     hits.sort(function (a, b) {
@@ -695,17 +748,16 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     if (baseAttr === '/e' || baseAttr === '/g') return baseAttr;
     return b.testament === 'nt' ? '/g' : '/e';
   }
-  
-   var nt_books=["matthew", "mark", "luke", "john", "acts", "romans", "1_corinthians", "2_corinthians", "galatians", "ephesians", "philippians", "colossians", "1_thessalonians", "2_thessalonians", "1_timothy", "2_timothy", "titus", "philemon", "hebrews", "james", "1_peter", "2_peter", "1_john", "2_john", "3_john", "jude", "revelation"];
+
+  var nt_books = ["matthew", "mark", "luke", "john", "acts", "romans", "1_corinthians", "2_corinthians", "galatians", "ephesians", "philippians", "colossians", "1_thessalonians", "2_thessalonians", "1_timothy", "2_timothy", "titus", "philemon", "hebrews", "james", "1_peter", "2_peter", "1_john", "2_john", "3_john", "jude", "revelation"];
+
   function makeBookRow(b, baseAttr) {
-    
     return {
       kind: 'book',
       book: b,
       label: b.name_lv,
       sublabel: b.name_en,
-      
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/1.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/1.html',
     };
   }
   function makeChapterRow(b, chap, baseAttr) {
@@ -714,7 +766,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap,
       label: b.name_lv + ' ' + chap,
       sublabel: b.name_en + ' ' + chap,
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html',
     };
   }
   function makeVerseRow(b, chap, verse, baseAttr) {
@@ -723,9 +775,10 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap, verse: verse,
       label: b.name_lv + ' ' + chap + ':' + verse,
       sublabel: b.name_en + ' ' + chap + ':' + verse,
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') :siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
     };
   }
+
 
   // ---------------------------------------------------------------------
   // UI
@@ -859,6 +912,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     buildResults: buildResults,
     mount: renderInto,
     fold: fold,
+    normFrag: normFrag,
   };
 })();
 document.addEventListener('DOMContentLoaded', function () {
@@ -925,18 +979,19 @@ document.addEventListener('DOMContentLoaded', function () {
             raw_morph = m.get('strong_en_title', '')
             morph_dict = parse_morph_code(raw_morph)
             full_desc = ", ".join([f"{k.replace('_', ' ').lower()}: {v.title()}" for k, v in morph_dict.items() if v])
+            pos_cls_gr = greek_pos_class(raw_morph)
             audio_html = make_audio_players(m.get('strong_num'), v_num, m_idx)
 
             html += f'''
                 <tr>
                     <td class="greek-word">
-                        {m.get('form', '')} <span class="greek-form">({m.get('translit', '')})</span>
+                        <span class="{pos_cls_gr} morph-colored">{m.get('form', '')}</span> <span class="greek-form">({m.get('translit', '')})</span>
                         {audio_html}
                     </td>
                     <td class="latvian-word">{lv_words}</td>
                     <td><a href="https://www.blueletterbible.org/lexicon/{strong.lower()}/" target="_blank">{strong}</a></td>
                     <td>
-                        <span class="morph-info" title="{full_desc}">{raw_morph}</span>
+                        {render_morph_cell(raw_morph, full_desc, pos_cls_gr)}
                     </td>
                     <td class="definition-cell">{m.get('translit_title', '')}</td>
                 </tr>
@@ -957,6 +1012,74 @@ document.addEventListener('DOMContentLoaded', function () {
     html += "</body></html>"
     return html
 
+import re
+
+# Map normalized POS labels (the values your POS_MAP / parse_hebrew_morph_code emit)
+# to short CSS class suffixes. One source of truth, used by both Greek and Hebrew.
+_POS_CLASS = {
+    'Verb':        'verb',
+    'Noun':        'noun',
+    'Adjective':   'adj',
+    'Adverb':      'adv',
+    'Article':     'art',
+    'Preposition': 'prep',
+    'Conjunction': 'conj',
+    'Interjection': 'interj',
+    'Particle':    'particle',
+    'Number':      'num',
+    # Pronoun family — fold all six Greek variants and the Hebrew "Pronoun" into one class
+    'Pronoun':                            'pron',
+    'Demonstrative Pronoun':              'pron',
+    'Interrogative / Indefinite Pronoun': 'pron',
+    'Personal / Possessive Pronoun':      'pron',
+    'Reciprocal Pronoun':                 'pron',
+    'Relative Pronoun':                   'pron',
+    'Reflexive Pronoun':                  'pron',
+    # Hebrew-specific
+    'Definite Article':       'art',
+    'Direct Object Marker':   'particle',
+    'Interrogative':          'particle',
+    # Foreign words: leave uncolored — they're transliterated, not really inflected
+    # 'Hebrew Word', 'Aramaic Word' deliberately omitted
+}
+
+def _pos_to_class(label):
+    """Convert a POS label like 'Verb' to 'pos-verb'. Empty string if unknown."""
+    cls = _POS_CLASS.get(label, '')
+    return f'pos-{cls}' if cls else ''
+
+
+def greek_pos_class(code):
+    """Map a Greek morph code (e.g. 'V-PAI-3S', 'DPro-NSM') to a 'pos-xxx' CSS class."""
+    if not code:
+        return ''
+    head = code.strip().split('-', 1)[0]
+    label = POS_MAP.get(head, '')
+    return _pos_to_class(label)
+
+
+def hebrew_pos_class(code):
+    """Map a Hebrew morph code to a 'pos-xxx' CSS class via the head segment's POS."""
+    if not code:
+        return ''
+    parsed = parse_hebrew_morph_code(code)
+    if isinstance(parsed, dict):
+        parsed = [parsed]
+    if not parsed:
+        return ''
+    # Walk segments from the end — tail PGN suffixes like '3fs' have empty pos,
+    # so we fall back to the previous segment which carries the real head POS.
+    for seg in reversed(parsed):
+        cls = _pos_to_class(seg.get('pos', ''))
+        if cls:
+            return cls
+    return ''
+
+
+def render_morph_cell(raw_morph, full_desc, pos_class):
+    """Render the morph table cell with optional POS coloring."""
+    classes = 'morph-info morph-colored' + (f' {pos_class}' if pos_class else '')
+    return f'<span class="{classes}" title="{full_desc}">{raw_morph}</span>'
 
 def render_chapter_html(book, chapter_num, data, out_dir=None):
     if not data:
