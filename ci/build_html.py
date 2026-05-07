@@ -516,7 +516,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   //   "1.cor"   -> "1 cor"
   //   "1kor"    -> "1kor" (matched directly by the {ord}{stem} haystacks)
   function normFrag(f) {
-    return fold(f).replace(/[.,]+/g, ' ').replace(/\\s+/g, ' ').trim();
+    return fold(f).replace(/[.,]+/g, ' ').replace(/(\d+)([^:\s])/, '$1 $2').replace(/\\s+/g, ' ').trim();
   }
 
   // ---------------------------------------------------------------------
@@ -552,17 +552,21 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     var m = folded.match(/^(\\d+)\\b/);
     return m ? m[1] : '';
   }
-
+  
+  function repl(foldable){
+  return fold(foldable).replace('pirma', '1').replace('otra', '2').replace('tresa', '3').replace('ceturta', '4').replace('piekta', '2')
+  }
   // Build per-book search record
   BOOKS.forEach(function (b) {
     b._slug_f   = fold(b.slug.replace(/_/g, ' '));
     b._en_f     = fold(b.name_en);
     b._lv_f     = fold(b.name_lv);
+    b._lv_r     = repl(b.name_lv);
     b._lv_short = lvShort(b.name_lv);
 
     // Collect a list of haystacks. Anything in this list is matched against
     // the query independently (exact / prefix / contains).
-    var hay = [b._slug_f, b._en_f, b._lv_f, b._lv_short];
+    var hay = [b._slug_f, b._en_f, b._lv_f, b._lv_r, b._lv_short];
 
     // Ordinal-aware short forms. For a numbered book, expose every reasonable
     // shorthand a user might type — "1 kor", "1kor", "1k", "1 cor", "1c", etc.
