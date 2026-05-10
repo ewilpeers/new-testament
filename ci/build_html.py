@@ -1019,7 +1019,7 @@ function playAudio(btn) {
                     <td class="latvian-word">{lv_words}</td>
                     <td><a href="https://www.blueletterbible.org/lexicon/{strong.lower()}/" target="_blank">{strong}</a></td>
                     <td>
-                        {render_morph_cell(raw_morph, full_desc, pos_cls_gr).replace('|', '|<wbr>').replace('‑', '‑<wbr>').replace('/', '/<wbr>')}
+                        {render_morph_cell(raw_morph, full_desc, pos_cls_gr)}
                     </td>
                     <td class="definition-cell">{m.get('translit_title', '')}</td>
                 </tr>
@@ -1110,7 +1110,7 @@ def hebrew_pos_class(code):
 def render_morph_cell(raw_morph, full_desc, pos_class):
     """Render the morph table cell with optional POS coloring."""
     classes = 'morph-info morph-colored' + (f' {pos_class}' if pos_class else '')
-    return f'<span class="{classes}" title="{full_desc}">{raw_morph}</span>'
+    return f'<span class="{classes}" title="{full_desc}">{raw_morph.replace('|', '|<wbr>').replace('‑', '‑<wbr>').replace('/', '/<wbr>')}</span>'
 
 def render_chapter_html(book, chapter_num, data, out_dir=None):
     if not data:
