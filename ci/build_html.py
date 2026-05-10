@@ -296,9 +296,16 @@ def chapter_to_html_render(data):
         .line-label { font-weight: bold; color: #16a085; margin-bottom: 5px; }
         .line-content { background-color: #f0f7f4; padding: 12px; border-radius: 8px; border: 1px solid #bdc3c7; font-size: 1.1em; }
         .greek-line { background-color: #f0f0f0; font-family: 'Times New Roman', serif; }
-        .mapping-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
-        .mapping-table th { background-color: #3498db; color: white; padding: 12px; text-align: left; position: sticky; top: 0; }
-        .mapping-table td { padding: 10px; border-bottom: 1px solid #ddd; vertical-align: top; }
+        /* Table Styles */
+        .mapping-table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em;   table-layout: fixed;
+  word-break: break-word;
+  overflow-wrap: anywhere;}
+        .mapping-table th { background-color: #3498db; color: white; padding: 12px; text-align: left; position: sticky; top: 0;
+          word-break: break-word;
+  overflow-wrap: anywhere;}
+        .mapping-table td { padding: 10px; border-bottom: 1px solid #ddd; vertical-align: top; 
+          word-break: break-word;
+  overflow-wrap: anywhere;}
         .greek-word { font-weight: bold; color: #8e44ad; font-size: 1.1em; }
         .greek-form { color: #7f8c8d; font-weight: normal; font-size: 0.85em; }
         .latvian-word { font-weight: bold; color: #27ae60; }
@@ -1012,7 +1019,7 @@ function playAudio(btn) {
                     <td class="latvian-word">{lv_words}</td>
                     <td><a href="https://www.blueletterbible.org/lexicon/{strong.lower()}/" target="_blank">{strong}</a></td>
                     <td>
-                        {render_morph_cell(raw_morph, full_desc, pos_cls_gr)}
+                        {render_morph_cell(raw_morph, full_desc, pos_cls_gr).replace('|', '|<wbr>').replace('‑', '‑<wbr>').replace('/', '/<wbr>')}
                     </td>
                     <td class="definition-cell">{m.get('translit_title', '')}</td>
                 </tr>
