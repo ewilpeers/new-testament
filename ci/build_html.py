@@ -117,10 +117,10 @@ def load_mp3_manifest(manifest_path="ci/mp3list.csv"):
         print(f"  ⚠️ {p} not found — audio players will be disabled")
         _MP3_MANIFEST = set()
 
-def make_audio_players(strong_num_raw, v_num, word_idx):
+def make_audio_players(strong_num_raw, v_num, word_idx, strongs_p_dir="strongs_p_g"):
     if _MP3_MANIFEST is None:
         load_mp3_manifest()
-
+        
     if not strong_num_raw:
         return ""
     try:
@@ -129,8 +129,8 @@ def make_audio_players(strong_num_raw, v_num, word_idx):
         return ""
     if sn <= 0:
         return ""
-
     skey = f"g{sn:04d}"
+    base_path = Path(strongs_p_dir) / f"{skey}.mp3"
 
     variants = []
     if f"{skey}.mp3" in _MP3_MANIFEST:
@@ -147,15 +147,12 @@ def make_audio_players(strong_num_raw, v_num, word_idx):
     for src, label in variants:
         uid = f"{skey}_v{v_num}_w{word_idx}{label.strip()}"
         out += (
-            f'<audio id="aud_{uid}" src="{src}" '
-            f'onended="document.getElementById(\'btn_{uid}\').textContent=\'▶{label}\'"></audio>'
-            f'<button id="btn_{uid}" style="font-size:0.8em;padding:1px 5px;cursor:pointer" '
-            f'onclick="var a=document.getElementById(\'aud_{uid}\');'
-            f'if(a.paused){{a.play();this.textContent=\'⏹{label}\';}}else{{a.pause();a.currentTime=0;this.textContent=\'▶{label}\';}}">'
-            f'▶{label}</button> '
+            f'<button id="btn_{uid}" '
+            f'data-src="{src}" data-label="{label}" '
+            f'style="font-size:0.8em;padding:1px 5px;cursor:pointer" '
+            f'onclick="playAudio(this)">▶{label}</button> '
         )
     return out
-
 
 # ─── Build chapter data ─────────────────────────────────────────────────────
 
@@ -931,6 +928,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+function playAudio(btn) {
+  var label = btn.dataset.label || '';
+  if (!btn._audio) {
+    btn._audio = new Audio(btn.dataset.src);
+    btn._audio.preload = 'none';
+    btn._audio.onended = function() { btn.textContent = '▶' + label; };
+  }
+  var a = btn._audio;
+  if (a.paused) {
+    a.currentTime = 0;
+    a.play();
+    btn.textContent = '⏹' + label;
+  } else {
+    a.pause();
+    a.currentTime = 0;
+    btn.textContent = '▶' + label;
+  }
+}
 </script>
 """
     book_title = data[0].get('book', 'Bible').capitalize()
