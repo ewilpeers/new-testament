@@ -951,7 +951,7 @@ function playAudio(btn) {
 """
     book_title = data[0].get('book', 'Bible').capitalize()
     chapter = data[0].get('chapter', '')
-    html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{css}{srch_css}{books_data_js}{bib_search_js}</head><body>"
+    html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'>{css}{srch_css}{books_data_js}{bib_search_js}</head><body>"
     html += f"<h1>📖 {book_title} Chapter {chapter}</h1>"
     html += '<div id="bible-search" data-base="/g"></div>'
 
