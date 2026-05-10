@@ -1110,7 +1110,12 @@ def hebrew_pos_class(code):
 def render_morph_cell(raw_morph, full_desc, pos_class):
     """Render the morph table cell with optional POS coloring."""
     classes = 'morph-info morph-colored' + (f' {pos_class}' if pos_class else '')
-    return f'<span class="{classes}" title="{full_desc}">{f'{raw_morph}""'.replace('|', '|<wbr>').replace('\u2011', '\u2011<wbr>').replace('-', '-<wbr>').replace('/', '/<wbr>')}</span>'
+    raw = raw_morph or ''
+    broken = (raw.replace('|', '|<wbr>')
+                 .replace('\u2011', '\u2011<wbr>')
+                 .replace('-', '-<wbr>')
+                 .replace('/', '/<wbr>'))
+    return f'<span class="{classes}" title="{full_desc}">{broken}</span>'
 
 def render_chapter_html(book, chapter_num, data, out_dir=None):
     if not data:
