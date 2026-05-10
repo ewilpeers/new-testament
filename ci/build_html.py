@@ -1017,7 +1017,7 @@ function playAudio(btn) {
                         {audio_html}
                     </td>
                     <td class="latvian-word">{lv_words}</td>
-                    <td><a href="https://www.blueletterbible.org/lexicon/{strong.lower()}/" target="_blank">{strong}</a></td>
+                    <td style="vertical-align: bottom;"><a href="https://www.blueletterbible.org/lexicon/{strong.lower()}/" target="_blank">{strong}</a></td>
                     <td>
                         {render_morph_cell(raw_morph, full_desc, pos_cls_gr)}
                     </td>
