@@ -280,6 +280,38 @@ def page_foto(pge):
         return  f"https://www.digitale-sammlungen.de/en/view/bsb10914821?page={pge}"#,{pge+1}"
     else: 
         return excepttions[pge]
+bkslist = ["genesis", "exodus", "leviticus", "numbers", "deuteronomy", "joshua", "judges", "ruth", "1_samuel", "2_samuel", "1_kings", "2_kings", "1_chronicles", "2_chronicles", "ezra", "nehemiah", "esther", "job", "psalms", "proverbs", "ecclesiastes", "songs", "isaiah", "jeremiah", "lamentations", "ezekiel", "daniel", "hosea", "joel", "amos", "obadiah", "jonah", "micah", "nahum", "habakkuk", "zephaniah", "haggai", "zechariah", "malachi", "matthew", "mark", "luke", "john", "acts", "romans", "1_corinthians", "2_corinthians", "galatians", "ephesians", "philippians", "colossians", "1_thessalonians", "2_thessalonians", "1_timothy", "2_timothy", "titus", "philemon", "hebrews", "james", "1_peter", "2_peter", "1_john", "2_john", "3_john", "jude", "revelation"]
+chps= [int(i) for i in "50 40 27 36 34 24 21 4 31 24 22 25 29 36 10 13 10 42 150 31 12 8 66 52 5 48 12 14 4 9 1 4 7 3 3 3 2 14 4 28 16 24 21 28 16 16 13 6 6 4 4 5 3 6 4 3 1 13 5 5 3 5 1 1 1 22".split(" ")]
+nt_stubchapters = ["matthew", "mark", "luke", "john", "acts", "romans", "1_corinthians", "2_corinthians", "galatians", "ephesians", "philippians", "colossians", "1_thessalonians", "2_thessalonians", "1_timothy", "2_timothy", "titus", "philemon", "hebrews", "james", "1_peter", "2_peter", "1_john", "2_john", "3_john", "jude", "revelation"]
+
+def chap_get_prev(tupl):
+    bk, ch, v = tupl
+    if ch <2:
+        if bk == bkslist[0]:
+            return (bkslist[len(bkslist)-1], chps[len(bkslist)-1], v)
+        else:
+            return (bkslist[bkslist.index(bk)-1], chps[bkslist.index(bk)-1], v)
+    else:
+        return (bk, ch-1, v)
+
+def chap_get_next(tupl):
+    bk, ch, v = tupl
+    if ch > chps[bkslist.index(bk)]-1:
+        if bk == bkslist[-1]:
+            return (bkslist[0], 1, v)
+        else:
+            return (bkslist[bkslist.index(bk)+1], 1, v)
+    else:
+        return (bk, ch+1, v)
+
+#print(chap_get_prev(("genesis", 1, -1)))
+def link_next(tupl):
+    bk, ch, v = chap_get_next(tupl)
+    return ("../../g/" if bk in nt_stubchapters else "../../e/")+f"{bk}/{ch}.html"
+
+def link_prev(tupl):
+    bk, ch, v = chap_get_prev(tupl)
+    return ("../../g/" if bk in nt_stubchapters else "../../e/")+f"{bk}/{ch}.html"
 
 def chapter_to_html_render(data):
     if not data or len(data) < 1:
@@ -357,6 +389,34 @@ def chapter_to_html_render(data):
 }
 
 body.details-collapsed .mapping-table { display: none; }
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links .center_link {
+  text-align: center;
+}
+
+/* keep the side links from collapsing the center */
+.nav-links .left_link,
+.nav-links .right_link {
+  flex: 1;
+}
+
+.nav-links .left_link {
+  text-align: left;
+}
+
+.nav-links .right_link {
+  text-align: right;
+}
+
+.nav-links .center_link {
+  flex: 1;
+}
 /* ~~~~~~~~ morphology parts colors ~~~~~~~~~~~~~~~~~ */
 /* Morph POS color coding — shared across Hebrew and Greek */
 .pos-verb     { color: #c0392b; }   /* red    — verbs */
@@ -961,7 +1021,12 @@ function playAudio(btn) {
     html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'>{css}{srch_css}{books_data_js}{bib_search_js}</head><body>"
     html += f"<h1>📖 {book_title} Chapter {chapter}</h1>"
     html += '<div id="bible-search" data-base="/g"></div>'
-
+    
+    html += f'<div class="nav-links">\
+  <a class="left_link" href="{link_prev((data[0].get('book', 'Bible'), chapter, -1))}">&lt;&lt;&lt;&lt;&lt;</a>\
+  <a class="center_link" href="../index.html">🏠🏠🏠</a>\
+  <a class="right_link" href="{link_next((data[0].get('book', 'Bible'), chapter, -1))}">&gt;&gt;&gt;&gt;&gt;</a>\
+  </div>'
     for verse_data in data:
         v_num = verse_data.get('verse')
         locus = f"{book_title} {chapter}:{v_num}"
