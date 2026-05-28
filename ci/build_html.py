@@ -1023,9 +1023,9 @@ function playAudio(btn) {
     html += '<div id="bible-search" data-base="/g"></div>'
     
     html += f'<div class="nav-links">\
-  <a class="left_link" href="{link_prev((data[0].get('book', 'Bible'), chapter, -1))}">&lt;&lt;&lt;&lt;&lt;</a>\
+  <a class="left_link" href="{link_prev((data[0].get("book", "Bible"), chapter, -1))}">&lt;&lt;&lt;&lt;&lt;</a>\
   <a class="center_link" href="../index.html">🏠🏠🏠</a>\
-  <a class="right_link" href="{link_next((data[0].get('book', 'Bible'), chapter, -1))}">&gt;&gt;&gt;&gt;&gt;</a>\
+  <a class="right_link" href="{link_next((data[0].get("book", "Bible"), chapter, -1))}">&gt;&gt;&gt;&gt;&gt;</a>\
   </div>'
     for verse_data in data:
         v_num = verse_data.get('verse')
