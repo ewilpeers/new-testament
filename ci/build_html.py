@@ -571,7 +571,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   function fold(s) {
     return (s || '')
       .normalize('NFD')
-      .replace(/[\\u0300-\\u036f]../../g, '') // strip combining marks
+      .replace(/[\\u0300-\\u036f]/g, '') // strip combining marks
       .toLowerCase();
   }
 
@@ -580,7 +580,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   //   "1.cor"   -> "1 cor"
   //   "1kor"    -> "1kor" (matched directly by the {ord}{stem} haystacks)
   function normFrag(f) {
-    return fold(f).replace(/[.,]+../../g, ' ').replace(/(\d+)([^:\s])/, '$1 $2').replace(/\\s+../../g, ' ').trim();
+    return fold(f).replace(/[.,]+/g, ' ').replace(/(\d+)([^:\s])/, '$1 $2').replace(/\\s+/g, ' ').trim();
   }
 
   // ---------------------------------------------------------------------
@@ -602,7 +602,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   function lvShort(nameLv) {
     var parts = fold(nameLv).split(/[\\s().,]+/).filter(Boolean);
     for (var i = 0; i < parts.length; i++) {
-      var p = parts[i].replace(/[^a-z0-9]../../g, '');
+      var p = parts[i].replace(/[^a-z0-9]/g, '');
       if (p && !LV_STOP.has(p) && !/^\\d+$/.test(p)) return p;
     }
     return parts[0] || '';
@@ -622,7 +622,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
 
   // Build per-book search record
   BOOKS.forEach(function (b) {
-    b._slug_f   = fold(b.slug.replace(/_../../g, ' '));
+    b._slug_f   = fold(b.slug.replace(/_/g, ' '));
     b._en_f     = fold(b.name_en);
     b._lv_f     = fold(b.name_lv);
     b._lv_r     = repl(b.name_lv);
