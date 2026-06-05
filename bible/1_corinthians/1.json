@@ -25,7 +25,7 @@
       { "greek": "τῇ", "latvian": [] },
       { "greek": "οὔσῃ", "latvian": [] },
       { "greek": "ἐν", "latvian": [] },
-      { "greek": "Κορίνθῳ", "latvian": ["Korintā"] },
+      { "greek": "Κορίνθῳ ", "latvian": ["Korintā"] },
       { "greek": "ἡγιασμένοις", "latvian": ["svētītiem"] },
       { "greek": "ἐν", "latvian": [] },
       { "greek": "Χριστῷ", "latvian": ["Kristū"] },
@@ -46,8 +46,8 @@
       { "greek": "ἐν", "latvian": [] },
       { "greek": "παντὶ", "latvian": ["visās"] },
       { "greek": "τόπῳ", "latvian": ["vietās"] },
-      { "greek": "αὐτῶν", "latvian": ["viņiem", "tiklab", "pie"] },
-      { "greek": "καὶ", "latvian": ["kā"] },
+      { "greek": "αὐτῶν", "latvian": ["viņiem", "pie"] },
+      { "greek": "καὶ", "latvian": ["tiklab", "kā"] },
       { "greek": "ἡμῶν", "latvian": ["mums", "pie"] }
     ],
     "leftover_latvian": []
@@ -117,8 +117,8 @@
       { "greek": "τοῦ", "latvian": [] },
       { "greek": "Χριστοῦ", "latvian": ["Kristus"] },
       { "greek": "ἐβεβαιώθη", "latvian": ["ir", "likti", "stipri", "pamati"] },
-      { "greek": "ἐν", "latvian": [] },
-      { "greek": "ὑμῖν", "latvian": ["jūsu", "vidū"] }
+      { "greek": "ἐν", "latvian": ["vidū"] },
+      { "greek": "ὑμῖν", "latvian": ["jūsu"] }
     ],
     "leftover_latvian": []
   },
@@ -273,7 +273,7 @@
       { "greek": "Μεμέρισται", "latvian": ["ir", "dalīts"] },
       { "greek": "ὁ", "latvian": [] },
       { "greek": "Χριστός", "latvian": ["Kristus"] },
-      { "greek": "μὴ", "latvian": [] },
+      { "greek": "μὴ", "latvian": ["Vai", "tad"] },
       { "greek": "Παῦλος", "latvian": ["Pāvils"] },
       { "greek": "ἐσταυρώθη", "latvian": ["ir", "krustā", "sists"] },
       { "greek": "ὑπὲρ", "latvian": ["par"] },
@@ -285,7 +285,7 @@
       { "greek": "Παύλου", "latvian": ["Pāvila"] },
       { "greek": "ἐβαπτίσθητε", "latvian": ["esat", "kristīti"] }
     ],
-    "leftover_latvian": ["Vai", "tad", "tad", "jūs", "Vai", "vai"]
+    "leftover_latvian": ["tad", "jūs", "Vai", "vai"]
   },
   {
     "greek_words": [
