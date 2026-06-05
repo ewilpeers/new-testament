@@ -1101,9 +1101,8 @@ function playAudio(btn) {
                 </tr>
             '''
         html += "</tbody></table></div>"
-    html += f'<div class="nav-links">\
-  <a class="left_link" href="{link_prev((data[0].get('book', 'Bible'), chapter, -1))}">&lt;&lt;&lt;&lt;&lt;</a>\n  <a class="center_link" href="#bible-search">↑↑↑</a>\n  <a class="right_link" href="{link_next((data[0].get('book', 'Bible'), chapter, -1))}">&gt;&gt;&gt;&gt;&gt;</a>\n  </div>'
-    html += "</body></html>"
+   html += f'<div class="nav-links">\
+  <a class="left_link" href="{link_prev((data[0].get("book", "Bible"), chapter, -1))}">&lt;&lt;&lt;&lt;&lt;</a>\n  <a class="center_link" href="#bible-search">↑↑↑</a>\n  <a class="right_link" href="{link_next((data[0].get("book", "Bible"), chapter, -1))}">&gt;&gt;&gt;&gt;&gt;</a>\n  </div>'
     html += "</body></html>"
     return html
 
