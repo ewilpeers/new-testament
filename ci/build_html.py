@@ -571,16 +571,16 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   function fold(s) {
     return (s || '')
       .normalize('NFD')
-      .replace(/[\\u0300-\\u036f]/g, '') // strip combining marks
+      .replace(/[\\u0300-\\u036f]../../g, '') // strip combining marks
       .toLowerCase();
   }
 
-  // Normalize a query fragment so matching is forgiving of dots/extra spaces:
+  // Normalize a query fragment so matching is forgiving of dots../../extra spaces:
   //   "1. kor"  -> "1 kor"
   //   "1.cor"   -> "1 cor"
   //   "1kor"    -> "1kor" (matched directly by the {ord}{stem} haystacks)
   function normFrag(f) {
-    return fold(f).replace(/[.,]+/g, ' ').replace(/(\d+)([^:\s])/, '$1 $2').replace(/\\s+/g, ' ').trim();
+    return fold(f).replace(/[.,]+../../g, ' ').replace(/(\d+)([^:\s])/, '$1 $2').replace(/\\s+../../g, ' ').trim();
   }
 
   // ---------------------------------------------------------------------
@@ -602,7 +602,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   function lvShort(nameLv) {
     var parts = fold(nameLv).split(/[\\s().,]+/).filter(Boolean);
     for (var i = 0; i < parts.length; i++) {
-      var p = parts[i].replace(/[^a-z0-9]/g, '');
+      var p = parts[i].replace(/[^a-z0-9]../../g, '');
       if (p && !LV_STOP.has(p) && !/^\\d+$/.test(p)) return p;
     }
     return parts[0] || '';
@@ -616,13 +616,13 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
     var m = folded.match(/^(\\d+)\\b/);
     return m ? m[1] : '';
   }
-  
   function repl(foldable){
   return fold(foldable).replace('pirma', '1').replace('otra', '2').replace('tresa', '3').replace('ceturta', '4').replace('piekta', '2')
   }
+
   // Build per-book search record
   BOOKS.forEach(function (b) {
-    b._slug_f   = fold(b.slug.replace(/_/g, ' '));
+    b._slug_f   = fold(b.slug.replace(/_../../g, ' '));
     b._en_f     = fold(b.name_en);
     b._lv_f     = fold(b.name_lv);
     b._lv_r     = repl(b.name_lv);
@@ -814,8 +814,8 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
   }
 
   function siteRoot(b, baseAttr) {
-    if (baseAttr === '/e' || baseAttr === '/g') return baseAttr;
-    return b.testament === 'nt' ? '/g' : '/e';
+    if (baseAttr === '../../e' || baseAttr === '../../g') return baseAttr;
+    return b.testament === 'nt' ? '../../g' : '../../e';
   }
 
   var nt_books = ["matthew", "mark", "luke", "john", "acts", "romans", "1_corinthians", "2_corinthians", "galatians", "ephesians", "philippians", "colossians", "1_thessalonians", "2_thessalonians", "1_timothy", "2_timothy", "titus", "philemon", "hebrews", "james", "1_peter", "2_peter", "1_john", "2_john", "3_john", "jude", "revelation"];
@@ -826,7 +826,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b,
       label: b.name_lv,
       sublabel: b.name_en,
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/1.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '../../g') : siteRoot(b, '../../e')) + '/' + b.slug + '/1.html',
     };
   }
   function makeChapterRow(b, chap, baseAttr) {
@@ -835,7 +835,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap,
       label: b.name_lv + ' ' + chap,
       sublabel: b.name_en + ' ' + chap,
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html',
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '../../g') : siteRoot(b, '../../e')) + '/' + b.slug + '/' + chap + '.html',
     };
   }
   function makeVerseRow(b, chap, verse, baseAttr) {
@@ -844,7 +844,7 @@ window.BOOKS_DATA = [{"slug":"genesis","name_en":"Genesis","name_lv":"Pirmā Moz
       book: b, chap: chap, verse: verse,
       label: b.name_lv + ' ' + chap + ':' + verse,
       sublabel: b.name_en + ' ' + chap + ':' + verse,
-      href: (nt_books.includes(b['slug']) ? siteRoot(b, '/g') : siteRoot(b, '/e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
+      href: (nt_books.includes(b['slug']) ? siteRoot(b, '../../g') : siteRoot(b, '../../e')) + '/' + b.slug + '/' + chap + '.html#v' + verse,
     };
   }
 
@@ -995,25 +995,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
-
-function playAudio(btn) {
-  var label = btn.dataset.label || '';
-  if (!btn._audio) {
-    btn._audio = new Audio(btn.dataset.src);
-    btn._audio.preload = 'none';
-    btn._audio.onended = function() { btn.textContent = '▶' + label; };
-  }
-  var a = btn._audio;
-  if (a.paused) {
-    a.currentTime = 0;
-    a.play();
-    btn.textContent = '⏹' + label;
-  } else {
-    a.pause();
-    a.currentTime = 0;
-    btn.textContent = '▶' + label;
-  }
-}
 </script>
 """
     book_title = data[0].get('book', 'Bible').capitalize()
