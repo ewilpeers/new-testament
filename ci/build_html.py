@@ -997,9 +997,31 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 """
+    paud="""
+<script type="text/javascript">
+function playAudio(btn) {
+  var label = btn.dataset.label || '';
+  if (!btn._audio) {
+    btn._audio = new Audio(btn.dataset.src);
+    btn._audio.preload = 'none';
+    btn._audio.onended = function() { btn.textContent = '▶' + label; };
+  }
+  var a = btn._audio;
+  if (a.paused) {
+    a.currentTime = 0;
+    a.play();
+    btn.textContent = '⏹' + label;
+  } else {
+    a.pause();
+    a.currentTime = 0;
+    btn.textContent = '▶' + label;
+  }
+}
+</script>
+"""
     book_title = data[0].get('book', 'Bible').capitalize()
     chapter = data[0].get('chapter', '')
-    html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'>{css}{srch_css}{books_data_js}{bib_search_js}</head><body>"
+    html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'>{css}{srch_css}{paud}{books_data_js}{bib_search_js}</head><body>"
     html += f"<h1>📖 {book_title} Chapter {chapter}</h1>"
     html += '<div id="bible-search" data-base="/g"></div>'
     
